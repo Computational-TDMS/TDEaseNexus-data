@@ -1,0 +1,165 @@
+topfd.exe --precursor-window 1 --mz-error 0.02 --ms-one-sn-ratio 3 --ms-two-sn-ratio 1 --max-charge 30 --max-mass 50000 --thread-number 21 Glyco_SoybeanNodule_TPD_M02_19Nov21_21-02-05.mzML
+--------------------------------------------------------------------------------
+TopFD 1.4.13
+Timestamp: Mon Nov 22 10:30:13 2021
+###################### Parameters ######################
+Spectral data type:                          	Centroid
+Maximum charge:                              	30
+Maximum monoisotopic mass:                   	50000 Dalton
+Peak error tolerance:                        	0.02 m/z
+MS1 signal/noise ratio:                      	3
+MS/MS signal/noise ratio:                    	1
+Thread number:                               	21
+Precursor window size:                       	1 m/z
+Use Env CNN model:                           	No
+Miss MS1 spectra:                            	No
+Generate Html files:                         	Yes
+Do final filtering:                          	Yes
+###################### Parameters ######################
+Processing Glyco_SoybeanNodule_TPD_M02_19Nov21_21-02-05.mzML started.
+Deconvolution started.
+
+Processing spectrum scan 1 ...          0% finished.
+Processing spectrum scan 102 ...        0% finished.
+Processing spectrum scan 200 ...        1% finished.
+Processing spectrum scan 300 ...        2% finished.
+Processing spectrum scan 401 ...        3% finished.
+Processing spectrum scan 501 ...        3% finished.
+Processing spectrum scan 601 ...        4% finished.
+Processing spectrum scan 700 ...        5% finished.
+Processing spectrum scan 800 ...        5% finished.
+Processing spectrum scan 900 ...        6% finished.
+Processing spectrum scan 1000 ...       7% finished.
+Processing spectrum scan 1104 ...       8% finished.
+Processing spectrum scan 1200 ...       8% finished.
+Processing spectrum scan 1302 ...       9% finished.
+Processing spectrum scan 1404 ...       10% finished.
+Processing spectrum scan 1504 ...       11% finished.
+Processing spectrum scan 1603 ...       11% finished.
+Processing spectrum scan 1705 ...       12% finished.
+Processing spectrum scan 1801 ...       13% finished.
+Processing spectrum scan 1905 ...       14% finished.
+Processing spectrum scan 2005 ...       14% finished.
+Processing spectrum scan 2103 ...       15% finished.
+Processing spectrum scan 2200 ...       16% finished.
+Processing spectrum scan 2305 ...       17% finished.
+Processing spectrum scan 2401 ...       17% finished.
+Processing spectrum scan 2503 ...       18% finished.
+Processing spectrum scan 2605 ...       19% finished.
+Processing spectrum scan 2701 ...       20% finished.
+Processing spectrum scan 2803 ...       20% finished.
+Processing spectrum scan 2905 ...       21% finished.
+Processing spectrum scan 3001 ...       22% finished.
+Processing spectrum scan 3103 ...       23% finished.
+Processing spectrum scan 3205 ...       23% finished.
+Processing spectrum scan 3301 ...       24% finished.
+Processing spectrum scan 3403 ...       25% finished.
+Processing spectrum scan 3505 ...       26% finished.
+Processing spectrum scan 3604 ...       26% finished.
+Processing spectrum scan 3700 ...       27% finished.
+Processing spectrum scan 3802 ...       28% finished.
+Processing spectrum scan 3904 ...       29% finished.
+Processing spectrum scan 4000 ...       29% finished.
+Processing spectrum scan 4102 ...       30% finished.
+Processing spectrum scan 4204 ...       31% finished.
+Processing spectrum scan 4300 ...       32% finished.
+Processing spectrum scan 4402 ...       32% finished.
+Processing spectrum scan 4504 ...       33% finished.
+Processing spectrum scan 4600 ...       34% finished.
+Processing spectrum scan 4702 ...       35% finished.
+Processing spectrum scan 4804 ...       35% finished.
+Processing spectrum scan 4900 ...       36% finished.
+Processing spectrum scan 5002 ...       37% finished.
+Processing spectrum scan 5104 ...       38% finished.
+Processing spectrum scan 5200 ...       38% finished.
+Processing spectrum scan 5302 ...       39% finished.
+Processing spectrum scan 5404 ...       40% finished.
+Processing spectrum scan 5500 ...       41% finished.
+Processing spectrum scan 5604 ...       41% finished.
+Processing spectrum scan 5700 ...       42% finished.
+Processing spectrum scan 5802 ...       43% finished.
+Processing spectrum scan 5904 ...       44% finished.
+Processing spectrum scan 6000 ...       44% finished.
+Processing spectrum scan 6102 ...       45% finished.
+Processing spectrum scan 6204 ...       46% finished.
+Processing spectrum scan 6300 ...       47% finished.
+Processing spectrum scan 6402 ...       47% finished.
+Processing spectrum scan 6504 ...       48% finished.
+Processing spectrum scan 6600 ...       49% finished.
+Processing spectrum scan 6702 ...       50% finished.
+Processing spectrum scan 6804 ...       50% finished.
+Processing spectrum scan 6900 ...       51% finished.
+Processing spectrum scan 7002 ...       52% finished.
+Processing spectrum scan 7104 ...       53% finished.
+Processing spectrum scan 7200 ...       53% finished.
+Processing spectrum scan 7302 ...       54% finished.
+Processing spectrum scan 7404 ...       55% finished.
+Processing spectrum scan 7500 ...       55% finished.
+Processing spectrum scan 7603 ...       56% finished.
+Processing spectrum scan 7705 ...       57% finished.
+Processing spectrum scan 7801 ...       58% finished.
+Processing spectrum scan 7903 ...       59% finished.
+Processing spectrum scan 8005 ...       59% finished.
+Processing spectrum scan 8101 ...       60% finished.
+Processing spectrum scan 8203 ...       61% finished.
+Processing spectrum scan 8305 ...       62% finished.
+Processing spectrum scan 8401 ...       62% finished.
+Processing spectrum scan 8503 ...       63% finished.
+Processing spectrum scan 8605 ...       64% finished.
+Processing spectrum scan 8701 ...       64% finished.
+Processing spectrum scan 8803 ...       65% finished.
+Processing spectrum scan 8905 ...       66% finished.
+Processing spectrum scan 9001 ...       67% finished.
+Processing spectrum scan 9103 ...       67% finished.
+Processing spectrum scan 9205 ...       68% finished.
+Processing spectrum scan 9301 ...       69% finished.
+Processing spectrum scan 9403 ...       70% finished.
+Processing spectrum scan 9505 ...       70% finished.
+Processing spectrum scan 9601 ...       71% finished.
+Processing spectrum scan 9703 ...       72% finished.
+Processing spectrum scan 9805 ...       73% finished.
+Processing spectrum scan 9900 ...       73% finished.
+Processing spectrum scan 10001 ...      74% finished.
+Processing spectrum scan 10104 ...      75% finished.
+Processing spectrum scan 10200 ...      76% finished.
+Processing spectrum scan 10305 ...      76% finished.
+Processing spectrum scan 10402 ...      77% finished.
+Processing spectrum scan 10500 ...      78% finished.
+Processing spectrum scan 10601 ...      79% finished.
+Processing spectrum scan 10701 ...      79% finished.
+Processing spectrum scan 10800 ...      80% finished.
+Processing spectrum scan 10902 ...      81% finished.
+Processing spectrum scan 11000 ...      82% finished.
+Processing spectrum scan 11100 ...      82% finished.
+Processing spectrum scan 11201 ...      83% finished.
+Processing spectrum scan 11302 ...      84% finished.
+Processing spectrum scan 11400 ...      85% finished.
+Processing spectrum scan 11500 ...      85% finished.
+Processing spectrum scan 11600 ...      86% finished.
+Processing spectrum scan 11700 ...      87% finished.
+Processing spectrum scan 11800 ...      88% finished.
+Processing spectrum scan 11900 ...      88% finished.
+Processing spectrum scan 12000 ...      89% finished.
+Processing spectrum scan 12100 ...      90% finished.
+Processing spectrum scan 12200 ...      91% finished.
+Processing spectrum scan 12300 ...      91% finished.
+Processing spectrum scan 12402 ...      92% finished.
+Processing spectrum scan 12500 ...      93% finished.
+Processing spectrum scan 12601 ...      94% finished.
+Processing spectrum scan 12701 ...      94% finished.
+Processing spectrum scan 12801 ...      95% finished.
+Processing spectrum scan 12903 ...      96% finished.
+Processing spectrum scan 13000 ...      97% finished.
+Processing spectrum scan 13101 ...      97% finished.
+Processing spectrum scan 13200 ...      98% finished.
+Processing spectrum scan 13300 ...      99% finished.
+Processing spectrum scan 13396 ...      100% finished.
+Deconvolution finished.
+Deleting temporary files - started.
+Deleting temporary files - finished.
+Feature detection started.
+LOG WARN: \src\topfd\feature_detect\feature_detect.cpp[529]: Cannot find features in LC/MS! Spectrum id: 1345
+LOG WARN: \src\topfd\feature_detect\feature_detect.cpp[529]: Cannot find features in LC/MS! Spectrum id: 1261
+Feature detection finished.
+Processing Glyco_SoybeanNodule_TPD_M02_19Nov21_21-02-05.mzML finished.
+TopFD finished.
