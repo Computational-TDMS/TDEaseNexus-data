@@ -1,0 +1,886 @@
+{
+ "card": "measure/ms2",
+ "title": "EKN 1-52 scan 8664 (z=5) replication",
+ "observation": {
+  "mzml": "Glyco_SoybeanNodule_TPD_M02_19Nov21_21-02-05.mzML",
+  "scans": [
+   "8664"
+  ],
+  "ionTypes": "B,Y",
+  "activation": "beam-type collision-induced dissociation",
+  "conditionsByScan": [
+   {
+    "scan": "8664",
+    "activation": "beam-type collision-induced dissociation",
+    "ionTypes": [
+     "b",
+     "y"
+    ],
+    "maxCharge": 1,
+    "maxChargeSource": "fallback",
+    "pooledScans": null,
+    "binPpm": null,
+    "minimumAbundancePct": 0.0
+   }
+  ],
+  "maxCharge": 1,
+  "maxChargeSource": "fallback",
+  "tolerancePpm": 10.0,
+  "minCorrelation": 0.7,
+  "minIntensity": null,
+  "criterion": "exact isotope-envelope match on raw centroided MS2: the observed cluster is anchored on its most abundant isotope and walked with a monotone cursor, missing slots count as zero, and the full-slot Pearson must clear the kernel's correlation floor. A hit on M+2 is a hit; the isotope offset is reported, not normalized away",
+  "figureScan": "8664"
+ },
+ "sequence": "GNCGSNPKTNEGPEAVPEPVIEEVKVEQKESSEANVETKLKDQTPNDSEIK",
+ "length": 51,
+ "sharedBackbone": true,
+ "ionComparisonAvailable": true,
+ "models": [
+  {
+   "id": "dual_acyl",
+   "label": "N-myristoyl-G1 + S-palmitoyl-C3 (Met removed)",
+   "proforma": "[Myristoyl]-GNC[Palmitoyl]GSNPKTNEGPEAVPEPVIEEVKVEQKESSEANVETKLKDQTPNDSEIK",
+   "bareSequence": "GNCGSNPKTNEGPEAVPEPVIEEVKVEQKESSEANVETKLKDQTPNDSEIK",
+   "modifications": [
+    {
+     "deltaMass": 210.198365448608,
+     "formula": "C14H26O",
+     "localizationEnd": null,
+     "localizationStart": null,
+     "position": "nTerm",
+     "residue": null,
+     "tag": "Myristoyl"
+    },
+    {
+     "deltaMass": 238.22966557619998,
+     "formula": "C16H30O",
+     "localizationEnd": null,
+     "localizationStart": null,
+     "position": "residue:3",
+     "residue": "C",
+     "tag": "Palmitoyl"
+    }
+   ],
+   "measurement": {
+    "matchedIons": 0,
+    "coverage": 0.0,
+    "discriminatingMatched": 0,
+    "uniqueCleavages": 0
+   }
+  },
+  {
+   "id": "mass_at_nterm",
+   "label": "same total mass placed entirely at the N-terminus (placement alternative in span 1-4)",
+   "proforma": "[+448.4280]-GNCGSNPKTNEGPEAVPEPVIEEVKVEQKESSEANVETKLKDQTPNDSEIK",
+   "bareSequence": "GNCGSNPKTNEGPEAVPEPVIEEVKVEQKESSEANVETKLKDQTPNDSEIK",
+   "modifications": [
+    {
+     "deltaMass": 448.428,
+     "formula": null,
+     "localizationEnd": null,
+     "localizationStart": null,
+     "position": "nTerm",
+     "residue": null,
+     "tag": "+448.4280"
+    }
+   ],
+   "measurement": {
+    "matchedIons": 0,
+    "coverage": 0.0,
+    "discriminatingMatched": 0,
+    "uniqueCleavages": 0
+   }
+  }
+ ],
+ "verdict": {
+  "diffSites": [
+   3,
+   "nTerm"
+  ],
+  "compositionDeltaDa": [
+   {
+    "model": "mass_at_nterm",
+    "vs": "dual_acyl",
+    "deltaDa": -3.102480786765227e-05
+   }
+  ],
+  "differences": {
+   "predictedDiffer": 52,
+   "predictedIdentical": 48,
+   "measuredDiffer": 0,
+   "note": "predictedDiffer counts ions whose theoretical m/z differs between models; predictedIdentical counts ions every model predicts at the same m/z (numerically identical) — those share m/z predictions; isotope compositions may still differ. measuredDiffer counts ions where the kernel's accepted matches differ between models. Whether a predicted difference is resolvable under this measurement depends on tolerance, charge ceiling and interference — reported as conditions, not pre-judged here.",
+   "ambiguity": "identity, sequence, modification identity and site localization are different questions: matchedBy on an ion covering a differing site speaks to placement; compositionDeltaDa speaks to composition; neither alone establishes identity."
+  },
+  "differingIonKeys": 52,
+  "discriminatingIonKeys": 0,
+  "ions": [
+   {
+    "ion": "b",
+    "number": 1,
+    "charge": 1,
+    "label": "b1:1",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 1
+    },
+    "coversDiffSites": [
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "missingApex",
+      "theoreticalMz": 268.2271056198009,
+      "apexOffset": 0
+     },
+     "mass_at_nterm": {
+      "state": "missingApex",
+      "theoreticalMz": 506.45674017119285,
+      "apexOffset": 0
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 2,
+    "charge": 1,
+    "label": "b2:1",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 2
+    },
+    "coversDiffSites": [
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "missingApex",
+      "theoreticalMz": 382.2700330582089,
+      "apexOffset": 0
+     },
+     "mass_at_nterm": {
+      "state": "missingApex",
+      "theoreticalMz": 620.4996676096009,
+      "apexOffset": 0
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 3,
+    "charge": 1,
+    "label": "b3:1",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 3
+    },
+    "coversDiffSites": [
+     3,
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "missingApex",
+      "theoreticalMz": 723.508883590949,
+      "apexOffset": 0
+     },
+     "mass_at_nterm": {
+      "state": "missingApex",
+      "theoreticalMz": 723.508852566141,
+      "apexOffset": 0
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 4,
+    "charge": 1,
+    "label": "b4:1",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 4
+    },
+    "coversDiffSites": [
+     3,
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "missingApex",
+      "theoreticalMz": 780.5303473101529,
+      "apexOffset": 0
+     },
+     "mass_at_nterm": {
+      "state": "missingApex",
+      "theoreticalMz": 780.5303162853448,
+      "apexOffset": 0
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 5,
+    "charge": 1,
+    "label": "b5:1",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 5
+    },
+    "coversDiffSites": [
+     3,
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "missingApex",
+      "theoreticalMz": 867.562375712413,
+      "apexOffset": 0
+     },
+     "mass_at_nterm": {
+      "state": "missingApex",
+      "theoreticalMz": 867.5623446876049,
+      "apexOffset": 0
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 6,
+    "charge": 1,
+    "label": "b6:1",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 6
+    },
+    "coversDiffSites": [
+     3,
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "missingApex",
+      "theoreticalMz": 981.605303150821,
+      "apexOffset": 0
+     },
+     "mass_at_nterm": {
+      "state": "missingApex",
+      "theoreticalMz": 981.6052721260129,
+      "apexOffset": 0
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 7,
+    "charge": 1,
+    "label": "b7:1",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 7
+    },
+    "coversDiffSites": [
+     3,
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "missingApex",
+      "theoreticalMz": 1078.658066997617,
+      "apexOffset": 0
+     },
+     "mass_at_nterm": {
+      "state": "missingApex",
+      "theoreticalMz": 1078.6580359728086,
+      "apexOffset": 0
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 8,
+    "charge": 1,
+    "label": "b8:1",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 8
+    },
+    "coversDiffSites": [
+     3,
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "correlationRejected",
+      "theoreticalMz": 1206.7530300081528,
+      "apexOffset": 0,
+      "correlation": 0.11673893637619229
+     },
+     "mass_at_nterm": {
+      "state": "correlationRejected",
+      "theoreticalMz": 1206.7529989833447,
+      "apexOffset": 0,
+      "correlation": -0.05717230512300451
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 9,
+    "charge": 1,
+    "label": "b9:1",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 9
+    },
+    "coversDiffSites": [
+     3,
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "missingApex",
+      "theoreticalMz": 1307.800708474209,
+      "apexOffset": 0
+     },
+     "mass_at_nterm": {
+      "state": "missingApex",
+      "theoreticalMz": 1307.8006774494006,
+      "apexOffset": 0
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 10,
+    "charge": 1,
+    "label": "b10:1",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 10
+    },
+    "coversDiffSites": [
+     3,
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "missingApex",
+      "theoreticalMz": 1421.843635912617,
+      "apexOffset": 0
+     },
+     "mass_at_nterm": {
+      "state": "missingApex",
+      "theoreticalMz": 1421.8436048878089,
+      "apexOffset": 0
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 11,
+    "charge": 1,
+    "label": "b11:1",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 11
+    },
+    "coversDiffSites": [
+     3,
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "missingApex",
+      "theoreticalMz": 1550.8862289979327,
+      "apexOffset": 0
+     },
+     "mass_at_nterm": {
+      "state": "missingApex",
+      "theoreticalMz": 1550.8861979731246,
+      "apexOffset": 0
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 12,
+    "charge": 1,
+    "label": "b12:1",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 12
+    },
+    "coversDiffSites": [
+     3,
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "missingApex",
+      "theoreticalMz": 1607.9076927171368,
+      "apexOffset": 0
+     },
+     "mass_at_nterm": {
+      "state": "missingApex",
+      "theoreticalMz": 1607.9076616923287,
+      "apexOffset": 0
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 13,
+    "charge": 1,
+    "label": "b13:1",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 13
+    },
+    "coversDiffSites": [
+     3,
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "missingApex",
+      "theoreticalMz": 1704.960456563933,
+      "apexOffset": 0
+     },
+     "mass_at_nterm": {
+      "state": "missingApex",
+      "theoreticalMz": 1704.9604255391248,
+      "apexOffset": 0
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 14,
+    "charge": 1,
+    "label": "b14:1",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 14
+    },
+    "coversDiffSites": [
+     3,
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "missingApex",
+      "theoreticalMz": 1834.0030496492489,
+      "apexOffset": 1
+     },
+     "mass_at_nterm": {
+      "state": "missingApex",
+      "theoreticalMz": 1834.0030186244408,
+      "apexOffset": 0
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 15,
+    "charge": 1,
+    "label": "b15:1",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 15
+    },
+    "coversDiffSites": [
+     3,
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "missingApex",
+      "theoreticalMz": 1905.0401634322488,
+      "apexOffset": 1
+     },
+     "mass_at_nterm": {
+      "state": "missingApex",
+      "theoreticalMz": 1905.0401324074408,
+      "apexOffset": 0
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 16,
+    "charge": 1,
+    "label": "b16:1",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 16
+    },
+    "coversDiffSites": [
+     3,
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "missingApex",
+      "theoreticalMz": 2004.1085773428408,
+      "apexOffset": 1
+     },
+     "mass_at_nterm": {
+      "state": "missingApex",
+      "theoreticalMz": 2004.1085463180325,
+      "apexOffset": 0
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 17,
+    "charge": 1,
+    "label": "b17:1",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 17
+    },
+    "coversDiffSites": [
+     3,
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "missingApex",
+      "theoreticalMz": 2101.161341189637,
+      "apexOffset": 1
+     },
+     "mass_at_nterm": {
+      "state": "missingApex",
+      "theoreticalMz": 2101.161310164829,
+      "apexOffset": 0
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 18,
+    "charge": 1,
+    "label": "b18:1",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 18
+    },
+    "coversDiffSites": [
+     3,
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "missingApex",
+      "theoreticalMz": 2230.203934274953,
+      "apexOffset": 1
+     },
+     "mass_at_nterm": {
+      "state": "missingApex",
+      "theoreticalMz": 2230.203903250145,
+      "apexOffset": 0
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 19,
+    "charge": 1,
+    "label": "b19:1",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 19
+    },
+    "coversDiffSites": [
+     3,
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "missingApex",
+      "theoreticalMz": 2327.2566981217487,
+      "apexOffset": 1
+     },
+     "mass_at_nterm": {
+      "state": "missingApex",
+      "theoreticalMz": 2327.256667096941,
+      "apexOffset": 0
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 20,
+    "charge": 1,
+    "label": "b20:1",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 20
+    },
+    "coversDiffSites": [
+     3,
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "missingApex",
+      "theoreticalMz": 2426.3251120323407,
+      "apexOffset": 1
+     },
+     "mass_at_nterm": {
+      "state": "missingApex",
+      "theoreticalMz": 2426.325081007533,
+      "apexOffset": 1
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 21,
+    "charge": 1,
+    "label": "b21:1",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 21
+    },
+    "coversDiffSites": [
+     3,
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "missingApex",
+      "theoreticalMz": 2539.409176006729,
+      "apexOffset": 1
+     },
+     "mass_at_nterm": {
+      "state": "missingApex",
+      "theoreticalMz": 2539.4091449819207,
+      "apexOffset": 1
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 22,
+    "charge": 1,
+    "label": "b22:1",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 22
+    },
+    "coversDiffSites": [
+     3,
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "missingApex",
+      "theoreticalMz": 2668.4517690920447,
+      "apexOffset": 1
+     },
+     "mass_at_nterm": {
+      "state": "missingApex",
+      "theoreticalMz": 2668.451738067237,
+      "apexOffset": 1
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 23,
+    "charge": 1,
+    "label": "b23:1",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 23
+    },
+    "coversDiffSites": [
+     3,
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "missingApex",
+      "theoreticalMz": 2797.494362177361,
+      "apexOffset": 1
+     },
+     "mass_at_nterm": {
+      "state": "missingApex",
+      "theoreticalMz": 2797.4943311525526,
+      "apexOffset": 1
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 24,
+    "charge": 1,
+    "label": "b24:1",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 24
+    },
+    "coversDiffSites": [
+     3,
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "missingApex",
+      "theoreticalMz": 2896.5627760879524,
+      "apexOffset": 1
+     },
+     "mass_at_nterm": {
+      "state": "missingApex",
+      "theoreticalMz": 2896.562745063145,
+      "apexOffset": 1
+     }
+    }
+   }
+  ],
+  "degenerateMatched": [],
+  "degenerateMatchedTotal": 0,
+  "roleGlossary": {
+   "discriminator": "models predict different m/z for this ion; a match here separates them",
+   "sharedMatch": "matched by some model but not marked discriminating by the kernel",
+   "noAcceptedMatch": "prediction differs but no model obtained an accepted envelope match — absence of acceptance, not evidence of absence",
+   "degenerateMatch": "every model predicts the same m/z and the ion is matched — measured, but it separates nothing among degenerateAmong; it grounds span/window statements only"
+  },
+  "contestedPeaks": [],
+  "contestedPeakNote": "observed peaks matched by more than one model/ion pair — read them before counting either model's match as independent support",
+  "byScan": [
+   {
+    "scan": "8664",
+    "discriminatingIonCount": 0,
+    "perModel": {
+     "dual_acyl": {
+      "matchedIons": 0,
+      "coverage": 0.0,
+      "discriminatingMatched": 0,
+      "uniqueCleavages": 0
+     },
+     "mass_at_nterm": {
+      "matchedIons": 0,
+      "coverage": 0.0,
+      "discriminatingMatched": 0,
+      "uniqueCleavages": 0
+     }
+    }
+   }
+  ]
+ },
+ "siteWindows": {
+  "diffSites": [
+   3,
+   "nTerm"
+  ],
+  "rows": [
+   {
+    "scan": "8664",
+    "model": "dual_acyl",
+    "leftCleavage": 2,
+    "matchedLeft": 0,
+    "matchedRight": 0,
+    "position": 3,
+    "rightCleavage": 3
+   }
+  ],
+  "truncated": 0,
+  "note": "leftCleavage/rightCleavage count the model's own cleavages around the site; matchedLeft/matchedRight count how many were observed"
+ },
+ "uninformative": {
+  "identicalPrediction": 48,
+  "noModelMatched": 52,
+  "note": "identicalPrediction: ions every model predicts at the same m/z (numerically identical — not a separability claim) — they can share m/z, not necessarily isotope composition. noModelMatched: ions whose prediction differs but which no model obtained an accepted envelope match on any measured scan — an unaccepted match is absence of acceptance, not evidence of absence, unless observability is argued. The matched subset of identicalPrediction is not dropped silently — verdict.degenerateMatched lists those ions with the models they cannot separate and their full measured values. This block counts the verdict's remainder; it is not a second verdict"
+ },
+ "isotopeBorrowPairs": [],
+ "warnings": [
+  "scan 8664: no precursor charge; maxCharge falls back to 1; supply --max-charge for another ceiling",
+  "the models differ at the N-terminus: N-terminal (a/b/c) ions contain that terminal group; C-terminal (x/y/z) fragments do not. Other modifications may cancel a shift — check coversDiffSites before reading any ion as separating; a whole-spectrum mass shift is not a site localization",
+  "verdict list truncated to 24 of 52 differing ions (the most separating first) — full tables: {'path': 'C:\\\\Users\\\\USER\\\\Desktop\\\\TDEase-zero\\\\data\\\\soybean-paper-ws\\\\runs\\\\soybean-all\\\\analysis\\\\ekn-shift-chemistry\\\\card_scan8664_shared-evidence.json', 'size': 329368}"
+ ],
+ "audit": {
+  "evidence": {
+   "path": "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\analysis\\ekn-shift-chemistry\\card_scan8664_shared-evidence.json",
+   "size": 329368
+  },
+  "figure": "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\analysis\\ekn-shift-chemistry\\card_scan8664_shared-figure.html",
+  "written": [
+   "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\analysis\\ekn-shift-chemistry\\card_scan8664_shared.json",
+   "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\analysis\\ekn-shift-chemistry\\card_scan8664_shared-figure.html",
+   "analysis\\ekn-shift-chemistry\\card_scan8664_shared-windows.html",
+   "analysis\\ekn-shift-chemistry\\card_scan8664_shared-windows-theory.json",
+   "analysis\\ekn-shift-chemistry\\card_scan8664_shared-windows.regions0.json",
+   "analysis\\ekn-shift-chemistry\\card_scan8664_shared-windows.regions1.json",
+   "analysis\\ekn-shift-chemistry\\card_scan8664_shared-windows.regions2.json",
+   "analysis\\ekn-shift-chemistry\\card_scan8664_shared-windows.regions3.json"
+  ],
+  "figureManifest": "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\analysis\\ekn-shift-chemistry\\card_scan8664_shared-figure.manifest.json",
+  "windowsFigure": "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\analysis\\ekn-shift-chemistry\\card_scan8664_shared-windows.html",
+  "windowsManifest": "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\analysis\\ekn-shift-chemistry\\card_scan8664_shared-windows.manifest.json"
+ },
+ "next": [
+  {
+   "status": "no ion whose prediction differs obtained an accepted match separation on the measured scans — this observation does not separate these models",
+   "stillUsable": [
+    {
+     "capability": "other MS2 scans of the same species",
+     "inputs": "spectral.py measure --mzml <file> --scan <scan[,scan...]> --models <models.json>"
+    },
+    {
+     "capability": "precursor-envelope comparison, when the models differ in composition",
+     "inputs": "spectral.py measure --ms1 --feature <label> <mass> <charge> <rtMin> <rtMax> --models <models.json>"
+    }
+   ]
+  }
+ ]
+}

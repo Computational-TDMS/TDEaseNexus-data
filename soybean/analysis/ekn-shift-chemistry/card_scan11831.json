@@ -1,0 +1,196 @@
+{
+ "card": "measure/ms2",
+ "title": "EKN 1-52 (scan 11831): dual acylation vs search free-mass model",
+ "observation": {
+  "mzml": "Glyco_SoybeanNodule_TPD_M02_19Nov21_21-02-05.mzML",
+  "scans": [
+   "11831"
+  ],
+  "ionTypes": "B,Y",
+  "activation": "beam-type collision-induced dissociation",
+  "conditionsByScan": [
+   {
+    "scan": "11831",
+    "activation": "beam-type collision-induced dissociation",
+    "ionTypes": [
+     "b",
+     "y"
+    ],
+    "maxCharge": 6,
+    "maxChargeSource": "precursor",
+    "pooledScans": null,
+    "binPpm": null,
+    "minimumAbundancePct": 0.0
+   }
+  ],
+  "maxCharge": 6,
+  "maxChargeSource": "precursor",
+  "tolerancePpm": 10.0,
+  "minCorrelation": 0.7,
+  "minIntensity": null,
+  "criterion": "exact isotope-envelope match on raw centroided MS2: the observed cluster is anchored on its most abundant isotope and walked with a monotone cursor, missing slots count as zero, and the full-slot Pearson must clear the kernel's correlation floor. A hit on M+2 is a hit; the isotope offset is reported, not normalized away",
+  "figureScan": "11831"
+ },
+ "sequence": null,
+ "length": null,
+ "sharedBackbone": false,
+ "ionComparisonAvailable": false,
+ "models": [
+  {
+   "id": "dual_acyl",
+   "label": "1-52, Met removed: N-myristoyl-G1 + S-palmitoyl-C3",
+   "proforma": "[Myristoyl]-GNC[Palmitoyl]GSNPKTNEGPEAVPEPVIEEVKVEQKESSEANVETKLKDQTPNDSEIK",
+   "bareSequence": "GNCGSNPKTNEGPEAVPEPVIEEVKVEQKESSEANVETKLKDQTPNDSEIK",
+   "modifications": [
+    {
+     "deltaMass": 210.198365448608,
+     "formula": "C14H26O",
+     "localizationEnd": null,
+     "localizationStart": null,
+     "position": "nTerm",
+     "residue": null,
+     "tag": "Myristoyl"
+    },
+    {
+     "deltaMass": 238.22966557619998,
+     "formula": "C16H30O",
+     "localizationEnd": null,
+     "localizationStart": null,
+     "position": "residue:3",
+     "residue": "C",
+     "tag": "Palmitoyl"
+    }
+   ],
+   "measurement": {
+    "matchedIons": 82,
+    "coverage": 0.92,
+    "discriminatingMatched": 0,
+    "uniqueCleavages": 46,
+    "medianAbsErrorPpm": 1.7113481326158182,
+    "p95AbsErrorPpm": 4.345873935852731
+   }
+  },
+  {
+   "id": "search_free_mass",
+   "label": "1-52, Met retained: +317.3906 Da at N-terminus (search span 1-4)",
+   "proforma": "[+317.3906]-MGNCGSNPKTNEGPEAVPEPVIEEVKVEQKESSEANVETKLKDQTPNDSEIK",
+   "bareSequence": "MGNCGSNPKTNEGPEAVPEPVIEEVKVEQKESSEANVETKLKDQTPNDSEIK",
+   "modifications": [
+    {
+     "deltaMass": 317.3906,
+     "formula": null,
+     "localizationEnd": null,
+     "localizationStart": null,
+     "position": "nTerm",
+     "residue": null,
+     "tag": "+317.3906"
+    }
+   ],
+   "measurement": {
+    "matchedIons": 80,
+    "coverage": 0.8627450980392157,
+    "discriminatingMatched": 0,
+    "uniqueCleavages": 44,
+    "medianAbsErrorPpm": 1.5157388138725725,
+    "p95AbsErrorPpm": 4.345873935852731
+   }
+  }
+ ],
+ "verdict": {
+  "diffSites": [],
+  "compositionDeltaDa": [
+   {
+    "model": "search_free_mass",
+    "vs": "dual_acyl",
+    "deltaDa": 0.0030540593243131298
+   }
+  ],
+  "differences": {
+   "predictedDiffer": 0,
+   "predictedIdentical": 0,
+   "measuredDiffer": 0,
+   "note": "predictedDiffer counts ions whose theoretical m/z differs between models; predictedIdentical counts ions every model predicts at the same m/z (numerically identical) — those share m/z predictions; isotope compositions may still differ. measuredDiffer counts ions where the kernel's accepted matches differ between models. Whether a predicted difference is resolvable under this measurement depends on tolerance, charge ceiling and interference — reported as conditions, not pre-judged here.",
+   "ambiguity": "identity, sequence, modification identity and site localization are different questions: matchedBy on an ion covering a differing site speaks to placement; compositionDeltaDa speaks to composition; neither alone establishes identity."
+  },
+  "differingIonKeys": 0,
+  "discriminatingIonKeys": 0,
+  "ions": [],
+  "degenerateMatched": [],
+  "degenerateMatchedTotal": 0,
+  "roleGlossary": {
+   "discriminator": "models predict different m/z for this ion; a match here separates them",
+   "sharedMatch": "matched by some model but not marked discriminating by the kernel",
+   "noAcceptedMatch": "prediction differs but no model obtained an accepted envelope match — absence of acceptance, not evidence of absence",
+   "degenerateMatch": "every model predicts the same m/z and the ion is matched — measured, but it separates nothing among degenerateAmong; it grounds span/window statements only"
+  },
+  "contestedPeaks": [],
+  "contestedPeakNote": "observed peaks matched by more than one model/ion pair — read them before counting either model's match as independent support",
+  "byScan": [
+   {
+    "scan": "11831",
+    "discriminatingIonCount": 0,
+    "perModel": {
+     "dual_acyl": {
+      "matchedIons": 82,
+      "coverage": 0.92,
+      "discriminatingMatched": 0,
+      "uniqueCleavages": 46,
+      "medianAbsErrorPpm": 1.7113481326158182,
+      "p95AbsErrorPpm": 4.345873935852731
+     },
+     "search_free_mass": {
+      "matchedIons": 80,
+      "coverage": 0.8627450980392157,
+      "discriminatingMatched": 0,
+      "uniqueCleavages": 44,
+      "medianAbsErrorPpm": 1.5157388138725725,
+      "p95AbsErrorPpm": 4.345873935852731
+     }
+    }
+   }
+  ]
+ },
+ "siteWindows": {
+  "diffSites": [],
+  "rows": [],
+  "truncated": 0,
+  "note": "leftCleavage/rightCleavage count the model's own cleavages around the site; matchedLeft/matchedRight count how many were observed"
+ },
+ "uninformative": {
+  "identicalPrediction": 0,
+  "noModelMatched": 0,
+  "note": "identicalPrediction: ions every model predicts at the same m/z (numerically identical — not a separability claim) — they can share m/z, not necessarily isotope composition. noModelMatched: ions whose prediction differs but which no model obtained an accepted envelope match on any measured scan — an unaccepted match is absence of acceptance, not evidence of absence, unless observability is argued. The matched subset of identicalPrediction is not dropped silently — verdict.degenerateMatched lists those ions with the models they cannot separate and their full measured values. This block counts the verdict's remainder; it is not a second verdict"
+ },
+ "isotopeBorrowPairs": [],
+ "warnings": [
+  "series error divergence (N-minus-C signed mean over threshold — model-side mass/site misassignment or isotope borrowing): search_free_mass -2.12 ppm (threshold 2.00)",
+  "positional ion comparison unavailable: different backbones or neutral-loss variants; independent model measurements remain available",
+  "positional ion comparison unavailable: each model was measured on its own backbone; no cross-model site mapping was assumed"
+ ],
+ "audit": {
+  "evidence": {
+   "path": "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\analysis\\ekn-shift-chemistry\\card_scan11831-evidence.json",
+   "size": 746678
+  },
+  "figure": null,
+  "written": [
+   "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\analysis\\ekn-shift-chemistry\\card_scan11831.json"
+  ],
+  "figuresSkipped": "overview needs a shared sequence; independent model measurements are retained"
+ },
+ "next": [
+  {
+   "status": "no ion whose prediction differs obtained an accepted match separation on the measured scans — this observation does not separate these models",
+   "stillUsable": [
+    {
+     "capability": "other MS2 scans of the same species",
+     "inputs": "spectral.py measure --mzml <file> --scan <scan[,scan...]> --models <models.json>"
+    },
+    {
+     "capability": "precursor-envelope comparison, when the models differ in composition",
+     "inputs": "spectral.py measure --ms1 --feature <label> <mass> <charge> <rtMin> <rtMax> --models <models.json>"
+    }
+   ]
+  }
+ ]
+}

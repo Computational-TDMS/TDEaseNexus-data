@@ -1,0 +1,9 @@
+ion,number,charge,slots,slotTotal,apex,label,subtitle
+y,50,6,7,10,2,dual_acyl · y50:6 · scan 11831,kernel: matched · +2.0 ppm · M+2 · r=0.87 · y50 z=6 · 7/10 slots ±10 ppm · in-slot apex M+2
+y,50,6,1,10,4,mass_at_nterm · y50:6 · scan 11831,kernel: missingApex · apex expected at M+3 · y50 z=6 · 1/10 slots ±10 ppm · in-slot apex M+4
+y,49,5,4,10,4,dual_acyl · y49:5 · scan 11831,kernel: matched · +2.3 ppm · M+4 · r=0.71 · y49 z=5 · 4/10 slots ±10 ppm · in-slot apex M+4
+y,49,5,1,10,3,mass_at_nterm · y49:5 · scan 11831,kernel: correlationRejected · r=0.50 · y49 z=5 · 1/10 slots ±10 ppm · in-slot apex M+3
+b,1,1,0,3,,dual_acyl · b1:1 · scan 11831,kernel: missingApex · apex expected at M+0 · b1 z=1 · no observed peaks in window
+b,1,1,0,4,,mass_at_nterm · b1:1 · scan 11831,kernel: missingApex · apex expected at M+0 · b1 z=1 · 0/4 slots ±10 ppm
+b,1,2,0,3,,dual_acyl · b1:2 · scan 11831,kernel: missingApex · apex expected at M+0 · b1 z=2 · no observed peaks in window
+b,1,2,0,4,,mass_at_nterm · b1:2 · scan 11831,kernel: missingApex · apex expected at M+0 · b1 z=2 · no observed peaks in window

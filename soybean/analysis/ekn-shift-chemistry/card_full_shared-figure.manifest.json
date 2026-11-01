@@ -1,0 +1,101 @@
+{
+  "figure": "candidate-discrimination-html",
+  "script": "ms2_visualize.py",
+  "version": "0.1.0",
+  "params": {
+    "scan": "8664",
+    "candidates": [
+      {
+        "id": "dual_acyl",
+        "label": "full length, Met removed: N-myristoyl-G1 + S-palmitoyl-C3",
+        "proforma": "[Myristoyl]-GNC[Palmitoyl]GSNPKTNEGPEAVPEPVIEEVKVEQKESSEANVETKLKDQTPNDSEIKSLGTLLNEKVEEAPKTEEVTAEPKPEEPKTDEVKVQEEKPKAEEAKAET"
+      },
+      {
+        "id": "mass_at_nterm",
+        "label": "full length, same total mass placed entirely at the N-terminus",
+        "proforma": "[+448.4280]-GNCGSNPKTNEGPEAVPEPVIEEVKVEQKESSEANVETKLKDQTPNDSEIKSLGTLLNEKVEEAPKTEEVTAEPKPEEPKTDEVKVQEEKPKAEEAKAET"
+      }
+    ],
+    "ion_types": "B,Y",
+    "activation": "beam-type collision-induced dissociation",
+    "max_charge": null,
+    "tolerance_ppm": 10.0,
+    "focus_site": 3,
+    "min_rel_intensity": 0.01
+  },
+  "inputs": [
+    {
+      "path": "Glyco_SoybeanNodule_TPD_M02_19Nov21_21-02-05.mzML",
+      "sha256": "6232aee2945efc5fc1f836d8facf2bf6de311a87e6912748eca0905095a365f1"
+    },
+    {
+      "path": "analysis\\ekn-shift-chemistry\\card_full_shared-evidence.json",
+      "sha256": "d7b8d874c8effc839d338409ecc2db225ab475d1666625ebab97498d4d3e1f90"
+    },
+    {
+      "path": "analysis\\ekn-shift-chemistry\\card_full_shared-figure.data.json",
+      "sha256": "2e1c6737148b622df1e22218c26502adfdee3734aac984c4512b783832a2b9fc"
+    }
+  ],
+  "caption": {
+    "candidates": [
+      {
+        "id": "dual_acyl",
+        "total": 0,
+        "counts": {},
+        "missingRuns": {},
+        "siteIons": [
+          {
+            "ion": "b",
+            "number": 3,
+            "states": []
+          },
+          {
+            "ion": "b",
+            "number": 2,
+            "states": []
+          },
+          {
+            "ion": "y",
+            "number": 98,
+            "states": []
+          },
+          {
+            "ion": "y",
+            "number": 97,
+            "states": []
+          }
+        ]
+      },
+      {
+        "id": "mass_at_nterm",
+        "total": 0,
+        "counts": {},
+        "missingRuns": {},
+        "siteIons": [
+          {
+            "ion": "b",
+            "number": 3,
+            "states": []
+          },
+          {
+            "ion": "b",
+            "number": 2,
+            "states": []
+          },
+          {
+            "ion": "y",
+            "number": 98,
+            "states": []
+          },
+          {
+            "ion": "y",
+            "number": 97,
+            "states": []
+          }
+        ]
+      }
+    ],
+    "lineage": "raw MS2 exact-envelope one-flow discrimination"
+  }
+}

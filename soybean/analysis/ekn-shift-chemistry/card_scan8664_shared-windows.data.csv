@@ -1,0 +1,5 @@
+ion,number,charge,slots,slotTotal,apex,label,subtitle
+b,1,1,0,3,,dual_acyl · b1:1 · scan 8664,kernel: missingApex · apex expected at M+0 · b1 z=1 · no observed peaks in window
+b,1,1,0,4,,mass_at_nterm · b1:1 · scan 8664,kernel: missingApex · apex expected at M+0 · b1 z=1 · 0/4 slots ±10 ppm
+b,2,1,0,3,,dual_acyl · b2:1 · scan 8664,kernel: missingApex · apex expected at M+0 · b2 z=1 · no observed peaks in window
+b,2,1,0,4,,mass_at_nterm · b2:1 · scan 8664,kernel: missingApex · apex expected at M+0 · b2 z=1 · 0/4 slots ±10 ppm

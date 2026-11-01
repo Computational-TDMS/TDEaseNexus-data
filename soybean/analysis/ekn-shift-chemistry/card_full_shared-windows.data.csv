@@ -1,0 +1,7 @@
+ion,number,charge,slots,slotTotal,apex,label,subtitle
+b,10,1,2,5,0,dual_acyl · b10:1 · scan 10876,kernel: correlationRejected · r=-0.44 · b10 z=1 · 2/5 slots ±10 ppm · in-slot apex M+0
+b,10,1,2,5,0,mass_at_nterm · b10:1 · scan 10876,kernel: matched · -2.7 ppm · M+0 · r=0.91 · b10 z=1 · 2/5 slots ±10 ppm · in-slot apex M+0
+b,1,1,0,3,,dual_acyl · b1:1 · scan 8664,kernel: missingApex · apex expected at M+0 · b1 z=1 · no observed peaks in window
+b,1,1,0,4,,mass_at_nterm · b1:1 · scan 8664,kernel: missingApex · apex expected at M+0 · b1 z=1 · 0/4 slots ±10 ppm
+b,1,2,0,3,,dual_acyl · b1:2 · scan 8664,b1:2 · not a differing prediction for this model · b1 z=2 · no observed peaks in window
+b,1,2,0,4,,mass_at_nterm · b1:2 · scan 8664,b1:2 · not a differing prediction for this model · b1 z=2 · no observed peaks in window

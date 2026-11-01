@@ -1,0 +1,4 @@
+[
+{"id": "dual_acyl", "label": "1-52, Met removed: N-myristoyl-G1 + S-palmitoyl-C3", "proforma": "[Myristoyl]-GNC[Palmitoyl]GSNPKTNEGPEAVPEPVIEEVKVEQKESSEANVETKLKDQTPNDSEIK"},
+{"id": "search_free_mass", "label": "1-52, Met retained: +317.3906 Da at N-terminus (search span 1-4)", "proforma": "[+317.3906]-MGNCGSNPKTNEGPEAVPEPVIEEVKVEQKESSEANVETKLKDQTPNDSEIK"}
+]

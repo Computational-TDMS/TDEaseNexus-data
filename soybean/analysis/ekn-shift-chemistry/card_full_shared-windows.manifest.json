@@ -1,0 +1,117 @@
+{
+  "figure": "envelope-mirror",
+  "script": "spectral.py",
+  "version": "0.1.0",
+  "params": {
+    "card": "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\analysis\\ekn-shift-chemistry\\card_full_shared.json",
+    "ppm": 10.0,
+    "ions": [
+      "b10:1",
+      "b1:1",
+      "b1:2"
+    ]
+  },
+  "inputs": [
+    {
+      "path": "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\analysis\\ekn-shift-chemistry\\card_full_shared.json",
+      "sha256": null
+    },
+    {
+      "path": "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\analysis\\ekn-shift-chemistry\\card_full_shared-evidence.json",
+      "sha256": "d7b8d874c8effc839d338409ecc2db225ab475d1666625ebab97498d4d3e1f90"
+    },
+    {
+      "path": "analysis\\ekn-shift-chemistry\\card_full_shared-windows-theory.json",
+      "sha256": "6eaab52e52bb682bae6f3f80fe4dff23150919e107ea7e7f2e37a7c753115e66"
+    },
+    {
+      "path": "analysis\\ekn-shift-chemistry\\card_full_shared-windows.regions0.json",
+      "sha256": "ae5066dc524481aa9b5874a6963ec385a828c65059fbcc4e9012b5b1d02e745b"
+    },
+    {
+      "path": "analysis\\ekn-shift-chemistry\\card_full_shared-windows.regions1.json",
+      "sha256": "0165992b8e57ab6e74aa75b31f49e520e5e4269877796cca36c8372e545135f0"
+    },
+    {
+      "path": "analysis\\ekn-shift-chemistry\\card_full_shared-windows.regions2.json",
+      "sha256": "010d05d4be1c1bd52d5acc7a57425cd98eddf17fcd8a5501183555ceeac1210d"
+    },
+    {
+      "path": "analysis\\ekn-shift-chemistry\\card_full_shared-windows.regions3.json",
+      "sha256": "da750fe6fc7b40b322022fa71f29af248064ec45e848923720010148dc335c6b"
+    },
+    {
+      "path": "analysis\\ekn-shift-chemistry\\card_full_shared-windows.regions4.json",
+      "sha256": "f77652bf09fe14391f281adccb52c5b10c90656a18c6ed34914a8ff17fa9c0be"
+    },
+    {
+      "path": "analysis\\ekn-shift-chemistry\\card_full_shared-windows.regions5.json",
+      "sha256": "1960b22bf55cf3e02ca05ad616e8070511a14bad85bfaae2241ff059d6e03d15"
+    }
+  ],
+  "caption": {
+    "panels": [
+      {
+        "ion": "b",
+        "number": 10,
+        "charge": 1,
+        "slots": 2,
+        "slotTotal": 5,
+        "apex": 0,
+        "label": "dual_acyl \u00b7 b10:1 \u00b7 scan 10876",
+        "subtitle": "kernel: correlationRejected \u00b7 r=-0.44 \u00b7 b10 z=1 \u00b7 2/5 slots \u00b110 ppm \u00b7 in-slot apex M+0"
+      },
+      {
+        "ion": "b",
+        "number": 10,
+        "charge": 1,
+        "slots": 2,
+        "slotTotal": 5,
+        "apex": 0,
+        "label": "mass_at_nterm \u00b7 b10:1 \u00b7 scan 10876",
+        "subtitle": "kernel: matched \u00b7 -2.7 ppm \u00b7 M+0 \u00b7 r=0.91 \u00b7 b10 z=1 \u00b7 2/5 slots \u00b110 ppm \u00b7 in-slot apex M+0"
+      },
+      {
+        "ion": "b",
+        "number": 1,
+        "charge": 1,
+        "slots": 0,
+        "slotTotal": 3,
+        "apex": null,
+        "label": "dual_acyl \u00b7 b1:1 \u00b7 scan 8664",
+        "subtitle": "kernel: missingApex \u00b7 apex expected at M+0 \u00b7 b1 z=1 \u00b7 no observed peaks in window"
+      },
+      {
+        "ion": "b",
+        "number": 1,
+        "charge": 1,
+        "slots": 0,
+        "slotTotal": 4,
+        "apex": null,
+        "label": "mass_at_nterm \u00b7 b1:1 \u00b7 scan 8664",
+        "subtitle": "kernel: missingApex \u00b7 apex expected at M+0 \u00b7 b1 z=1 \u00b7 0/4 slots \u00b110 ppm"
+      },
+      {
+        "ion": "b",
+        "number": 1,
+        "charge": 2,
+        "slots": 0,
+        "slotTotal": 3,
+        "apex": null,
+        "label": "dual_acyl \u00b7 b1:2 \u00b7 scan 8664",
+        "subtitle": "b1:2 \u00b7 not a differing prediction for this model \u00b7 b1 z=2 \u00b7 no observed peaks in window"
+      },
+      {
+        "ion": "b",
+        "number": 1,
+        "charge": 2,
+        "slots": 0,
+        "slotTotal": 4,
+        "apex": null,
+        "label": "mass_at_nterm \u00b7 b1:2 \u00b7 scan 8664",
+        "subtitle": "b1:2 \u00b7 not a differing prediction for this model \u00b7 b1 z=2 \u00b7 no observed peaks in window"
+      }
+    ]
+  },
+  "data_csv": "card_full_shared-windows.data.csv"
+}

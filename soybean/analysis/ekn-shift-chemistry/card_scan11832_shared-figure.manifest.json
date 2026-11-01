@@ -1,0 +1,202 @@
+{
+  "figure": "candidate-discrimination-html",
+  "script": "ms2_visualize.py",
+  "version": "0.1.0",
+  "params": {
+    "scan": "11832",
+    "candidates": [
+      {
+        "id": "dual_acyl",
+        "label": "N-myristoyl-G1 + S-palmitoyl-C3 (Met removed)",
+        "proforma": "[Myristoyl]-GNC[Palmitoyl]GSNPKTNEGPEAVPEPVIEEVKVEQKESSEANVETKLKDQTPNDSEIK"
+      },
+      {
+        "id": "mass_at_nterm",
+        "label": "same total mass placed entirely at the N-terminus (placement alternative in span 1-4)",
+        "proforma": "[+448.4280]-GNCGSNPKTNEGPEAVPEPVIEEVKVEQKESSEANVETKLKDQTPNDSEIK"
+      }
+    ],
+    "ion_types": "B,Y",
+    "activation": "beam-type collision-induced dissociation",
+    "max_charge": null,
+    "tolerance_ppm": 10.0,
+    "focus_site": 3,
+    "min_rel_intensity": 0.01
+  },
+  "inputs": [
+    {
+      "path": "Glyco_SoybeanNodule_TPD_M02_19Nov21_21-02-05.mzML",
+      "sha256": "6232aee2945efc5fc1f836d8facf2bf6de311a87e6912748eca0905095a365f1"
+    },
+    {
+      "path": "analysis\\ekn-shift-chemistry\\card_scan11832_shared-evidence.json",
+      "sha256": "e9f0a4d767c55741244cc9418e55cd339dbf14acd159096a3da9be7ea4808467"
+    },
+    {
+      "path": "analysis\\ekn-shift-chemistry\\card_scan11832_shared-figure.data.json",
+      "sha256": "bfe46c5c228e26be32d38d3c07052bd603327630e4eababa2632a50605bbe9d7"
+    }
+  ],
+  "caption": {
+    "candidates": [
+      {
+        "id": "dual_acyl",
+        "total": 76,
+        "counts": {
+          "b": 14,
+          "y": 42
+        },
+        "missingRuns": {
+          "b": [
+            {
+              "start": 1,
+              "end": 2,
+              "length": 2
+            },
+            {
+              "start": 17,
+              "end": 50,
+              "length": 34
+            }
+          ],
+          "y": [
+            {
+              "start": 1,
+              "end": 3,
+              "length": 3
+            },
+            {
+              "start": 41,
+              "end": 44,
+              "length": 4
+            }
+          ]
+        },
+        "siteIons": [
+          {
+            "ion": "b",
+            "number": 3,
+            "states": [
+              {
+                "q": 1,
+                "ppm": 2.062705306468431,
+                "mz": 723.5103759765625
+              }
+            ]
+          },
+          {
+            "ion": "b",
+            "number": 2,
+            "states": []
+          },
+          {
+            "ion": "y",
+            "number": 49,
+            "states": [
+              {
+                "q": 4,
+                "ppm": 0.6185373767789223,
+                "mz": 1398.4683837890625
+              }
+            ]
+          },
+          {
+            "ion": "y",
+            "number": 48,
+            "states": [
+              {
+                "q": 4,
+                "ppm": 2.080153986220075,
+                "mz": 1313.411376953125
+              }
+            ]
+          }
+        ],
+        "seriesDivergence": {
+          "flagged": false,
+          "nMinusCPpm": -0.2546875984152257,
+          "thresholdPpm": 2.0
+        }
+      },
+      {
+        "id": "mass_at_nterm",
+        "total": 74,
+        "counts": {
+          "b": 14,
+          "y": 40
+        },
+        "missingRuns": {
+          "b": [
+            {
+              "start": 1,
+              "end": 2,
+              "length": 2
+            },
+            {
+              "start": 17,
+              "end": 50,
+              "length": 34
+            }
+          ],
+          "y": [
+            {
+              "start": 1,
+              "end": 3,
+              "length": 3
+            },
+            {
+              "start": 41,
+              "end": 44,
+              "length": 4
+            },
+            {
+              "start": 49,
+              "end": 50,
+              "length": 2
+            }
+          ]
+        },
+        "siteIons": [
+          {
+            "ion": "b",
+            "number": 3,
+            "states": [
+              {
+                "q": 1,
+                "ppm": 2.1055864294567996,
+                "mz": 723.5103759765625
+              }
+            ]
+          },
+          {
+            "ion": "b",
+            "number": 2,
+            "states": []
+          },
+          {
+            "ion": "y",
+            "number": 49,
+            "states": []
+          },
+          {
+            "ion": "y",
+            "number": 48,
+            "states": [
+              {
+                "q": 4,
+                "ppm": 2.080153986220075,
+                "mz": 1313.411376953125
+              }
+            ]
+          }
+        ],
+        "seriesDivergence": {
+          "flagged": false,
+          "nMinusCPpm": -0.29624097728543,
+          "thresholdPpm": 2.0
+        }
+      }
+    ],
+    "lineage": "raw MS2 exact-envelope one-flow discrimination"
+  }
+}

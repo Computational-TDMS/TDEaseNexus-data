@@ -1,0 +1,255 @@
+toppic.exe --mass-error-tolerance 15 --proteoform-error-tolerance 3.2 --max-shift 500 --min-shift -500 --num-shift 1 --spectrum-cutoff-type FDR --spectrum-cutoff-value 0.01 --proteoform-cutoff-type FDR --proteoform-cutoff-value 0.01 --activation=FILE --thread-number 21 --decoy --n-terminal-form NONE,NME,NME_ACETYLATION,M_ACETYLATION E:\DMS_Temp_Org\ID_008106_A703C2E3.fasta Glyco_SoybeanNodule_TPD_M01_19Nov21_21-02-05_ms2.msalign
+--------------------------------------------------------------------------------
+TopPIC 1.4.13
+********************** Parameters **********************
+Protein database file:                      	E:\DMS_Temp_Org\ID_008106_A703C2E3.fasta
+Spectrum file:                              	Glyco_SoybeanNodule_TPD_M01_19Nov21_21-02-05_ms2.msalign
+Number of combined spectra:                 	1
+Fragmentation method:                       	FILE
+Search type:                                	TARGET+DECOY
+Fixed modifications:                        	None
+Use TopFD feature file:                     	True
+Maximum number of unexpected modifications: 	1
+Error tolerance for matching masses:        	15 ppm
+Error tolerance for identifying PrSM clusters: 	3.2 Da
+Spectrum-level cutoff type:                 	FDR
+Spectrum-level cutoff value:                	0.01
+Proteoform-level cutoff type:               	FDR
+Proteoform-level cutoff value:              	0.01
+Allowed N-terminal forms:                   	NONE,NME,NME_ACETYLATION,M_ACETYLATION
+Maximum mass shift of modifications:        	500 Da
+Minimum mass shift of modifications:        	-500 Da
+Thread number:                              	21
+E-value computation:                        	Generating function
+Executable file directory:                  	C:\DMS_Programs\TopPIC
+Start time:                                 	Fri Dec 17 14:48:34 2021
+Version:                                    	1.4.13
+********************** Parameters **********************
+Non PTM filtering - started.
+Non PTM filtering - processing 0.000194%.    
+Non PTM filtering - processing 0.0062%.    
+Non PTM filtering - processing 20%.    
+Non PTM filtering - processing 40%.    
+Non PTM filtering - processing 60%.    
+Non PTM filtering - processing 80%.    
+Non PTM filtering - processing 100%.    
+Non PTM filtering - processing 100%.    
+Non PTM filtering - combining blocks started.
+Non PTM filtering - combining blocks finished.
+Non PTM filtering - finished.
+Non PTM search - started.
+Non PTM search - processing 1 of 7586 spectra.
+Non PTM search - processing 250 of 7586 spectra.
+Non PTM search - processing 500 of 7586 spectra.
+Non PTM search - processing 750 of 7586 spectra.
+Non PTM search - processing 1000 of 7586 spectra.
+Non PTM search - processing 1250 of 7586 spectra.
+Non PTM search - processing 1500 of 7586 spectra.
+Non PTM search - processing 1750 of 7586 spectra.
+Non PTM search - processing 2000 of 7586 spectra.
+Non PTM search - processing 2250 of 7586 spectra.
+Non PTM search - processing 2500 of 7586 spectra.
+Non PTM search - processing 2750 of 7586 spectra.
+Non PTM search - processing 3000 of 7586 spectra.
+Non PTM search - processing 3250 of 7586 spectra.
+Non PTM search - processing 3500 of 7586 spectra.
+Non PTM search - processing 3750 of 7586 spectra.
+Non PTM search - processing 4000 of 7586 spectra.
+Non PTM search - processing 4250 of 7586 spectra.
+Non PTM search - processing 4500 of 7586 spectra.
+Non PTM search - processing 4750 of 7586 spectra.
+Non PTM search - processing 5000 of 7586 spectra.
+Non PTM search - processing 5250 of 7586 spectra.
+Non PTM search - processing 5500 of 7586 spectra.
+Non PTM search - processing 5750 of 7586 spectra.
+Non PTM search - processing 6000 of 7586 spectra.
+Non PTM search - processing 6250 of 7586 spectra.
+Non PTM search - processing 6500 of 7586 spectra.
+Non PTM search - processing 6750 of 7586 spectra.
+Non PTM search - processing 7000 of 7586 spectra.
+Non PTM search - processing 7250 of 7586 spectra.
+Non PTM search - processing 7500 of 7586 spectra.
+Non PTM search - processing 7586 of 7586 spectra.
+Non PTM search - finished.
+One PTM filtering - started.
+One PTM filtering - processing 0.000194%.     
+One PTM filtering - processing 20%.     
+One PTM filtering - processing 40%.     
+One PTM filtering - processing 60%.     
+One PTM filtering - processing 80%.     
+One PTM filtering - processing 100%.     
+One PTM filtering - processing 100%.     
+One PTM filtering - combining blocks started.
+One PTM filtering - combining blocks finished.
+One PTM filtering - finished.
+One PTM search - started.
+One PTM search - processing 1 of 7586 spectra.
+One PTM search - processing 250 of 7586 spectra.
+One PTM search - processing 500 of 7586 spectra.
+One PTM search - processing 750 of 7586 spectra.
+One PTM search - processing 1000 of 7586 spectra.
+One PTM search - processing 1250 of 7586 spectra.
+One PTM search - processing 1500 of 7586 spectra.
+One PTM search - processing 1750 of 7586 spectra.
+One PTM search - processing 2000 of 7586 spectra.
+One PTM search - processing 2250 of 7586 spectra.
+One PTM search - processing 2500 of 7586 spectra.
+One PTM search - processing 2750 of 7586 spectra.
+One PTM search - processing 3000 of 7586 spectra.
+One PTM search - processing 3250 of 7586 spectra.
+One PTM search - processing 3500 of 7586 spectra.
+One PTM search - processing 3750 of 7586 spectra.
+One PTM search - processing 4000 of 7586 spectra.
+One PTM search - processing 4250 of 7586 spectra.
+One PTM search - processing 4500 of 7586 spectra.
+One PTM search - processing 4750 of 7586 spectra.
+One PTM search - processing 5000 of 7586 spectra.
+One PTM search - processing 5250 of 7586 spectra.
+One PTM search - processing 5500 of 7586 spectra.
+One PTM search - processing 5750 of 7586 spectra.
+One PTM search - processing 6000 of 7586 spectra.
+One PTM search - processing 6250 of 7586 spectra.
+One PTM search - processing 6500 of 7586 spectra.
+One PTM search - processing 6750 of 7586 spectra.
+One PTM search - processing 7000 of 7586 spectra.
+One PTM search - processing 7250 of 7586 spectra.
+One PTM search - processing 7500 of 7586 spectra.
+One PTM search - processing 7586 of 7586 spectra.
+One PTM search - finished.
+Merging PrSMs - started.
+Merging PrSMs - finished.
+E-value computation - started.
+E-value computation - processing 1 of 7586 spectra.
+E-value computation - processing 250 of 7586 spectra.
+E-value computation - processing 500 of 7586 spectra.
+E-value computation - processing 750 of 7586 spectra.
+E-value computation - processing 1000 of 7586 spectra.
+E-value computation - processing 1250 of 7586 spectra.
+E-value computation - processing 1473 of 7586 spectra.
+LOG WARN: \src\stat\tdgf\evalue_processor.cpp[72]: Invalid e value!
+E-value computation - processing 1500 of 7586 spectra.
+E-value computation - processing 1750 of 7586 spectra.
+E-value computation - processing 2000 of 7586 spectra.
+E-value computation - processing 2250 of 7586 spectra.
+E-value computation - processing 2500 of 7586 spectra.
+E-value computation - processing 2750 of 7586 spectra.
+E-value computation - processing 3000 of 7586 spectra.
+E-value computation - processing 3250 of 7586 spectra.
+E-value computation - processing 3500 of 7586 spectra.
+E-value computation - processing 3750 of 7586 spectra.
+E-value computation - processing 4000 of 7586 spectra.
+E-value computation - processing 4250 of 7586 spectra.
+E-value computation - processing 4500 of 7586 spectra.
+E-value computation - processing 4750 of 7586 spectra.
+E-value computation - processing 5000 of 7586 spectra.
+E-value computation - processing 5250 of 7586 spectra.
+E-value computation - processing 5500 of 7586 spectra.
+E-value computation - processing 5750 of 7586 spectra.
+E-value computation - processing 6000 of 7586 spectra.
+E-value computation - processing 6250 of 7586 spectra.
+E-value computation - processing 6500 of 7586 spectra.
+E-value computation - processing 6750 of 7586 spectra.
+E-value computation - processing 7000 of 7586 spectra.
+E-value computation - processing 7250 of 7586 spectra.
+E-value computation - processing 7500 of 7586 spectra.
+E-value computation - processing 7586 of 7586 spectra.
+E-value computation - finished.
+Top PrSM selecting - started
+Top PrSM selecting - finished.
+Finding PrSM clusters - started.
+Finding PrSM clusters - processing 0.0155%. 
+Finding PrSM clusters - processing 20%. 
+Finding PrSM clusters - processing 40%. 
+Finding PrSM clusters - processing 60%. 
+Finding PrSM clusters - processing 80%. 
+Finding PrSM clusters - processing 100%. 
+Finding PrSM clusters - processing 100%. 
+Finding PrSM clusters - finished.
+FDR computation - started. 
+FDR computation - finished.
+PrSM filtering by FDR - started.
+PrSM filtering by FDR - finished.
+Outputting PrSM table - started.
+Outputting PrSM table - finished.
+Generating PrSM xml files - started.
+Generating xml files - processing 1 PrSMs.
+Generating xml files - processing 250 PrSMs.
+Generating xml files - processing 500 PrSMs.
+Generating xml files - processing 750 PrSMs.
+Generating xml files - processing 1000 PrSMs.
+Generating xml files - processing 1250 PrSMs.
+Generating xml files - processing 1500 PrSMs.
+Generating xml files - processing 1750 PrSMs.
+Generating xml files - processing 2000 PrSMs.
+Generating xml files - processing 2250 PrSMs.
+Generating xml files - preprocessing 682 proteoforms.
+Generating xml files - processing 1 proteoforms.
+Generating xml files - processing 250 proteoforms.
+Generating xml files - processing 500 proteoforms.
+Generating xml files - preprocessing 258 proteins.
+Generating xml files - processing 1 proteins.
+Generating xml files - processing 250 proteins.
+Generating xml files - processing 258 proteins.
+Generating PrSM xml files - finished.
+Converting PrSM xml files to json files - started.
+Converting xml files to html files - processing 1 of 3399 files.
+Converting xml files to html files - processing 250 of 3399 files.
+Converting xml files to html files - processing 500 of 3399 files.
+Converting xml files to html files - processing 750 of 3399 files.
+Converting xml files to html files - processing 1000 of 3399 files.
+Converting xml files to html files - processing 1250 of 3399 files.
+Converting xml files to html files - processing 1500 of 3399 files.
+Converting xml files to html files - processing 1750 of 3399 files.
+Converting xml files to html files - processing 2000 of 3399 files.
+Converting xml files to html files - processing 2250 of 3399 files.
+Converting xml files to html files - processing 2500 of 3399 files.
+Converting xml files to html files - processing 2750 of 3399 files.
+Converting xml files to html files - processing 3000 of 3399 files.
+Converting xml files to html files - processing 3250 of 3399 files.
+Converting xml files to html files - processing 3399 of 3399 files.
+Converting PrSM xml files to json files - finished.
+PrSM filtering by FORMFDR - started.
+PrSM filtering by FORMFDR - finished.
+Selecting top PrSMs for proteoforms - started.
+Selecting top PrSMs for proteoforms - finished.
+Outputting proteoform table - started.
+Outputting proteoform table - finished.
+Generating proteoform xml files - started.
+Generating xml files - processing 1 PrSMs.
+Generating xml files - processing 250 PrSMs.
+Generating xml files - processing 500 PrSMs.
+Generating xml files - processing 750 PrSMs.
+Generating xml files - processing 1000 PrSMs.
+Generating xml files - processing 1250 PrSMs.
+Generating xml files - processing 1500 PrSMs.
+Generating xml files - processing 1750 PrSMs.
+Generating xml files - processing 2000 PrSMs.
+Generating xml files - processing 2250 PrSMs.
+Generating xml files - preprocessing 623 proteoforms.
+Generating xml files - processing 1 proteoforms.
+Generating xml files - processing 250 proteoforms.
+Generating xml files - processing 500 proteoforms.
+Generating xml files - preprocessing 232 proteins.
+Generating xml files - processing 1 proteins.
+Generating xml files - processing 232 proteins.
+Generating proteoform xml files - finished.
+Converting proteoform xml files to html files - started.
+Converting xml files to html files - processing 1 of 3253 files.
+Converting xml files to html files - processing 250 of 3253 files.
+Converting xml files to html files - processing 500 of 3253 files.
+Converting xml files to html files - processing 750 of 3253 files.
+Converting xml files to html files - processing 1000 of 3253 files.
+Converting xml files to html files - processing 1250 of 3253 files.
+Converting xml files to html files - processing 1500 of 3253 files.
+Converting xml files to html files - processing 1750 of 3253 files.
+Converting xml files to html files - processing 2000 of 3253 files.
+Converting xml files to html files - processing 2250 of 3253 files.
+Converting xml files to html files - processing 2500 of 3253 files.
+Converting xml files to html files - processing 2750 of 3253 files.
+Converting xml files to html files - processing 3000 of 3253 files.
+Converting xml files to html files - processing 3250 of 3253 files.
+Converting xml files to html files - processing 3253 of 3253 files.
+Converting proteoform xml files to html files - finished.
+Deleting temporary files - started.
+Deleting temporary files - finished.
+TopPIC finished.

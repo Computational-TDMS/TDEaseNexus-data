@@ -1,0 +1,88 @@
+{
+  "figure": "envelope-mirror",
+  "script": "spectral.py",
+  "version": "0.1.0",
+  "params": {
+    "card": "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\analysis\\ekn-shift-chemistry\\card_scan8664_shared.json",
+    "ppm": 10.0,
+    "ions": [
+      "b1:1",
+      "b2:1"
+    ]
+  },
+  "inputs": [
+    {
+      "path": "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\analysis\\ekn-shift-chemistry\\card_scan8664_shared.json",
+      "sha256": null
+    },
+    {
+      "path": "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\analysis\\ekn-shift-chemistry\\card_scan8664_shared-evidence.json",
+      "sha256": "810530d44fdd65d1368de2eeeb39c6a05dbb2fd5f7ac73e4e7db4d6d359676a4"
+    },
+    {
+      "path": "analysis\\ekn-shift-chemistry\\card_scan8664_shared-windows-theory.json",
+      "sha256": "cd0f6b771eff991e92b98eb31c48ef4c800b153b1d33d2731a2af1eb11675409"
+    },
+    {
+      "path": "analysis\\ekn-shift-chemistry\\card_scan8664_shared-windows.regions0.json",
+      "sha256": "e5126201077362a8dc69cfce8b3d8c787d7f8b0cdf22c4713d460bb037eea4a3"
+    },
+    {
+      "path": "analysis\\ekn-shift-chemistry\\card_scan8664_shared-windows.regions1.json",
+      "sha256": "f633363aeca2c18e63d5b1ff69fb70115a12c59f549fb78bff3a104069f72451"
+    },
+    {
+      "path": "analysis\\ekn-shift-chemistry\\card_scan8664_shared-windows.regions2.json",
+      "sha256": "ae709063fc8364a39510adffdc3e224ed39aca354d82fddff30b6aaa435e6644"
+    },
+    {
+      "path": "analysis\\ekn-shift-chemistry\\card_scan8664_shared-windows.regions3.json",
+      "sha256": "8ed0138f11ed50026636fbc1047cea2c9b23c2ed582a08a1c761b5991a0c5a13"
+    }
+  ],
+  "caption": {
+    "panels": [
+      {
+        "ion": "b",
+        "number": 1,
+        "charge": 1,
+        "slots": 0,
+        "slotTotal": 3,
+        "apex": null,
+        "label": "dual_acyl \u00b7 b1:1 \u00b7 scan 8664",
+        "subtitle": "kernel: missingApex \u00b7 apex expected at M+0 \u00b7 b1 z=1 \u00b7 no observed peaks in window"
+      },
+      {
+        "ion": "b",
+        "number": 1,
+        "charge": 1,
+        "slots": 0,
+        "slotTotal": 4,
+        "apex": null,
+        "label": "mass_at_nterm \u00b7 b1:1 \u00b7 scan 8664",
+        "subtitle": "kernel: missingApex \u00b7 apex expected at M+0 \u00b7 b1 z=1 \u00b7 0/4 slots \u00b110 ppm"
+      },
+      {
+        "ion": "b",
+        "number": 2,
+        "charge": 1,
+        "slots": 0,
+        "slotTotal": 3,
+        "apex": null,
+        "label": "dual_acyl \u00b7 b2:1 \u00b7 scan 8664",
+        "subtitle": "kernel: missingApex \u00b7 apex expected at M+0 \u00b7 b2 z=1 \u00b7 no observed peaks in window"
+      },
+      {
+        "ion": "b",
+        "number": 2,
+        "charge": 1,
+        "slots": 0,
+        "slotTotal": 4,
+        "apex": null,
+        "label": "mass_at_nterm \u00b7 b2:1 \u00b7 scan 8664",
+        "subtitle": "kernel: missingApex \u00b7 apex expected at M+0 \u00b7 b2 z=1 \u00b7 0/4 slots \u00b110 ppm"
+      }
+    ]
+  },
+  "data_csv": "card_scan8664_shared-windows.data.csv"
+}

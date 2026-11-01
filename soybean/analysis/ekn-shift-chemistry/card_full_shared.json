@@ -1,0 +1,1376 @@
+{
+ "card": "measure/ms2",
+ "title": "EKN full length + second charge state",
+ "observation": {
+  "mzml": "Glyco_SoybeanNodule_TPD_M02_19Nov21_21-02-05.mzML",
+  "scans": [
+   "8664",
+   "10876"
+  ],
+  "ionTypes": "",
+  "activation": null,
+  "conditionsByScan": [
+   {
+    "scan": "8664",
+    "activation": "beam-type collision-induced dissociation",
+    "ionTypes": [
+     "b",
+     "y"
+    ],
+    "maxCharge": 1,
+    "maxChargeSource": "fallback",
+    "pooledScans": null,
+    "binPpm": null,
+    "minimumAbundancePct": 0.0
+   },
+   {
+    "scan": "10876",
+    "activation": "beam-type collision-induced dissociation",
+    "ionTypes": [
+     "b",
+     "y"
+    ],
+    "maxCharge": 8,
+    "maxChargeSource": "precursor",
+    "pooledScans": null,
+    "binPpm": null,
+    "minimumAbundancePct": 0.0
+   }
+  ],
+  "maxCharge": null,
+  "maxChargeSource": null,
+  "tolerancePpm": 10.0,
+  "minCorrelation": 0.7,
+  "minIntensity": null,
+  "criterion": "exact isotope-envelope match on raw centroided MS2: the observed cluster is anchored on its most abundant isotope and walked with a monotone cursor, missing slots count as zero, and the full-slot Pearson must clear the kernel's correlation floor. A hit on M+2 is a hit; the isotope offset is reported, not normalized away",
+  "figureScan": "8664",
+  "figureScanNote": "the figure draws scan 8664; the card covers 8664, 10876"
+ },
+ "sequence": "GNCGSNPKTNEGPEAVPEPVIEEVKVEQKESSEANVETKLKDQTPNDSEIKSLGTLLNEKVEEAPKTEEVTAEPKPEEPKTDEVKVQEEKPKAEEAKAET",
+ "length": 100,
+ "sharedBackbone": true,
+ "ionComparisonAvailable": true,
+ "models": [
+  {
+   "id": "dual_acyl",
+   "label": "full length, Met removed: N-myristoyl-G1 + S-palmitoyl-C3",
+   "proforma": "[Myristoyl]-GNC[Palmitoyl]GSNPKTNEGPEAVPEPVIEEVKVEQKESSEANVETKLKDQTPNDSEIKSLGTLLNEKVEEAPKTEEVTAEPKPEEPKTDEVKVQEEKPKAEEAKAET",
+   "bareSequence": "GNCGSNPKTNEGPEAVPEPVIEEVKVEQKESSEANVETKLKDQTPNDSEIKSLGTLLNEKVEEAPKTEEVTAEPKPEEPKTDEVKVQEEKPKAEEAKAET",
+   "modifications": [
+    {
+     "deltaMass": 210.198365448608,
+     "formula": "C14H26O",
+     "localizationEnd": null,
+     "localizationStart": null,
+     "position": "nTerm",
+     "residue": null,
+     "tag": "Myristoyl"
+    },
+    {
+     "deltaMass": 238.22966557619998,
+     "formula": "C16H30O",
+     "localizationEnd": null,
+     "localizationStart": null,
+     "position": "residue:3",
+     "residue": "C",
+     "tag": "Palmitoyl"
+    }
+   ],
+   "measurementByScan": {
+    "8664": {
+     "matchedIons": 0,
+     "coverage": 0.0,
+     "discriminatingMatched": 0,
+     "uniqueCleavages": 0
+    },
+    "10876": {
+     "matchedIons": 33,
+     "coverage": 0.2828282828282828,
+     "discriminatingMatched": 0,
+     "uniqueCleavages": 28,
+     "medianAbsErrorPpm": 1.8220389378934376,
+     "p95AbsErrorPpm": 4.4770006727451195
+    }
+   }
+  },
+  {
+   "id": "mass_at_nterm",
+   "label": "full length, same total mass placed entirely at the N-terminus",
+   "proforma": "[+448.4280]-GNCGSNPKTNEGPEAVPEPVIEEVKVEQKESSEANVETKLKDQTPNDSEIKSLGTLLNEKVEEAPKTEEVTAEPKPEEPKTDEVKVQEEKPKAEEAKAET",
+   "bareSequence": "GNCGSNPKTNEGPEAVPEPVIEEVKVEQKESSEANVETKLKDQTPNDSEIKSLGTLLNEKVEEAPKTEEVTAEPKPEEPKTDEVKVQEEKPKAEEAKAET",
+   "modifications": [
+    {
+     "deltaMass": 448.428,
+     "formula": null,
+     "localizationEnd": null,
+     "localizationStart": null,
+     "position": "nTerm",
+     "residue": null,
+     "tag": "+448.4280"
+    }
+   ],
+   "measurementByScan": {
+    "8664": {
+     "matchedIons": 0,
+     "coverage": 0.0,
+     "discriminatingMatched": 0,
+     "uniqueCleavages": 0
+    },
+    "10876": {
+     "matchedIons": 34,
+     "coverage": 0.29292929292929293,
+     "discriminatingMatched": 1,
+     "uniqueCleavages": 29,
+     "medianAbsErrorPpm": 1.8555738465076121,
+     "p95AbsErrorPpm": 4.4770006727451195
+    }
+   }
+  }
+ ],
+ "verdict": {
+  "diffSites": [
+   3,
+   "nTerm"
+  ],
+  "compositionDeltaDa": [
+   {
+    "model": "mass_at_nterm",
+    "vs": "dual_acyl",
+    "deltaDa": -3.102480695815757e-05
+   }
+  ],
+  "differences": {
+   "predictedDiffer": 808,
+   "predictedIdentical": 873,
+   "measuredDiffer": 1,
+   "note": "predictedDiffer counts ions whose theoretical m/z differs between models; predictedIdentical counts ions every model predicts at the same m/z (numerically identical) — those share m/z predictions; isotope compositions may still differ. measuredDiffer counts ions where the kernel's accepted matches differ between models. Whether a predicted difference is resolvable under this measurement depends on tolerance, charge ceiling and interference — reported as conditions, not pre-judged here.",
+   "ambiguity": "identity, sequence, modification identity and site localization are different questions: matchedBy on an ion covering a differing site speaks to placement; compositionDeltaDa speaks to composition; neither alone establishes identity."
+  },
+  "differingIonKeys": 808,
+  "discriminatingIonKeys": 1,
+  "ions": [
+   {
+    "ion": "b",
+    "number": 10,
+    "charge": 1,
+    "label": "b10:1",
+    "role": "discriminator",
+    "reportsSites": {
+     "from": 1,
+     "to": 10
+    },
+    "coversDiffSites": [
+     3,
+     "nTerm"
+    ],
+    "matchedBy": {
+     "mass_at_nterm": [
+      "10876"
+     ]
+    },
+    "cellsByScan": {
+     "8664": {
+      "dual_acyl": {
+       "state": "missingApex",
+       "theoreticalMz": 1421.843635912617,
+       "apexOffset": 0
+      },
+      "mass_at_nterm": {
+       "state": "missingApex",
+       "theoreticalMz": 1421.8436048878089,
+       "apexOffset": 0
+      }
+     },
+     "10876": {
+      "dual_acyl": {
+       "state": "correlationRejected",
+       "theoreticalMz": 1421.843635912617,
+       "apexOffset": 0,
+       "correlation": -0.442104696362974
+      },
+      "mass_at_nterm": {
+       "state": "matched",
+       "theoreticalMz": 1421.8436048878089,
+       "apexOffset": 0,
+       "correlation": 0.9087873080346944,
+       "observedMz": 1421.8397216796875,
+       "errorPpm": -2.7311077730365083,
+       "isotopeOffset": 0,
+       "intensity": 2556.92529296875
+      }
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 1,
+    "charge": 1,
+    "label": "b1:1",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 1
+    },
+    "coversDiffSites": [
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cellsByScan": {
+     "8664": {
+      "dual_acyl": {
+       "state": "missingApex",
+       "theoreticalMz": 268.2271056198009,
+       "apexOffset": 0
+      },
+      "mass_at_nterm": {
+       "state": "missingApex",
+       "theoreticalMz": 506.45674017119285,
+       "apexOffset": 0
+      }
+     },
+     "10876": {
+      "dual_acyl": {
+       "state": "missingApex",
+       "theoreticalMz": 268.2271056198009,
+       "apexOffset": 0
+      },
+      "mass_at_nterm": {
+       "state": "missingApex",
+       "theoreticalMz": 506.45674017119285,
+       "apexOffset": 0
+      }
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 1,
+    "charge": 2,
+    "label": "b1:2",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 1
+    },
+    "coversDiffSites": [
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "missingApex",
+      "theoreticalMz": 134.61719103589493,
+      "apexOffset": 0
+     },
+     "mass_at_nterm": {
+      "state": "missingApex",
+      "theoreticalMz": 253.73200831159093,
+      "apexOffset": 0
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 1,
+    "charge": 3,
+    "label": "b1:3",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 1
+    },
+    "coversDiffSites": [
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "missingApex",
+      "theoreticalMz": 90.0805528412596,
+      "apexOffset": 0
+     },
+     "mass_at_nterm": {
+      "state": "missingApex",
+      "theoreticalMz": 169.49043102505692,
+      "apexOffset": 0
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 1,
+    "charge": 4,
+    "label": "b1:4",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 1
+    },
+    "coversDiffSites": [
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "missingApex",
+      "theoreticalMz": 67.81223374394193,
+      "apexOffset": 0
+     },
+     "mass_at_nterm": {
+      "state": "missingApex",
+      "theoreticalMz": 127.36964238178993,
+      "apexOffset": 0
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 1,
+    "charge": 5,
+    "label": "b1:5",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 1
+    },
+    "coversDiffSites": [
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "unreasonableCharge",
+      "theoreticalMz": 54.45124228555134,
+      "apexOffset": 0
+     },
+     "mass_at_nterm": {
+      "state": "unreasonableCharge",
+      "theoreticalMz": 102.09716919582972,
+      "apexOffset": 0
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 1,
+    "charge": 6,
+    "label": "b1:6",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 1
+    },
+    "coversDiffSites": [
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "unreasonableCharge",
+      "theoreticalMz": 45.54391464662427,
+      "apexOffset": 0
+     },
+     "mass_at_nterm": {
+      "state": "unreasonableCharge",
+      "theoreticalMz": 85.24885373852293,
+      "apexOffset": 0
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 1,
+    "charge": 7,
+    "label": "b1:7",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 1
+    },
+    "coversDiffSites": [
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "unreasonableCharge",
+      "theoreticalMz": 39.18153776167636,
+      "apexOffset": 0
+     },
+     "mass_at_nterm": {
+      "state": "unreasonableCharge",
+      "theoreticalMz": 73.2143426975895,
+      "apexOffset": 0
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 1,
+    "charge": 8,
+    "label": "b1:8",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 1
+    },
+    "coversDiffSites": [
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "unreasonableCharge",
+      "theoreticalMz": 34.40975509796544,
+      "apexOffset": 0
+     },
+     "mass_at_nterm": {
+      "state": "unreasonableCharge",
+      "theoreticalMz": 64.18845941688943,
+      "apexOffset": 0
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 2,
+    "charge": 1,
+    "label": "b2:1",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 2
+    },
+    "coversDiffSites": [
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cellsByScan": {
+     "8664": {
+      "dual_acyl": {
+       "state": "missingApex",
+       "theoreticalMz": 382.2700330582089,
+       "apexOffset": 0
+      },
+      "mass_at_nterm": {
+       "state": "missingApex",
+       "theoreticalMz": 620.4996676096009,
+       "apexOffset": 0
+      }
+     },
+     "10876": {
+      "dual_acyl": {
+       "state": "missingApex",
+       "theoreticalMz": 382.2700330582089,
+       "apexOffset": 0
+      },
+      "mass_at_nterm": {
+       "state": "missingApex",
+       "theoreticalMz": 620.4996676096009,
+       "apexOffset": 0
+      }
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 2,
+    "charge": 2,
+    "label": "b2:2",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 2
+    },
+    "coversDiffSites": [
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "missingApex",
+      "theoreticalMz": 191.63865475509894,
+      "apexOffset": 0
+     },
+     "mass_at_nterm": {
+      "state": "missingApex",
+      "theoreticalMz": 310.7534720307949,
+      "apexOffset": 0
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 2,
+    "charge": 3,
+    "label": "b2:3",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 2
+    },
+    "coversDiffSites": [
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "missingApex",
+      "theoreticalMz": 128.0948619873956,
+      "apexOffset": 0
+     },
+     "mass_at_nterm": {
+      "state": "missingApex",
+      "theoreticalMz": 207.5047401711929,
+      "apexOffset": 0
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 2,
+    "charge": 4,
+    "label": "b2:4",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 2
+    },
+    "coversDiffSites": [
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "missingApex",
+      "theoreticalMz": 96.32296560354393,
+      "apexOffset": 0
+     },
+     "mass_at_nterm": {
+      "state": "missingApex",
+      "theoreticalMz": 155.88037424139193,
+      "apexOffset": 0
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 2,
+    "charge": 5,
+    "label": "b2:5",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 2
+    },
+    "coversDiffSites": [
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "unreasonableCharge",
+      "theoreticalMz": 77.25982777323294,
+      "apexOffset": 0
+     },
+     "mass_at_nterm": {
+      "state": "unreasonableCharge",
+      "theoreticalMz": 124.90575468351133,
+      "apexOffset": 0
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 2,
+    "charge": 6,
+    "label": "b2:6",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 2
+    },
+    "coversDiffSites": [
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "unreasonableCharge",
+      "theoreticalMz": 64.55106921969227,
+      "apexOffset": 0
+     },
+     "mass_at_nterm": {
+      "state": "unreasonableCharge",
+      "theoreticalMz": 104.25600831159095,
+      "apexOffset": 0
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 2,
+    "charge": 7,
+    "label": "b2:7",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 2
+    },
+    "coversDiffSites": [
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "unreasonableCharge",
+      "theoreticalMz": 55.473384538591795,
+      "apexOffset": 0
+     },
+     "mass_at_nterm": {
+      "state": "unreasonableCharge",
+      "theoreticalMz": 89.50618947450494,
+      "apexOffset": 0
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 2,
+    "charge": 8,
+    "label": "b2:8",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 2
+    },
+    "coversDiffSites": [
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "unreasonableCharge",
+      "theoreticalMz": 48.66512102776644,
+      "apexOffset": 0
+     },
+     "mass_at_nterm": {
+      "state": "unreasonableCharge",
+      "theoreticalMz": 78.44382534669043,
+      "apexOffset": 0
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 3,
+    "charge": 1,
+    "label": "b3:1",
+    "role": "sharedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 3
+    },
+    "coversDiffSites": [
+     3,
+     "nTerm"
+    ],
+    "matchedBy": {
+     "dual_acyl": [
+      "10876"
+     ],
+     "mass_at_nterm": [
+      "10876"
+     ]
+    },
+    "cellsByScan": {
+     "8664": {
+      "dual_acyl": {
+       "state": "missingApex",
+       "theoreticalMz": 723.508883590949,
+       "apexOffset": 0
+      },
+      "mass_at_nterm": {
+       "state": "missingApex",
+       "theoreticalMz": 723.508852566141,
+       "apexOffset": 0
+      }
+     },
+     "10876": {
+      "dual_acyl": {
+       "state": "matched",
+       "theoreticalMz": 723.508883590949,
+       "apexOffset": 0,
+       "correlation": 0.9133248951252415,
+       "observedMz": 723.5103149414062,
+       "errorPpm": 1.9783453799571384,
+       "isotopeOffset": 0,
+       "intensity": 1866.5849609375
+      },
+      "mass_at_nterm": {
+       "state": "matched",
+       "theoreticalMz": 723.508852566141,
+       "apexOffset": 0,
+       "correlation": 0.9981931789422331,
+       "observedMz": 723.5103149414062,
+       "errorPpm": 2.021226499328066,
+       "isotopeOffset": 0,
+       "intensity": 1866.5849609375
+      }
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 3,
+    "charge": 2,
+    "label": "b3:2",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 3
+    },
+    "coversDiffSites": [
+     3,
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "missingApex",
+      "theoreticalMz": 362.25808002146897,
+      "apexOffset": 0
+     },
+     "mass_at_nterm": {
+      "state": "missingApex",
+      "theoreticalMz": 362.258064509065,
+      "apexOffset": 0
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 3,
+    "charge": 3,
+    "label": "b3:3",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 3
+    },
+    "coversDiffSites": [
+     3,
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "missingApex",
+      "theoreticalMz": 241.84114549830898,
+      "apexOffset": 0
+     },
+     "mass_at_nterm": {
+      "state": "missingApex",
+      "theoreticalMz": 241.8411351567063,
+      "apexOffset": 0
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 3,
+    "charge": 4,
+    "label": "b3:4",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 3
+    },
+    "coversDiffSites": [
+     3,
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "missingApex",
+      "theoreticalMz": 181.63267823672896,
+      "apexOffset": 0
+     },
+     "mass_at_nterm": {
+      "state": "missingApex",
+      "theoreticalMz": 181.63267048052694,
+      "apexOffset": 0
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 3,
+    "charge": 5,
+    "label": "b3:5",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 3
+    },
+    "coversDiffSites": [
+     3,
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "unreasonableCharge",
+      "theoreticalMz": 145.50759787978095,
+      "apexOffset": 0
+     },
+     "mass_at_nterm": {
+      "state": "unreasonableCharge",
+      "theoreticalMz": 145.50759167481934,
+      "apexOffset": 0
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 3,
+    "charge": 6,
+    "label": "b3:6",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 3
+    },
+    "coversDiffSites": [
+     3,
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "unreasonableCharge",
+      "theoreticalMz": 121.42421097514894,
+      "apexOffset": 0
+     },
+     "mass_at_nterm": {
+      "state": "unreasonableCharge",
+      "theoreticalMz": 121.4242058043476,
+      "apexOffset": 0
+     }
+    }
+   },
+   {
+    "ion": "b",
+    "number": 3,
+    "charge": 7,
+    "label": "b3:7",
+    "role": "noAcceptedMatch",
+    "reportsSites": {
+     "from": 1,
+     "to": 3
+    },
+    "coversDiffSites": [
+     3,
+     "nTerm"
+    ],
+    "matchedBy": {},
+    "cells": {
+     "dual_acyl": {
+      "state": "unreasonableCharge",
+      "theoreticalMz": 104.22179175755467,
+      "apexOffset": 0
+     },
+     "mass_at_nterm": {
+      "state": "unreasonableCharge",
+      "theoreticalMz": 104.22178732543921,
+      "apexOffset": 0
+     }
+    }
+   }
+  ],
+  "degenerateMatched": [
+   {
+    "ion": "y",
+    "number": 4,
+    "charge": 1,
+    "label": "y4:1",
+    "role": "degenerateMatch",
+    "reportsSites": {
+     "from": 97,
+     "to": 100
+    },
+    "coversDiffSites": [],
+    "degenerateAmong": [
+     "dual_acyl",
+     "mass_at_nterm"
+    ],
+    "matchedBy": {
+     "dual_acyl": [
+      "10876"
+     ],
+     "mass_at_nterm": [
+      "10876"
+     ]
+    },
+    "cellsByScan": {
+     "8664": {
+      "dual_acyl": {
+       "state": "missingApex",
+       "theoreticalMz": 448.24018947995296,
+       "apexOffset": 0
+      },
+      "mass_at_nterm": {
+       "state": "missingApex",
+       "theoreticalMz": 448.24018947995296,
+       "apexOffset": 0
+      }
+     },
+     "10876": {
+      "dual_acyl": {
+       "state": "matched",
+       "theoreticalMz": 448.24018947995296,
+       "apexOffset": 0,
+       "correlation": 0.984270202649611,
+       "observedMz": 448.2406311035156,
+       "errorPpm": 0.9852386578216976,
+       "isotopeOffset": 0,
+       "intensity": 2646.337158203125
+      },
+      "mass_at_nterm": {
+       "state": "matched",
+       "theoreticalMz": 448.24018947995296,
+       "apexOffset": 0,
+       "correlation": 0.984270202649611,
+       "observedMz": 448.2406311035156,
+       "errorPpm": 0.9852386578216976,
+       "isotopeOffset": 0,
+       "intensity": 2646.337158203125
+      }
+     }
+    }
+   },
+   {
+    "ion": "y",
+    "number": 5,
+    "charge": 1,
+    "label": "y5:1",
+    "role": "degenerateMatch",
+    "reportsSites": {
+     "from": 96,
+     "to": 100
+    },
+    "coversDiffSites": [],
+    "degenerateAmong": [
+     "dual_acyl",
+     "mass_at_nterm"
+    ],
+    "matchedBy": {
+     "dual_acyl": [
+      "10876"
+     ],
+     "mass_at_nterm": [
+      "10876"
+     ]
+    },
+    "cellsByScan": {
+     "8664": {
+      "dual_acyl": {
+       "state": "missingApex",
+       "theoreticalMz": 519.277303262953,
+       "apexOffset": 0
+      },
+      "mass_at_nterm": {
+       "state": "missingApex",
+       "theoreticalMz": 519.277303262953,
+       "apexOffset": 0
+      }
+     },
+     "10876": {
+      "dual_acyl": {
+       "state": "matched",
+       "theoreticalMz": 519.277303262953,
+       "apexOffset": 0,
+       "correlation": 0.9783539796996307,
+       "observedMz": 519.2785034179688,
+       "errorPpm": 2.3112025275385424,
+       "isotopeOffset": 0,
+       "intensity": 3064.724853515625
+      },
+      "mass_at_nterm": {
+       "state": "matched",
+       "theoreticalMz": 519.277303262953,
+       "apexOffset": 0,
+       "correlation": 0.9783539796996307,
+       "observedMz": 519.2785034179688,
+       "errorPpm": 2.3112025275385424,
+       "isotopeOffset": 0,
+       "intensity": 3064.724853515625
+      }
+     }
+    }
+   },
+   {
+    "ion": "y",
+    "number": 6,
+    "charge": 1,
+    "label": "y6:1",
+    "role": "degenerateMatch",
+    "reportsSites": {
+     "from": 95,
+     "to": 100
+    },
+    "coversDiffSites": [],
+    "degenerateAmong": [
+     "dual_acyl",
+     "mass_at_nterm"
+    ],
+    "matchedBy": {
+     "dual_acyl": [
+      "10876"
+     ],
+     "mass_at_nterm": [
+      "10876"
+     ]
+    },
+    "cellsByScan": {
+     "8664": {
+      "dual_acyl": {
+       "state": "missingApex",
+       "theoreticalMz": 648.3198963482689,
+       "apexOffset": 0
+      },
+      "mass_at_nterm": {
+       "state": "missingApex",
+       "theoreticalMz": 648.3198963482689,
+       "apexOffset": 0
+      }
+     },
+     "10876": {
+      "dual_acyl": {
+       "state": "matched",
+       "theoreticalMz": 648.3198963482689,
+       "apexOffset": 0,
+       "correlation": 0.9569011059267858,
+       "observedMz": 648.3209228515625,
+       "errorPpm": 1.5833283836722514,
+       "isotopeOffset": 0,
+       "intensity": 1851.8514404296875
+      },
+      "mass_at_nterm": {
+       "state": "matched",
+       "theoreticalMz": 648.3198963482689,
+       "apexOffset": 0,
+       "correlation": 0.9569011059267858,
+       "observedMz": 648.3209228515625,
+       "errorPpm": 1.5833283836722514,
+       "isotopeOffset": 0,
+       "intensity": 1851.8514404296875
+      }
+     }
+    }
+   }
+  ],
+  "degenerateMatchedTotal": 22,
+  "roleGlossary": {
+   "discriminator": "models predict different m/z for this ion; a match here separates them",
+   "sharedMatch": "matched by some model but not marked discriminating by the kernel",
+   "noAcceptedMatch": "prediction differs but no model obtained an accepted envelope match — absence of acceptance, not evidence of absence",
+   "degenerateMatch": "every model predicts the same m/z and the ion is matched — measured, but it separates nothing among degenerateAmong; it grounds span/window statements only"
+  },
+  "contestedPeaks": [
+   {
+    "scan": "10876",
+    "observedMz": 1565.135009765625,
+    "claims": [
+     {
+      "mz": 1565.135009765625,
+      "model": "dual_acyl",
+      "label": "y84:6",
+      "isotopeOffset": 5,
+      "errorPpm": 0.24863839660977402,
+      "intensity": 54898.9296875
+     },
+     {
+      "mz": 1565.135009765625,
+      "model": "mass_at_nterm",
+      "label": "y84:6",
+      "isotopeOffset": 5,
+      "errorPpm": 0.24863839660977402,
+      "intensity": 54898.9296875
+     }
+    ]
+   },
+   {
+    "scan": "10876",
+    "observedMz": 1420.7274169921875,
+    "claims": [
+     {
+      "mz": 1420.7274169921875,
+      "model": "dual_acyl",
+      "label": "y25:2",
+      "isotopeOffset": 1,
+      "errorPpm": 8.257689476617827,
+      "intensity": 11918.4091796875
+     },
+     {
+      "mz": 1420.7274169921875,
+      "model": "mass_at_nterm",
+      "label": "y25:2",
+      "isotopeOffset": 1,
+      "errorPpm": 8.257689476617827,
+      "intensity": 11918.4091796875
+     }
+    ]
+   },
+   {
+    "scan": "10876",
+    "observedMz": 1073.5504150390625,
+    "claims": [
+     {
+      "mz": 1073.5504150390625,
+      "model": "dual_acyl",
+      "label": "y10:1",
+      "isotopeOffset": 0,
+      "errorPpm": 2.8736181994929133,
+      "intensity": 8077.83544921875
+     },
+     {
+      "mz": 1073.5504150390625,
+      "model": "mass_at_nterm",
+      "label": "y10:1",
+      "isotopeOffset": 0,
+      "errorPpm": 2.8736181994929133,
+      "intensity": 8077.83544921875
+     }
+    ]
+   },
+   {
+    "scan": "10876",
+    "observedMz": 953.5277099609375,
+    "claims": [
+     {
+      "mz": 953.5277099609375,
+      "model": "dual_acyl",
+      "label": "b15:2",
+      "isotopeOffset": 1,
+      "errorPpm": 2.4253154923640188,
+      "intensity": 7771.57958984375
+     },
+     {
+      "mz": 953.5277099609375,
+      "model": "mass_at_nterm",
+      "label": "b15:2",
+      "isotopeOffset": 1,
+      "errorPpm": 2.4415840069223056,
+      "intensity": 7771.57958984375
+     }
+    ]
+   },
+   {
+    "scan": "10876",
+    "observedMz": 1533.79248046875,
+    "claims": [
+     {
+      "mz": 1533.79248046875,
+      "model": "dual_acyl",
+      "label": "y27:2",
+      "isotopeOffset": 2,
+      "errorPpm": 0.8178805157752363,
+      "intensity": 7538.291015625
+     },
+     {
+      "mz": 1533.79248046875,
+      "model": "mass_at_nterm",
+      "label": "y27:2",
+      "isotopeOffset": 2,
+      "errorPpm": 0.8178805157752363,
+      "intensity": 7538.291015625
+     }
+    ]
+   },
+   {
+    "scan": "10876",
+    "observedMz": 1607.9093017578125,
+    "claims": [
+     {
+      "mz": 1607.9093017578125,
+      "model": "dual_acyl",
+      "label": "b12:1",
+      "isotopeOffset": 0,
+      "errorPpm": 1.0007046318585293,
+      "intensity": 6933.9521484375
+     },
+     {
+      "mz": 1607.9093017578125,
+      "model": "mass_at_nterm",
+      "label": "b12:1",
+      "isotopeOffset": 0,
+      "errorPpm": 1.019999794062708,
+      "intensity": 6933.9521484375
+     }
+    ]
+   },
+   {
+    "scan": "10876",
+    "observedMz": 2005.1153564453125,
+    "claims": [
+     {
+      "mz": 2005.1153564453125,
+      "model": "dual_acyl",
+      "label": "b16:1",
+      "isotopeOffset": 1,
+      "errorPpm": 1.707767340384743,
+      "intensity": 6803.35302734375
+     },
+     {
+      "mz": 2005.1153564453125,
+      "model": "mass_at_nterm",
+      "label": "b16:1",
+      "isotopeOffset": 1,
+      "errorPpm": 1.723240223113966,
+      "intensity": 6803.35302734375
+     }
+    ]
+   },
+   {
+    "scan": "10876",
+    "observedMz": 1527.6220703125,
+    "claims": [
+     {
+      "mz": 1527.6220703125,
+      "model": "dual_acyl",
+      "label": "y82:6",
+      "isotopeOffset": 6,
+      "errorPpm": 1.8220389378934376,
+      "intensity": 6800.26025390625
+     },
+     {
+      "mz": 1527.6220703125,
+      "model": "mass_at_nterm",
+      "label": "y82:6",
+      "isotopeOffset": 6,
+      "errorPpm": 1.8220389378934376,
+      "intensity": 6800.26025390625
+     }
+    ]
+   }
+  ],
+  "contestedPeakNote": "observed peaks matched by more than one model/ion pair — read them before counting either model's match as independent support",
+  "byScan": [
+   {
+    "scan": "8664",
+    "discriminatingIonCount": 0,
+    "perModel": {
+     "dual_acyl": {
+      "matchedIons": 0,
+      "coverage": 0.0,
+      "discriminatingMatched": 0,
+      "uniqueCleavages": 0
+     },
+     "mass_at_nterm": {
+      "matchedIons": 0,
+      "coverage": 0.0,
+      "discriminatingMatched": 0,
+      "uniqueCleavages": 0
+     }
+    }
+   },
+   {
+    "scan": "10876",
+    "discriminatingIonCount": 1,
+    "perModel": {
+     "dual_acyl": {
+      "matchedIons": 33,
+      "coverage": 0.2828282828282828,
+      "discriminatingMatched": 0,
+      "uniqueCleavages": 28,
+      "medianAbsErrorPpm": 1.8220389378934376,
+      "p95AbsErrorPpm": 4.4770006727451195
+     },
+     "mass_at_nterm": {
+      "matchedIons": 34,
+      "coverage": 0.29292929292929293,
+      "discriminatingMatched": 1,
+      "uniqueCleavages": 29,
+      "medianAbsErrorPpm": 1.8555738465076121,
+      "p95AbsErrorPpm": 4.4770006727451195
+     }
+    }
+   }
+  ]
+ },
+ "siteWindows": {
+  "diffSites": [
+   3,
+   "nTerm"
+  ],
+  "rows": [
+   {
+    "scan": "8664",
+    "model": "dual_acyl",
+    "leftCleavage": 2,
+    "matchedLeft": 0,
+    "matchedRight": 0,
+    "position": 3,
+    "rightCleavage": 3
+   },
+   {
+    "scan": "10876",
+    "model": "dual_acyl",
+    "leftCleavage": 2,
+    "matchedLeft": 0,
+    "matchedRight": 1,
+    "position": 3,
+    "rightCleavage": 3
+   }
+  ],
+  "truncated": 0,
+  "note": "leftCleavage/rightCleavage count the model's own cleavages around the site; matchedLeft/matchedRight count how many were observed"
+ },
+ "uninformative": {
+  "identicalPrediction": 873,
+  "noModelMatched": 796,
+  "note": "identicalPrediction: ions every model predicts at the same m/z (numerically identical — not a separability claim) — they can share m/z, not necessarily isotope composition. noModelMatched: ions whose prediction differs but which no model obtained an accepted envelope match on any measured scan — an unaccepted match is absence of acceptance, not evidence of absence, unless observability is argued. The matched subset of identicalPrediction is not dropped silently — verdict.degenerateMatched lists those ions with the models they cannot separate and their full measured values. This block counts the verdict's remainder; it is not a second verdict"
+ },
+ "isotopeBorrowPairs": [],
+ "warnings": [
+  "scan 8664: no precursor charge; maxCharge falls back to 1; supply --max-charge for another ceiling",
+  "8 observed peaks are claimed by more than one model/ion pair: the models' isotope combs are offset, so the same peak can be one model's monoisotopic fragment and another's M+2. Those matches are not independent support for either model — competing explanations of one peak are a normal state that marks the evidence as shared or ambiguous and asks for a look, not an elimination of either candidate. See verdict.contestedPeaks and the windows via `show`",
+  "the models differ at the N-terminus: N-terminal (a/b/c) ions contain that terminal group; C-terminal (x/y/z) fragments do not. Other modifications may cancel a shift — check coversDiffSites before reading any ion as separating; a whole-spectrum mass shift is not a site localization",
+  "verdict list truncated to 24 of 808 differing ions (the most separating first) — full tables: {'path': 'C:\\\\Users\\\\USER\\\\Desktop\\\\TDEase-zero\\\\data\\\\soybean-paper-ws\\\\runs\\\\soybean-all\\\\analysis\\\\ekn-shift-chemistry\\\\card_full_shared-evidence.json', 'size': 1704103}"
+ ],
+ "audit": {
+  "evidence": {
+   "path": "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\analysis\\ekn-shift-chemistry\\card_full_shared-evidence.json",
+   "size": 1704103
+  },
+  "figure": "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\analysis\\ekn-shift-chemistry\\card_full_shared-figure.html",
+  "written": [
+   "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\analysis\\ekn-shift-chemistry\\card_full_shared.json",
+   "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\analysis\\ekn-shift-chemistry\\card_full_shared-figure.html",
+   "analysis\\ekn-shift-chemistry\\card_full_shared-windows.html",
+   "analysis\\ekn-shift-chemistry\\card_full_shared-windows-theory.json",
+   "analysis\\ekn-shift-chemistry\\card_full_shared-windows.regions0.json",
+   "analysis\\ekn-shift-chemistry\\card_full_shared-windows.regions1.json",
+   "analysis\\ekn-shift-chemistry\\card_full_shared-windows.regions2.json",
+   "analysis\\ekn-shift-chemistry\\card_full_shared-windows.regions3.json",
+   "analysis\\ekn-shift-chemistry\\card_full_shared-windows.regions4.json",
+   "analysis\\ekn-shift-chemistry\\card_full_shared-windows.regions5.json"
+  ],
+  "figureManifest": "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\analysis\\ekn-shift-chemistry\\card_full_shared-figure.manifest.json",
+  "windowsFigure": "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\analysis\\ekn-shift-chemistry\\card_full_shared-windows.html",
+  "windowsManifest": "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\analysis\\ekn-shift-chemistry\\card_full_shared-windows.manifest.json"
+ },
+ "next": [
+  {
+   "status": "some separating matches share observed peaks (contested or isotope-borrowed) — the ambiguity is visible, not resolved",
+   "stillUsable": [
+    {
+     "capability": "window inspection of the shared/borrowed ions",
+     "inputs": "spectral.py show <card> --ions <ion:charge,...>"
+    }
+   ]
+  }
+ ]
+}

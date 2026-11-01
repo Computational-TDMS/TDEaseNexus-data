@@ -1,0 +1,20 @@
+# Precursor window size (in m/z)
+PrecursorWindow=1
+
+# Error tolerance of m/z values of spectral peaks
+MzError=0.02
+
+# Signal/noise ratio threshold for MS1 spectra
+SNRatioMS1=3
+
+# Signal/noise ratio threshold for MS2 spectra
+SNRatioMS2=1
+
+# Maximum charge state of precursor and fragment ions
+MaxCharge=30
+
+# Maximum monoisotopic mass of precursor and fragment ions
+MaxMass=50000
+
+# Set to True if the instrument files does not contain MS1 spectra
+MS1Missing=False

@@ -1,0 +1,176 @@
+{
+  "calibration": {
+    "reference_dataset": "Glyco_SoybeanNodule_TPD_WT02_19Nov21_21-02-05",
+    "stage": "recalibrate_ms2"
+  },
+  "config": {
+    "cluster_height": 3.0,
+    "cluster_method": "ward",
+    "cluster_min_size": 2,
+    "fdr_threshold": 0.01,
+    "mass_error_sd": 3.0,
+    "n_jobs": 1,
+    "occurrence_threshold": 2,
+    "rt_error_sd": 3.0
+  },
+  "inputs": {
+    "fasta": [
+      {
+        "path": "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\Glycine.fasta",
+        "size_bytes": 66012200
+      }
+    ],
+    "ms1": [
+      {
+        "path": "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\Glyco_SoybeanNodule_TPD_M01_19Nov21_21-02-05_ms1.feature",
+        "size_bytes": 2751539
+      },
+      {
+        "path": "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\Glyco_SoybeanNodule_TPD_M02_19Nov21_21-02-05_ms1.feature",
+        "size_bytes": 2498356
+      },
+      {
+        "path": "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\Glyco_SoybeanNodule_TPD_M03_19Nov21_21-02-05_ms1.feature",
+        "size_bytes": 2533622
+      },
+      {
+        "path": "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\Glyco_SoybeanNodule_TPD_M04_19Nov21_21-02-05_ms1.feature",
+        "size_bytes": 2632414
+      },
+      {
+        "path": "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\Glyco_SoybeanNodule_TPD_M05_19Nov21_21-02-05_ms1.feature",
+        "size_bytes": 2816684
+      },
+      {
+        "path": "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\Glyco_SoybeanNodule_TPD_WT01_19Nov21_21-02-05_ms1.feature",
+        "size_bytes": 2847203
+      },
+      {
+        "path": "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\Glyco_SoybeanNodule_TPD_WT02_19Nov21_21-02-05_ms1.feature",
+        "size_bytes": 2891686
+      },
+      {
+        "path": "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\Glyco_SoybeanNodule_TPD_WT03_19Nov21_21-02-05_ms1.feature",
+        "size_bytes": 2828309
+      },
+      {
+        "path": "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\Glyco_SoybeanNodule_TPD_WT04_19Nov21_21-02-05_ms1.feature",
+        "size_bytes": 2840552
+      },
+      {
+        "path": "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\Glyco_SoybeanNodule_TPD_WT05_19Nov21_21-02-05_ms1.feature",
+        "size_bytes": 2917622
+      }
+    ],
+    "ms2": [
+      {
+        "path": "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\Glyco_SoybeanNodule_TPD_M01_19Nov21_21-02-05_ms2_toppic_prsm.tsv",
+        "size_bytes": 2086601
+      },
+      {
+        "path": "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\Glyco_SoybeanNodule_TPD_M02_19Nov21_21-02-05_ms2_toppic_prsm.tsv",
+        "size_bytes": 2613918
+      },
+      {
+        "path": "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\Glyco_SoybeanNodule_TPD_M03_19Nov21_21-02-05_ms2_toppic_prsm.tsv",
+        "size_bytes": 2240192
+      },
+      {
+        "path": "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\Glyco_SoybeanNodule_TPD_M04_19Nov21_21-02-05_ms2_toppic_prsm.tsv",
+        "size_bytes": 2282423
+      },
+      {
+        "path": "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\Glyco_SoybeanNodule_TPD_M05_19Nov21_21-02-05_ms2_toppic_prsm.tsv",
+        "size_bytes": 2276435
+      },
+      {
+        "path": "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\Glyco_SoybeanNodule_TPD_WT01_19Nov21_21-02-05_ms2_toppic_prsm.tsv",
+        "size_bytes": 3127105
+      },
+      {
+        "path": "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\Glyco_SoybeanNodule_TPD_WT02_19Nov21_21-02-05_ms2_toppic_prsm.tsv",
+        "size_bytes": 4089839
+      },
+      {
+        "path": "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\Glyco_SoybeanNodule_TPD_WT03_19Nov21_21-02-05_ms2_toppic_prsm.tsv",
+        "size_bytes": 3877795
+      },
+      {
+        "path": "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\Glyco_SoybeanNodule_TPD_WT04_19Nov21_21-02-05_ms2_toppic_prsm.tsv",
+        "size_bytes": 3748646
+      },
+      {
+        "path": "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\Glyco_SoybeanNodule_TPD_WT05_19Nov21_21-02-05_ms2_toppic_prsm.tsv",
+        "size_bytes": 3939189
+      }
+    ]
+  },
+  "matrix": {
+    "features": 1794,
+    "samples": 10
+  },
+  "outputs": {
+    "calibration": "calibration.csv",
+    "expression": "expression.csv",
+    "features": "features.csv",
+    "samples": "samples.csv"
+  },
+  "python_completed_at": "2026-10-20T07:16:34.287693+00:00",
+  "python_started_at": "2026-10-20T07:13:28.474959+00:00",
+  "stage_metrics": {
+    "align_ms1": {
+      "rows": 138622
+    },
+    "align_ms2": {
+      "rows": 28506
+    },
+    "clustering": {
+      "rows": 28504
+    },
+    "fasta_mapping": {
+      "rows": 72141
+    },
+    "fdr_cutoffs": {
+      "rows": 2
+    },
+    "fdr_filter": {
+      "rows": 69097
+    },
+    "feature_matching": {
+      "rows": 9238
+    },
+    "feature_metadata": {
+      "rows": 1830
+    },
+    "gene_resolution": {
+      "rows": 71922
+    },
+    "occurrence_filter": {
+      "rows": 69097
+    },
+    "pcgroup_merge": {
+      "rows": 27544
+    },
+    "protein_inference": {
+      "rows": 28506
+    },
+    "proteoform_level": {
+      "rows": 28506
+    },
+    "read_ms1": {
+      "rows": 138622
+    },
+    "read_ms2": {
+      "rows": 74025
+    },
+    "recalibrate_ms1": {
+      "rows": 138622
+    },
+    "recalibrate_ms2": {
+      "rows": 28506
+    }
+  },
+  "status": "completed",
+  "version": "0.1.0",
+  "warnings": []
+}

@@ -1,0 +1,12 @@
+[
+ {
+  "id": "dual_acyl",
+  "label": "full length, Met removed: N-myristoyl-G1 + S-palmitoyl-C3",
+  "proforma": "[Myristoyl]-GNC[Palmitoyl]GSNPKTNEGPEAVPEPVIEEVKVEQKESSEANVETKLKDQTPNDSEIKSLGTLLNEKVEEAPKTEEVTAEPKPEEPKTDEVKVQEEKPKAEEAKAET"
+ },
+ {
+  "id": "mass_at_nterm",
+  "label": "full length, same total mass placed entirely at the N-terminus",
+  "proforma": "[+448.4280]-GNCGSNPKTNEGPEAVPEPVIEEVKVEQKESSEANVETKLKDQTPNDSEIKSLGTLLNEKVEEAPKTEEVTAEPKPEEPKTDEVKVQEEKPKAEEAKAET"
+ }
+]
