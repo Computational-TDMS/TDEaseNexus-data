@@ -1,4 +1,4 @@
-# TDEaseNexus soybean study
+# TDEaseNexus data
 
 This workspace contains the soybean Analysis-mode session and its data.
 
