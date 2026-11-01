@@ -1,0 +1,8 @@
+Date: 2021-12-17 02:46:40 PM
+Dataset: Glyco_SoybeanNodule_TPD_WT04_19Nov21_21-02-05
+Job: 1986534
+Step: 3
+Tool: TopPIC
+ToolVersionInfo:
+TopPIC 1.4.13.1 beta
+toppic.exe: 2021-08-20 08:44:00 PM

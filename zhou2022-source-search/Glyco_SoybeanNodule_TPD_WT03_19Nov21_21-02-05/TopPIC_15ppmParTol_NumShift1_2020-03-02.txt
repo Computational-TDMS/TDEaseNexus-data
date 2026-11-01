@@ -1,0 +1,65 @@
+# Error tolerance for precursor and fragment masses, in PPM
+ErrorTolerance=15
+
+# Error tolerance for identifying PrSM clusters, in Daltons
+ProteoformErrorTolerance=3.2
+
+# Modifications (see below for examples)
+# TopPIC will search for numerous dynamic modifications, including several default common mods
+# To override the internal defaults, define one or more dynamic mods
+
+StaticMod=None
+
+DynamicMod=Defaults
+
+# Maximum absolute value of the mass shift (in Dalton) of an unexpected modification
+MaxShift=500
+
+# Minimum absolute value of the mass shift (in Dalton) of an unexpected modification
+MinShift=-500
+
+# Maximum number of unexpected modifications in a proteoform spectrum-match
+# Can be 0, 1, or 2
+NumShift=1
+
+# Spectrum-level cutoff type for filtering identified proteoform spectrum-matches
+# Can be EVALUE or FDR
+SpectrumCutoffType=FDR
+
+# Spectrum-level cutoff value for filtering identified proteoform spectrum-matches
+SpectrumCutoffValue=0.01
+
+# Proteoform-level cutoff type for filtering identified proteoform spectrum-matches
+# Can be EVALUE or FDR
+ProteoformCutoffType=FDR
+
+# Proteoform-level cutoff value for filtering identified proteoform spectrum-matches
+ProteoformCutoffValue=0.01
+
+# Set to True to use a decoy protein database to estimate false discovery rates
+# Leads to increased search time
+Decoy=True
+
+# N-terminal protein forms to consider
+# Can be NONE, NME, NME_ACETYLATION, and/or M_ACETYLATION
+#  NONE means no modifications
+#  NME means  N-terminal methionine excision
+#  NME_ACETYLATION means N-terminal acetylation after the initiator methionine is removed
+#  M_ACETYLATION means N-terminal methionine acetylation
+NTerminalProteinForms=NONE,NME,NME_ACETYLATION,M_ACETYLATION
+
+#Amino Acid Modification Examples
+# Modification format is:
+#   Name, Mass, Residues, Position, UnimodID
+# Position can be any, N-term, or C-term
+# Use -1 for the UnimodID if not in Unimod
+#
+# Examples:
+#   Carbamidomethyl,57.021464,C,any,4
+#   TMT6plex,229.1629,*,N-term,737
+#   TMT6plex,229.1629,K,any,737
+#   Acetyl,42.010565,K,any,1 
+#   Phospho,79.966331,STY,any,21
+#   Oxidation,15.994915,CPKDNRY,any,35
+#   Methyl,14.015650,*,N-term,34
+# Methyl,14.015650,CKRHDENQ,any,34
