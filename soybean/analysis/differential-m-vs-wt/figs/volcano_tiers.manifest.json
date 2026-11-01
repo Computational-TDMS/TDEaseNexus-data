@@ -1,0 +1,23 @@
+{
+  "figure": "volcano_tiers.html",
+  "script": "chart-forge/scripts/build.py",
+  "version": "0.1.0",
+  "params": {
+    "source": "comparison_WT_vs_M_full.json + tiers.csv (toppicr-py)"
+  },
+  "inputs": [
+    {
+      "path": "figs/volcano_tiers.json",
+      "sha256": "2b392bfa627b497ed21b047c36b9e0d323f17b076d20af980379a66afde17863"
+    },
+    {
+      "path": "C:\\Users\\USER\\Desktop\\TDEase-zero\\tdease-ai-capability\\system/skills/_shared/panels/scatter.js",
+      "sha256": "a683f37264fdadbc223d6c83fd4be523d6ac86ea05de43256ac645fcc80b97c7"
+    }
+  ],
+  "caption": {
+    "title": "WT vs M \u2014 proteoform features by detection tier",
+    "subtitle": null,
+    "n": null
+  }
+}

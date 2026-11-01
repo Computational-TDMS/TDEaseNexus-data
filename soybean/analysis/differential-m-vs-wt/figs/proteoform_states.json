@@ -1,0 +1,93 @@
+{
+ "data": {
+  "rows": [
+   {
+    "label": "LBA \u00b7 59 sig",
+    "value": 17,
+    "series": "shifted \u00b7 up in M",
+    "hover": "<b>LBA (leghemoglobin A)</b> \u00b7 shifted \u00b7 up in M: 17 significant features"
+   },
+   {
+    "label": "LBA \u00b7 59 sig",
+    "value": 12,
+    "series": "shifted \u00b7 up in WT",
+    "hover": "<b>LBA (leghemoglobin A)</b> \u00b7 shifted \u00b7 up in WT: 12 significant features"
+   },
+   {
+    "label": "LBA \u00b7 59 sig",
+    "value": 6,
+    "series": "no numeric shift \u00b7 up in M",
+    "hover": "<b>LBA (leghemoglobin A)</b> \u00b7 no numeric shift \u00b7 up in M: 6 significant features"
+   },
+   {
+    "label": "LBA \u00b7 59 sig",
+    "value": 24,
+    "series": "no numeric shift \u00b7 up in WT",
+    "hover": "<b>LBA (leghemoglobin A)</b> \u00b7 no numeric shift \u00b7 up in WT: 24 significant features"
+   },
+   {
+    "label": "LGB1 \u00b7 21 sig",
+    "value": 7,
+    "series": "shifted \u00b7 up in M",
+    "hover": "<b>LGB1 (leghemoglobin C3)</b> \u00b7 shifted \u00b7 up in M: 7 significant features"
+   },
+   {
+    "label": "LGB1 \u00b7 21 sig",
+    "value": 2,
+    "series": "shifted \u00b7 up in WT",
+    "hover": "<b>LGB1 (leghemoglobin C3)</b> \u00b7 shifted \u00b7 up in WT: 2 significant features"
+   },
+   {
+    "label": "LGB1 \u00b7 21 sig",
+    "value": 4,
+    "series": "no numeric shift \u00b7 up in M",
+    "hover": "<b>LGB1 (leghemoglobin C3)</b> \u00b7 no numeric shift \u00b7 up in M: 4 significant features"
+   },
+   {
+    "label": "LGB1 \u00b7 21 sig",
+    "value": 8,
+    "series": "no numeric shift \u00b7 up in WT",
+    "hover": "<b>LGB1 (leghemoglobin C3)</b> \u00b7 no numeric shift \u00b7 up in WT: 8 significant features"
+   },
+   {
+    "label": "all genes \u00b7 371 sig",
+    "value": 96,
+    "series": "shifted \u00b7 up in M",
+    "hover": "<b>all genes</b> \u00b7 shifted \u00b7 up in M: 96 significant features"
+   },
+   {
+    "label": "all genes \u00b7 371 sig",
+    "value": 36,
+    "series": "shifted \u00b7 up in WT",
+    "hover": "<b>all genes</b> \u00b7 shifted \u00b7 up in WT: 36 significant features"
+   },
+   {
+    "label": "all genes \u00b7 371 sig",
+    "value": 82,
+    "series": "no numeric shift \u00b7 up in M",
+    "hover": "<b>all genes</b> \u00b7 no numeric shift \u00b7 up in M: 82 significant features"
+   },
+   {
+    "label": "all genes \u00b7 371 sig",
+    "value": 157,
+    "series": "no numeric shift \u00b7 up in WT",
+    "hover": "<b>all genes</b> \u00b7 no numeric shift \u00b7 up in WT: 157 significant features"
+   }
+  ],
+  "series": [
+   "shifted \u00b7 up in M",
+   "shifted \u00b7 up in WT",
+   "no numeric shift \u00b7 up in M",
+   "no numeric shift \u00b7 up in WT"
+  ],
+  "xlabel": "gene group (significant features, BH FDR < 0.05 and |log2FC| > 1)",
+  "ylabel": "significant proteoform features",
+  "valueLabels": true,
+  "height": 420
+ },
+ "meta": {
+  "title": "Within one gene, shifted and unshifted proteoforms move in opposite directions",
+  "source": "tiers.csv + features.csv (toppicr-py)",
+  "note": "'shifted' = the proteoform string carries a numeric bracket mass shift (chemistry unresolved); 'no numeric shift' may still carry a named terminal modification."
+ }
+}

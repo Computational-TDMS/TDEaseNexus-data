@@ -1,0 +1,20 @@
+{
+ "sources": {
+  "expression.csv": "toppic_run.py build (1794 features x 10 samples)",
+  "features.csv": "toppic_run.py build",
+  "comparison_WT_vs_M_full.json": "toppic_plot.py compare --group-a WT --group-b M --top 5000",
+  "tiers.csv": "toppic_shortlist.py --groups WT,M"
+ },
+ "tests": {
+  "fdr": 0.05,
+  "abs_log2fc": 1.0,
+  "min_detected_per_group": 2,
+  "tier_a": "min detections >= 4 in both groups",
+  "tier_b": "min detections == 3",
+  "tier_c": "min detections <= 2"
+ },
+ "counts": {
+  "tested": 590,
+  "significant": 371
+ }
+}

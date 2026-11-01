@@ -1,0 +1,3007 @@
+{
+ "data": {
+  "series": [
+   {
+    "label": "tier A (181)",
+    "points": [
+     {
+      "x": 6.332,
+      "y": 3.82,
+      "hover": "<b>blr7436</b> \u00b7 blr7436_3<br>log2FC +6.33 (higher in M)<br>BH FDR 1.51e-04<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 136<br>numeric shift -231.065 Da"
+     },
+     {
+      "x": -6.231,
+      "y": 3.61,
+      "hover": "<b>100777927</b> \u00b7 100777927_20<br>log2FC -6.23 (higher in WT)<br>BH FDR 2.45e-04<br>detected WT 4/5 \u00b7 M 4/5<br>spectral count 5"
+     },
+     {
+      "x": 5.656,
+      "y": 2.856,
+      "hover": "<b>100306384</b> \u00b7 100306384_1<br>log2FC +5.66 (higher in M)<br>BH FDR 1.39e-03<br>detected WT 4/5 \u00b7 M 4/5<br>spectral count 5"
+     },
+     {
+      "x": 5.336,
+      "y": 4.458,
+      "hover": "<b>100777927</b> \u00b7 100777927_5<br>log2FC +5.34 (higher in M)<br>BH FDR 3.49e-05<br>detected WT 4/5 \u00b7 M 4/5<br>spectral count 3<br>numeric shift +15.019 Da"
+     },
+     {
+      "x": 5.18,
+      "y": 7.009,
+      "hover": "<b>SUBI-1</b> \u00b7 SUBI-1_9<br>log2FC +5.18 (higher in M)<br>BH FDR 9.79e-08<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 94"
+     },
+     {
+      "x": 5.094,
+      "y": 2.88,
+      "hover": "<b>100780523</b> \u00b7 100780523_1<br>log2FC +5.09 (higher in M)<br>BH FDR 1.32e-03<br>detected WT 4/5 \u00b7 M 5/5<br>spectral count 39"
+     },
+     {
+      "x": 4.74,
+      "y": 5.658,
+      "hover": "<b>100797040</b> \u00b7 100797040_2<br>log2FC +4.74 (higher in M)<br>BH FDR 2.20e-06<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 21"
+     },
+     {
+      "x": 4.738,
+      "y": 2.475,
+      "hover": "<b>GLYMA_16G026500</b> \u00b7 GLYMA_16G026500_2<br>log2FC +4.74 (higher in M)<br>BH FDR 3.35e-03<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 9"
+     },
+     {
+      "x": 4.651,
+      "y": 3.02,
+      "hover": "<b>100306658</b> \u00b7 100306658_2<br>log2FC +4.65 (higher in M)<br>BH FDR 9.56e-04<br>detected WT 4/5 \u00b7 M 4/5<br>spectral count 18"
+     },
+     {
+      "x": 4.454,
+      "y": 5.424,
+      "hover": "<b>100800967</b> \u00b7 100800967_11<br>log2FC +4.45 (higher in M)<br>BH FDR 3.76e-06<br>detected WT 4/5 \u00b7 M 5/5<br>spectral count 19"
+     },
+     {
+      "x": 4.325,
+      "y": 5.488,
+      "hover": "<b>BJS_07809</b> \u00b7 BJS_07809_1<br>log2FC +4.33 (higher in M)<br>BH FDR 3.25e-06<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 2"
+     },
+     {
+      "x": 4.221,
+      "y": 4.375,
+      "hover": "<b>blr4417</b> \u00b7 blr4417_1<br>log2FC +4.22 (higher in M)<br>BH FDR 4.22e-05<br>detected WT 4/5 \u00b7 M 5/5<br>spectral count 16<br>numeric shift -3.011 Da"
+     },
+     {
+      "x": -3.971,
+      "y": 4.375,
+      "hover": "<b>phaA</b> \u00b7 phaA_1<br>log2FC -3.97 (higher in WT)<br>BH FDR 4.22e-05<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 15"
+     },
+     {
+      "x": 3.847,
+      "y": 3.713,
+      "hover": "<b>LBA</b> \u00b7 LBA_136<br>log2FC +3.85 (higher in M)<br>BH FDR 1.94e-04<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 128<br>numeric shift +16.024 Da"
+     },
+     {
+      "x": -3.827,
+      "y": 3.846,
+      "hover": "<b>LBA</b> \u00b7 LBA_320<br>log2FC -3.83 (higher in WT)<br>BH FDR 1.42e-04<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 1<br>numeric shift -343.201 Da"
+     },
+     {
+      "x": 3.666,
+      "y": 2.962,
+      "hover": "<b>LBA</b> \u00b7 LBA_189<br>log2FC +3.67 (higher in M)<br>BH FDR 1.09e-03<br>detected WT 4/5 \u00b7 M 4/5<br>spectral count 18<br>numeric shift +48.010 Da"
+     },
+     {
+      "x": 3.613,
+      "y": 3.711,
+      "hover": "<b>bsl7135</b> \u00b7 bsl7135_3<br>log2FC +3.61 (higher in M)<br>BH FDR 1.95e-04<br>detected WT 4/5 \u00b7 M 5/5<br>spectral count 48"
+     },
+     {
+      "x": 3.598,
+      "y": 3.296,
+      "hover": "<b>BSZ19_44100</b> \u00b7 BSZ19_44100_4<br>log2FC +3.60 (higher in M)<br>BH FDR 5.06e-04<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 52<br>numeric shift -2.000 Da"
+     },
+     {
+      "x": 3.575,
+      "y": 5.249,
+      "hover": "<b>100782407</b> \u00b7 100782407_1<br>log2FC +3.58 (higher in M)<br>BH FDR 5.63e-06<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 8<br>numeric shift +101.055 Da"
+     },
+     {
+      "x": 3.575,
+      "y": 4.375,
+      "hover": "<b>blr2887</b> \u00b7 blr2887_14<br>log2FC +3.57 (higher in M)<br>BH FDR 4.22e-05<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 617"
+     },
+     {
+      "x": 3.519,
+      "y": 4.923,
+      "hover": "<b>GLYMA_12G090500</b> \u00b7 GLYMA_12G090500_1<br>log2FC +3.52 (higher in M)<br>BH FDR 1.19e-05<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 9<br>numeric shift +101.055 Da"
+     },
+     {
+      "x": 3.513,
+      "y": 5.299,
+      "hover": "<b>100777927</b> \u00b7 100777927_19<br>log2FC +3.51 (higher in M)<br>BH FDR 5.03e-06<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 63"
+     },
+     {
+      "x": -3.486,
+      "y": 3.886,
+      "hover": "<b>LBA</b> \u00b7 LBA_319<br>log2FC -3.49 (higher in WT)<br>BH FDR 1.30e-04<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 78"
+     },
+     {
+      "x": 3.484,
+      "y": 3.373,
+      "hover": "<b>bsr6700</b> \u00b7 bsr6700_1<br>log2FC +3.48 (higher in M)<br>BH FDR 4.24e-04<br>detected WT 4/5 \u00b7 M 4/5<br>spectral count 11<br>numeric shift -1.992 Da"
+     },
+     {
+      "x": -3.443,
+      "y": 4.384,
+      "hover": "<b>LBA</b> \u00b7 LBA_5<br>log2FC -3.44 (higher in WT)<br>BH FDR 4.13e-05<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 27"
+     },
+     {
+      "x": -3.277,
+      "y": 3.584,
+      "hover": "<b>bsl4127</b> \u00b7 bsl4127_8<br>log2FC -3.28 (higher in WT)<br>BH FDR 2.61e-04<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 3<br>numeric shift +14.020 Da"
+     },
+     {
+      "x": -3.258,
+      "y": 3.713,
+      "hover": "<b>groL3</b> \u00b7 groL3_13<br>log2FC -3.26 (higher in WT)<br>BH FDR 1.94e-04<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 4"
+     },
+     {
+      "x": 3.216,
+      "y": 5.488,
+      "hover": "<b>bfr</b> \u00b7 bfr_1<br>log2FC +3.22 (higher in M)<br>BH FDR 3.25e-06<br>detected WT 4/5 \u00b7 M 5/5<br>spectral count 3<br>numeric shift -185.100 Da"
+     },
+     {
+      "x": -3.209,
+      "y": 2.089,
+      "hover": "<b>groL3</b> \u00b7 groL3_12<br>log2FC -3.21 (higher in WT)<br>BH FDR 8.14e-03<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 10"
+     },
+     {
+      "x": -3.177,
+      "y": 3.443,
+      "hover": "<b>LBA</b> \u00b7 LBA_67<br>log2FC -3.18 (higher in WT)<br>BH FDR 3.61e-04<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 62"
+     },
+     {
+      "x": -3.15,
+      "y": 3.528,
+      "hover": "<b>groL</b> \u00b7 groL_10<br>log2FC -3.15 (higher in WT)<br>BH FDR 2.97e-04<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 15"
+     },
+     {
+      "x": 3.081,
+      "y": 5.488,
+      "hover": "<b>100785772</b> \u00b7 100785772_1<br>log2FC +3.08 (higher in M)<br>BH FDR 3.25e-06<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 25<br>numeric shift -14.008 Da"
+     },
+     {
+      "x": -3.057,
+      "y": 2.161,
+      "hover": "<b>GLYMA_08G200200</b> \u00b7 GLYMA_08G200200_8<br>log2FC -3.06 (higher in WT)<br>BH FDR 6.90e-03<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 2"
+     },
+     {
+      "x": 3.053,
+      "y": 5.299,
+      "hover": "<b>100790707</b> \u00b7 100790707_2<br>log2FC +3.05 (higher in M)<br>BH FDR 5.03e-06<br>detected WT 4/5 \u00b7 M 5/5<br>spectral count 15"
+     },
+     {
+      "x": 2.969,
+      "y": 3.197,
+      "hover": "<b>osmC</b> \u00b7 osmC_3<br>log2FC +2.97 (higher in M)<br>BH FDR 6.35e-04<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 43<br>numeric shift -1.991 Da"
+     },
+     {
+      "x": 2.953,
+      "y": 4.736,
+      "hover": "<b>100785772</b> \u00b7 100785772_2<br>log2FC +2.95 (higher in M)<br>BH FDR 1.84e-05<br>detected WT 4/5 \u00b7 M 5/5<br>spectral count 37"
+     },
+     {
+      "x": -2.949,
+      "y": 3.735,
+      "hover": "<b>phoB</b> \u00b7 phoB_1<br>log2FC -2.95 (higher in WT)<br>BH FDR 1.84e-04<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 16"
+     },
+     {
+      "x": 2.945,
+      "y": 4.078,
+      "hover": "<b>GLYMA_07G057500</b> \u00b7 GLYMA_07G057500_3<br>log2FC +2.95 (higher in M)<br>BH FDR 8.35e-05<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 9<br>numeric shift -178.228 Da"
+     },
+     {
+      "x": 2.932,
+      "y": 4.565,
+      "hover": "<b>100306025</b> \u00b7 100306025_2<br>log2FC +2.93 (higher in M)<br>BH FDR 2.72e-05<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 41<br>numeric shift -74.049 Da"
+     },
+     {
+      "x": -2.919,
+      "y": 3.097,
+      "hover": "<b>groL3</b> \u00b7 groL3_98<br>log2FC -2.92 (higher in WT)<br>BH FDR 8.01e-04<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 2<br>numeric shift -325.169 Da"
+     },
+     {
+      "x": 2.917,
+      "y": 3.072,
+      "hover": "<b>bll7395</b> \u00b7 bll7395_1<br>log2FC +2.92 (higher in M)<br>BH FDR 8.47e-04<br>detected WT 4/5 \u00b7 M 5/5<br>spectral count 8<br>numeric shift +15.030 Da"
+     },
+     {
+      "x": 2.876,
+      "y": 4.538,
+      "hover": "<b>SUBI-1</b> \u00b7 SUBI-1_4<br>log2FC +2.88 (higher in M)<br>BH FDR 2.90e-05<br>detected WT 4/5 \u00b7 M 5/5<br>spectral count 18<br>numeric shift -133.040 Da"
+     },
+     {
+      "x": 2.853,
+      "y": 3.308,
+      "hover": "<b>BKD09_02965</b> \u00b7 BKD09_02965_10<br>log2FC +2.85 (higher in M)<br>BH FDR 4.92e-04<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 114"
+     },
+     {
+      "x": -2.847,
+      "y": 2.644,
+      "hover": "<b>SUBI-1</b> \u00b7 SUBI-1_35<br>log2FC -2.85 (higher in WT)<br>BH FDR 2.27e-03<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 133"
+     },
+     {
+      "x": 2.818,
+      "y": 2.794,
+      "hover": "<b>LBA</b> \u00b7 LBA_583<br>log2FC +2.82 (higher in M)<br>BH FDR 1.61e-03<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 2"
+     },
+     {
+      "x": -2.818,
+      "y": 3.799,
+      "hover": "<b>blr5306</b> \u00b7 blr5306_1<br>log2FC -2.82 (higher in WT)<br>BH FDR 1.59e-04<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 29"
+     },
+     {
+      "x": -2.783,
+      "y": 2.437,
+      "hover": "<b>groL3</b> \u00b7 groL3_89<br>log2FC -2.78 (higher in WT)<br>BH FDR 3.66e-03<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 13"
+     },
+     {
+      "x": 2.768,
+      "y": 3.55,
+      "hover": "<b>100789268</b> \u00b7 100789268_1<br>log2FC +2.77 (higher in M)<br>BH FDR 2.82e-04<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 2"
+     },
+     {
+      "x": 2.758,
+      "y": 2.415,
+      "hover": "<b>GLYMA_08G165400</b> \u00b7 GLYMA_08G165400_1<br>log2FC +2.76 (higher in M)<br>BH FDR 3.85e-03<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 5"
+     },
+     {
+      "x": 2.745,
+      "y": 4.474,
+      "hover": "<b>cspA</b> \u00b7 cspA_14<br>log2FC +2.74 (higher in M)<br>BH FDR 3.36e-05<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 46<br>numeric shift -232.062 Da"
+     },
+     {
+      "x": 2.741,
+      "y": 3.735,
+      "hover": "<b>cspA</b> \u00b7 cspA_2<br>log2FC +2.74 (higher in M)<br>BH FDR 1.84e-04<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 4<br>numeric shift -216.071 Da"
+     },
+     {
+      "x": -2.705,
+      "y": 2.811,
+      "hover": "<b>LBA</b> \u00b7 LBA_272<br>log2FC -2.71 (higher in WT)<br>BH FDR 1.55e-03<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 11<br>numeric shift +53.941 Da"
+     },
+     {
+      "x": -2.662,
+      "y": 3.638,
+      "hover": "<b>BJS_08362</b> \u00b7 BJS_08362_3<br>log2FC -2.66 (higher in WT)<br>BH FDR 2.30e-04<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 7"
+     },
+     {
+      "x": -2.649,
+      "y": 3.196,
+      "hover": "<b>LBA</b> \u00b7 LBA_15<br>log2FC -2.65 (higher in WT)<br>BH FDR 6.37e-04<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 39"
+     },
+     {
+      "x": -2.617,
+      "y": 2.131,
+      "hover": "<b>LGB1</b> \u00b7 LGB1_179<br>log2FC -2.62 (higher in WT)<br>BH FDR 7.39e-03<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 12"
+     },
+     {
+      "x": 2.589,
+      "y": 4.207,
+      "hover": "<b>100794661</b> \u00b7 100794661_4<br>log2FC +2.59 (higher in M)<br>BH FDR 6.21e-05<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 52<br>numeric shift -3.993 Da"
+     },
+     {
+      "x": 2.573,
+      "y": 4.532,
+      "hover": "<b>100808526</b> \u00b7 100808526_1<br>log2FC +2.57 (higher in M)<br>BH FDR 2.93e-05<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 5"
+     },
+     {
+      "x": -2.539,
+      "y": 2.684,
+      "hover": "<b>groS</b> \u00b7 groS_97<br>log2FC -2.54 (higher in WT)<br>BH FDR 2.07e-03<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 38"
+     },
+     {
+      "x": -2.528,
+      "y": 1.482,
+      "hover": "<b>groL6</b> \u00b7 groL6_39<br>log2FC -2.53 (higher in WT)<br>BH FDR 3.29e-02<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 11<br>numeric shift +16.002 Da"
+     },
+     {
+      "x": -2.516,
+      "y": 2.013,
+      "hover": "<b>GLYMA_08G200200</b> \u00b7 GLYMA_08G200200_1<br>log2FC -2.52 (higher in WT)<br>BH FDR 9.70e-03<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 25"
+     },
+     {
+      "x": 2.473,
+      "y": 3.277,
+      "hover": "<b>100777195</b> \u00b7 100777195_2<br>log2FC +2.47 (higher in M)<br>BH FDR 5.28e-04<br>detected WT 4/5 \u00b7 M 4/5<br>spectral count 8<br>numeric shift -259.130 Da"
+     },
+     {
+      "x": 2.472,
+      "y": 4.458,
+      "hover": "<b>100777195</b> \u00b7 100777195_11<br>log2FC +2.47 (higher in M)<br>BH FDR 3.48e-05<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 28"
+     },
+     {
+      "x": -2.472,
+      "y": 3.097,
+      "hover": "<b>100801369</b> \u00b7 100801369_2<br>log2FC -2.47 (higher in WT)<br>BH FDR 8.01e-04<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 17"
+     },
+     {
+      "x": -2.467,
+      "y": 2.44,
+      "hover": "<b>LGB1</b> \u00b7 LGB1_121<br>log2FC -2.47 (higher in WT)<br>BH FDR 3.63e-03<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 38"
+     },
+     {
+      "x": -2.458,
+      "y": 1.823,
+      "hover": "<b>LGB1</b> \u00b7 LGB1_3<br>log2FC -2.46 (higher in WT)<br>BH FDR 1.50e-02<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 118"
+     },
+     {
+      "x": 2.449,
+      "y": 3.906,
+      "hover": "<b>blr5730</b> \u00b7 blr5730_5<br>log2FC +2.45 (higher in M)<br>BH FDR 1.24e-04<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 99"
+     },
+     {
+      "x": 2.445,
+      "y": 3.663,
+      "hover": "<b>GLYMA_16G008900</b> \u00b7 GLYMA_16G008900_1<br>log2FC +2.44 (higher in M)<br>BH FDR 2.17e-04<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 3"
+     },
+     {
+      "x": -2.435,
+      "y": 3.11,
+      "hover": "<b>groS</b> \u00b7 groS_26<br>log2FC -2.43 (higher in WT)<br>BH FDR 7.76e-04<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 28"
+     },
+     {
+      "x": -2.423,
+      "y": 2.947,
+      "hover": "<b>LGB1</b> \u00b7 LGB1_8<br>log2FC -2.42 (higher in WT)<br>BH FDR 1.13e-03<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 67"
+     },
+     {
+      "x": 2.401,
+      "y": 4.565,
+      "hover": "<b>GLYMA_02G208900</b> \u00b7 GLYMA_02G208900_3<br>log2FC +2.40 (higher in M)<br>BH FDR 2.72e-05<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 172<br>numeric shift -3.993 Da"
+     },
+     {
+      "x": 2.392,
+      "y": 4.684,
+      "hover": "<b>100500024</b> \u00b7 100500024_4<br>log2FC +2.39 (higher in M)<br>BH FDR 2.07e-05<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 72<br>numeric shift -20.048 Da"
+     },
+     {
+      "x": 2.375,
+      "y": 4.251,
+      "hover": "<b>GLYMA_09G214500</b> \u00b7 GLYMA_09G214500_1<br>log2FC +2.38 (higher in M)<br>BH FDR 5.62e-05<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 52<br>numeric shift -206.961 Da"
+     },
+     {
+      "x": -2.348,
+      "y": 2.713,
+      "hover": "<b>LBA</b> \u00b7 LBA_87<br>log2FC -2.35 (higher in WT)<br>BH FDR 1.93e-03<br>detected WT 4/5 \u00b7 M 5/5<br>spectral count 48"
+     },
+     {
+      "x": -2.335,
+      "y": 2.735,
+      "hover": "<b>LBA</b> \u00b7 LBA_219<br>log2FC -2.34 (higher in WT)<br>BH FDR 1.84e-03<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 30"
+     },
+     {
+      "x": -2.311,
+      "y": 3.663,
+      "hover": "<b>BJS_08362</b> \u00b7 BJS_08362_1<br>log2FC -2.31 (higher in WT)<br>BH FDR 2.17e-04<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 16"
+     },
+     {
+      "x": 2.305,
+      "y": 3.365,
+      "hover": "<b>groS</b> \u00b7 groS_42<br>log2FC +2.30 (higher in M)<br>BH FDR 4.31e-04<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 10<br>numeric shift +46.019 Da"
+     },
+     {
+      "x": 2.298,
+      "y": 2.564,
+      "hover": "<b>LGB1</b> \u00b7 LGB1_147<br>log2FC +2.30 (higher in M)<br>BH FDR 2.73e-03<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 422"
+     },
+     {
+      "x": 2.27,
+      "y": 4.261,
+      "hover": "<b>cspA</b> \u00b7 cspA_25<br>log2FC +2.27 (higher in M)<br>BH FDR 5.48e-05<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 91<br>numeric shift -248.060 Da"
+     },
+     {
+      "x": -2.219,
+      "y": 2.983,
+      "hover": "<b>blr7797</b> \u00b7 blr7797_1<br>log2FC -2.22 (higher in WT)<br>BH FDR 1.04e-03<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 7"
+     },
+     {
+      "x": -2.215,
+      "y": 2.928,
+      "hover": "<b>LBA</b> \u00b7 LBA_43<br>log2FC -2.21 (higher in WT)<br>BH FDR 1.18e-03<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 52"
+     },
+     {
+      "x": 2.21,
+      "y": 1.678,
+      "hover": "<b>LGB1</b> \u00b7 LGB1_43<br>log2FC +2.21 (higher in M)<br>BH FDR 2.10e-02<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 215"
+     },
+     {
+      "x": 2.194,
+      "y": 3.976,
+      "hover": "<b>LBA</b> \u00b7 LBA_169<br>log2FC +2.19 (higher in M)<br>BH FDR 1.06e-04<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 3<br>numeric shift +57.099 Da"
+     },
+     {
+      "x": 2.154,
+      "y": 2.191,
+      "hover": "<b>LBA</b> \u00b7 LBA_381<br>log2FC +2.15 (higher in M)<br>BH FDR 6.44e-03<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 65<br>numeric shift +31.019 Da"
+     },
+     {
+      "x": -2.126,
+      "y": 3.131,
+      "hover": "<b>pgk</b> \u00b7 pgk_2<br>log2FC -2.13 (higher in WT)<br>BH FDR 7.39e-04<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 27"
+     },
+     {
+      "x": -2.119,
+      "y": 2.855,
+      "hover": "<b>LBA</b> \u00b7 LBA_364<br>log2FC -2.12 (higher in WT)<br>BH FDR 1.40e-03<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 69"
+     },
+     {
+      "x": -2.107,
+      "y": 3.252,
+      "hover": "<b>bsl4960</b> \u00b7 bsl4960_7<br>log2FC -2.11 (higher in WT)<br>BH FDR 5.60e-04<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 73"
+     },
+     {
+      "x": -2.105,
+      "y": 2.6,
+      "hover": "<b>LBA</b> \u00b7 LBA_172<br>log2FC -2.11 (higher in WT)<br>BH FDR 2.51e-03<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 16"
+     },
+     {
+      "x": -2.093,
+      "y": 2.277,
+      "hover": "<b>LBA</b> \u00b7 LBA_75<br>log2FC -2.09 (higher in WT)<br>BH FDR 5.29e-03<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 25<br>numeric shift +16.001 Da"
+     },
+     {
+      "x": -2.063,
+      "y": 1.395,
+      "hover": "<b>groL3</b> \u00b7 groL3_27<br>log2FC -2.06 (higher in WT)<br>BH FDR 4.03e-02<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 2"
+     },
+     {
+      "x": -2.031,
+      "y": 2.839,
+      "hover": "<b>LBA</b> \u00b7 LBA_365<br>log2FC -2.03 (higher in WT)<br>BH FDR 1.45e-03<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 68"
+     },
+     {
+      "x": -2.013,
+      "y": 2.895,
+      "hover": "<b>GLYMA_15G263100</b> \u00b7 GLYMA_15G263100_2<br>log2FC -2.01 (higher in WT)<br>BH FDR 1.27e-03<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 5"
+     },
+     {
+      "x": 1.997,
+      "y": 3.461,
+      "hover": "<b>100500327</b> \u00b7 100500327_1<br>log2FC +2.00 (higher in M)<br>BH FDR 3.46e-04<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 36<br>numeric shift -191.004 Da"
+     },
+     {
+      "x": 1.984,
+      "y": 2.961,
+      "hover": "<b>LBA</b> \u00b7 LBA_106<br>log2FC +1.98 (higher in M)<br>BH FDR 1.09e-03<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 33<br>numeric shift -16.780 Da"
+     },
+     {
+      "x": -1.965,
+      "y": 1.89,
+      "hover": "<b>LGB1</b> \u00b7 LGB1_29<br>log2FC -1.97 (higher in WT)<br>BH FDR 1.29e-02<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 8<br>numeric shift -99.060 Da"
+     },
+     {
+      "x": -1.951,
+      "y": 2.277,
+      "hover": "<b>100805016</b> \u00b7 100805016_1<br>log2FC -1.95 (higher in WT)<br>BH FDR 5.29e-03<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 15"
+     },
+     {
+      "x": -1.951,
+      "y": 1.445,
+      "hover": "<b>LBA</b> \u00b7 LBA_217<br>log2FC -1.95 (higher in WT)<br>BH FDR 3.59e-02<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 11<br>numeric shift +16.007 Da"
+     },
+     {
+      "x": -1.924,
+      "y": 3.277,
+      "hover": "<b>BJS_08362</b> \u00b7 BJS_08362_2<br>log2FC -1.92 (higher in WT)<br>BH FDR 5.28e-04<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 5<br>numeric shift +113.064 Da"
+     },
+     {
+      "x": -1.867,
+      "y": 3.289,
+      "hover": "<b>BJS_08418</b> \u00b7 BJS_08418_2<br>log2FC -1.87 (higher in WT)<br>BH FDR 5.14e-04<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 27"
+     },
+     {
+      "x": 1.841,
+      "y": 2.619,
+      "hover": "<b>GLYMA_04G193500</b> \u00b7 GLYMA_04G193500_1<br>log2FC +1.84 (higher in M)<br>BH FDR 2.41e-03<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 6<br>numeric shift -327.185 Da"
+     },
+     {
+      "x": 1.839,
+      "y": 3.428,
+      "hover": "<b>cspA</b> \u00b7 cspA_44<br>log2FC +1.84 (higher in M)<br>BH FDR 3.73e-04<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 2<br>numeric shift -115.042 Da"
+     },
+     {
+      "x": -1.838,
+      "y": 2.632,
+      "hover": "<b>100306025</b> \u00b7 100306025_1<br>log2FC -1.84 (higher in WT)<br>BH FDR 2.34e-03<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 3"
+     },
+     {
+      "x": 1.837,
+      "y": 3.428,
+      "hover": "<b>BSZ18_29840</b> \u00b7 BSZ18_29840_9<br>log2FC +1.84 (higher in M)<br>BH FDR 3.73e-04<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 2<br>numeric shift -115.038 Da"
+     },
+     {
+      "x": 1.833,
+      "y": 2.172,
+      "hover": "<b>cspA</b> \u00b7 cspA_4<br>log2FC +1.83 (higher in M)<br>BH FDR 6.73e-03<br>detected WT 4/5 \u00b7 M 4/5<br>spectral count 2<br>numeric shift -248.056 Da"
+     },
+     {
+      "x": 1.832,
+      "y": 3.443,
+      "hover": "<b>100799718</b> \u00b7 100799718_8<br>log2FC +1.83 (higher in M)<br>BH FDR 3.61e-04<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 8"
+     },
+     {
+      "x": -1.827,
+      "y": 3.228,
+      "hover": "<b>cspA</b> \u00b7 cspA_3<br>log2FC -1.83 (higher in WT)<br>BH FDR 5.91e-04<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 56"
+     },
+     {
+      "x": -1.819,
+      "y": 1.484,
+      "hover": "<b>sucD</b> \u00b7 sucD_4<br>log2FC -1.82 (higher in WT)<br>BH FDR 3.28e-02<br>detected WT 4/5 \u00b7 M 4/5<br>spectral count 10"
+     },
+     {
+      "x": -1.784,
+      "y": 2.491,
+      "hover": "<b>cooxM</b> \u00b7 cooxM_1<br>log2FC -1.78 (higher in WT)<br>BH FDR 3.23e-03<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 20"
+     },
+     {
+      "x": -1.759,
+      "y": 2.894,
+      "hover": "<b>ilvC</b> \u00b7 ilvC_2<br>log2FC -1.76 (higher in WT)<br>BH FDR 1.28e-03<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 37"
+     },
+     {
+      "x": -1.755,
+      "y": 2.58,
+      "hover": "<b>LBA</b> \u00b7 LBA_436<br>log2FC -1.75 (higher in WT)<br>BH FDR 2.63e-03<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 39"
+     },
+     {
+      "x": -1.742,
+      "y": 2.62,
+      "hover": "<b>LBA</b> \u00b7 LBA_37<br>log2FC -1.74 (higher in WT)<br>BH FDR 2.40e-03<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 44"
+     },
+     {
+      "x": -1.741,
+      "y": 2.831,
+      "hover": "<b>BSZ18_29840</b> \u00b7 BSZ18_29840_21<br>log2FC -1.74 (higher in WT)<br>BH FDR 1.48e-03<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 5"
+     },
+     {
+      "x": -1.738,
+      "y": 2.961,
+      "hover": "<b>BSZ18_29840</b> \u00b7 BSZ18_29840_20<br>log2FC -1.74 (higher in WT)<br>BH FDR 1.09e-03<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 28"
+     },
+     {
+      "x": 1.735,
+      "y": 1.775,
+      "hover": "<b>bll1127</b> \u00b7 bll1127_3<br>log2FC +1.74 (higher in M)<br>BH FDR 1.68e-02<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 65"
+     },
+     {
+      "x": -1.721,
+      "y": 1.893,
+      "hover": "<b>groL6</b> \u00b7 groL6_4<br>log2FC -1.72 (higher in WT)<br>BH FDR 1.28e-02<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 6"
+     },
+     {
+      "x": 1.721,
+      "y": 2.606,
+      "hover": "<b>rplL</b> \u00b7 rplL_2<br>log2FC +1.72 (higher in M)<br>BH FDR 2.47e-03<br>detected WT 4/5 \u00b7 M 5/5<br>spectral count 25<br>numeric shift -17.947 Da"
+     },
+     {
+      "x": -1.71,
+      "y": 2.355,
+      "hover": "<b>ndk</b> \u00b7 ndk_5<br>log2FC -1.71 (higher in WT)<br>BH FDR 4.42e-03<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 17"
+     },
+     {
+      "x": 1.701,
+      "y": 3.528,
+      "hover": "<b>groS</b> \u00b7 groS_72<br>log2FC +1.70 (higher in M)<br>BH FDR 2.97e-04<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 270"
+     },
+     {
+      "x": -1.673,
+      "y": 1.777,
+      "hover": "<b>rplW</b> \u00b7 rplW_6<br>log2FC -1.67 (higher in WT)<br>BH FDR 1.67e-02<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 54"
+     },
+     {
+      "x": -1.669,
+      "y": 2.543,
+      "hover": "<b>LBA</b> \u00b7 LBA_78<br>log2FC -1.67 (higher in WT)<br>BH FDR 2.87e-03<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 19"
+     },
+     {
+      "x": 1.665,
+      "y": 3.82,
+      "hover": "<b>groS</b> \u00b7 groS_16<br>log2FC +1.66 (higher in M)<br>BH FDR 1.51e-04<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 82"
+     },
+     {
+      "x": -1.664,
+      "y": 3.428,
+      "hover": "<b>bsl7456</b> \u00b7 bsl7456_6<br>log2FC -1.66 (higher in WT)<br>BH FDR 3.73e-04<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 88"
+     },
+     {
+      "x": 1.659,
+      "y": 1.972,
+      "hover": "<b>bsl1006</b> \u00b7 bsl1006_2<br>log2FC +1.66 (higher in M)<br>BH FDR 1.07e-02<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 16<br>numeric shift +85.055 Da"
+     },
+     {
+      "x": -1.653,
+      "y": 2.293,
+      "hover": "<b>bll5155</b> \u00b7 bll5155_7<br>log2FC -1.65 (higher in WT)<br>BH FDR 5.09e-03<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 31"
+     },
+     {
+      "x": 1.64,
+      "y": 3.711,
+      "hover": "<b>cspA_2</b> \u00b7 cspA_2_3<br>log2FC +1.64 (higher in M)<br>BH FDR 1.95e-04<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 22<br>numeric shift -100.037 Da"
+     },
+     {
+      "x": -1.639,
+      "y": 2.503,
+      "hover": "<b>groL6</b> \u00b7 groL6_1<br>log2FC -1.64 (higher in WT)<br>BH FDR 3.14e-03<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 98"
+     },
+     {
+      "x": -1.633,
+      "y": 3.212,
+      "hover": "<b>blr5730</b> \u00b7 blr5730_10<br>log2FC -1.63 (higher in WT)<br>BH FDR 6.14e-04<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 40"
+     },
+     {
+      "x": -1.632,
+      "y": 3.501,
+      "hover": "<b>LGB1</b> \u00b7 LGB1_239<br>log2FC -1.63 (higher in WT)<br>BH FDR 3.15e-04<br>detected WT 4/5 \u00b7 M 5/5<br>spectral count 2<br>numeric shift -0.984 Da"
+     },
+     {
+      "x": -1.631,
+      "y": 3.501,
+      "hover": "<b>blr5730</b> \u00b7 blr5730_9<br>log2FC -1.63 (higher in WT)<br>BH FDR 3.15e-04<br>detected WT 4/5 \u00b7 M 5/5<br>spectral count 2<br>numeric shift -442.216 Da"
+     },
+     {
+      "x": -1.621,
+      "y": 1.978,
+      "hover": "<b>LBA</b> \u00b7 LBA_76<br>log2FC -1.62 (higher in WT)<br>BH FDR 1.05e-02<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 3<br>numeric shift +31.996 Da"
+     },
+     {
+      "x": 1.617,
+      "y": 2.571,
+      "hover": "<b>100807342</b> \u00b7 100807342_4<br>log2FC +1.62 (higher in M)<br>BH FDR 2.68e-03<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 4<br>numeric shift -72.016 Da"
+     },
+     {
+      "x": 1.616,
+      "y": 3.04,
+      "hover": "<b>hupA</b> \u00b7 hupA_7<br>log2FC +1.62 (higher in M)<br>BH FDR 9.12e-04<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 113<br>numeric shift +14.052 Da"
+     },
+     {
+      "x": -1.611,
+      "y": 1.817,
+      "hover": "<b>groL3</b> \u00b7 groL3_30<br>log2FC -1.61 (higher in WT)<br>BH FDR 1.52e-02<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 3"
+     },
+     {
+      "x": 1.602,
+      "y": 2.606,
+      "hover": "<b>groS</b> \u00b7 groS_63<br>log2FC +1.60 (higher in M)<br>BH FDR 2.47e-03<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 19<br>numeric shift -16.963 Da"
+     },
+     {
+      "x": 1.598,
+      "y": 2.052,
+      "hover": "<b>100807342</b> \u00b7 100807342_2<br>log2FC +1.60 (higher in M)<br>BH FDR 8.86e-03<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 3<br>numeric shift -171.085 Da"
+     },
+     {
+      "x": 1.593,
+      "y": 1.889,
+      "hover": "<b>ndk</b> \u00b7 ndk_2<br>log2FC +1.59 (higher in M)<br>BH FDR 1.29e-02<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 22"
+     },
+     {
+      "x": 1.589,
+      "y": 2.338,
+      "hover": "<b>LBA</b> \u00b7 LBA_585<br>log2FC +1.59 (higher in M)<br>BH FDR 4.59e-03<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 2"
+     },
+     {
+      "x": 1.571,
+      "y": 2.552,
+      "hover": "<b>hupA</b> \u00b7 hupA_8<br>log2FC +1.57 (higher in M)<br>BH FDR 2.81e-03<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 107"
+     },
+     {
+      "x": -1.528,
+      "y": 1.573,
+      "hover": "<b>GLYMA_08G164100</b> \u00b7 GLYMA_08G164100_1<br>log2FC -1.53 (higher in WT)<br>BH FDR 2.67e-02<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 15"
+     },
+     {
+      "x": 1.521,
+      "y": 2.037,
+      "hover": "<b>GLYMA_13G176300</b> \u00b7 GLYMA_13G176300_1<br>log2FC +1.52 (higher in M)<br>BH FDR 9.18e-03<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 8"
+     },
+     {
+      "x": 1.501,
+      "y": 3.099,
+      "hover": "<b>bsr3925</b> \u00b7 bsr3925_4<br>log2FC +1.50 (higher in M)<br>BH FDR 7.97e-04<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 56"
+     },
+     {
+      "x": -1.484,
+      "y": 1.399,
+      "hover": "<b>rpsH</b> \u00b7 rpsH_7<br>log2FC -1.48 (higher in WT)<br>BH FDR 3.99e-02<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 3"
+     },
+     {
+      "x": -1.471,
+      "y": 1.615,
+      "hover": "<b>groL</b> \u00b7 groL_19<br>log2FC -1.47 (higher in WT)<br>BH FDR 2.43e-02<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 74"
+     },
+     {
+      "x": -1.453,
+      "y": 1.93,
+      "hover": "<b>SUBI-1</b> \u00b7 SUBI-1_26<br>log2FC -1.45 (higher in WT)<br>BH FDR 1.17e-02<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 2"
+     },
+     {
+      "x": 1.438,
+      "y": 2.472,
+      "hover": "<b>100807342</b> \u00b7 100807342_3<br>log2FC +1.44 (higher in M)<br>BH FDR 3.37e-03<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 8"
+     },
+     {
+      "x": -1.426,
+      "y": 1.968,
+      "hover": "<b>100802449</b> \u00b7 100802449_2<br>log2FC -1.43 (higher in WT)<br>BH FDR 1.08e-02<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 20"
+     },
+     {
+      "x": 1.419,
+      "y": 2.606,
+      "hover": "<b>GLYMA_17G239600</b> \u00b7 GLYMA_17G239600_1<br>log2FC +1.42 (higher in M)<br>BH FDR 2.47e-03<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 2<br>numeric shift -340.082 Da"
+     },
+     {
+      "x": 1.405,
+      "y": 2.813,
+      "hover": "<b>cspA</b> \u00b7 cspA_46<br>log2FC +1.41 (higher in M)<br>BH FDR 1.54e-03<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 100"
+     },
+     {
+      "x": 1.392,
+      "y": 1.952,
+      "hover": "<b>SUBI-1</b> \u00b7 SUBI-1_7<br>log2FC +1.39 (higher in M)<br>BH FDR 1.12e-02<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 8"
+     },
+     {
+      "x": -1.383,
+      "y": 2.387,
+      "hover": "<b>groL3</b> \u00b7 groL3_1<br>log2FC -1.38 (higher in WT)<br>BH FDR 4.10e-03<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 10"
+     },
+     {
+      "x": -1.378,
+      "y": 2.047,
+      "hover": "<b>100777928</b> \u00b7 100777928_1<br>log2FC -1.38 (higher in WT)<br>BH FDR 8.96e-03<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 5"
+     },
+     {
+      "x": 1.376,
+      "y": 2.003,
+      "hover": "<b>fixU</b> \u00b7 fixU_1<br>log2FC +1.38 (higher in M)<br>BH FDR 9.93e-03<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 28<br>numeric shift +16.011 Da"
+     },
+     {
+      "x": 1.361,
+      "y": 2.775,
+      "hover": "<b>bll7600</b> \u00b7 bll7600_1<br>log2FC +1.36 (higher in M)<br>BH FDR 1.68e-03<br>detected WT 4/5 \u00b7 M 4/5<br>spectral count 7"
+     },
+     {
+      "x": -1.357,
+      "y": 1.37,
+      "hover": "<b>BSZ18_16740</b> \u00b7 BSZ18_16740_2<br>log2FC -1.36 (higher in WT)<br>BH FDR 4.27e-02<br>detected WT 4/5 \u00b7 M 4/5<br>spectral count 2<br>numeric shift -259.144 Da"
+     },
+     {
+      "x": 1.354,
+      "y": 3.528,
+      "hover": "<b>apx2</b> \u00b7 apx2_12<br>log2FC +1.35 (higher in M)<br>BH FDR 2.97e-04<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 58"
+     },
+     {
+      "x": 1.325,
+      "y": 1.455,
+      "hover": "<b>rplI</b> \u00b7 rplI_4<br>log2FC +1.33 (higher in M)<br>BH FDR 3.51e-02<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 31<br>numeric shift -0.970 Da"
+     },
+     {
+      "x": 1.319,
+      "y": 1.686,
+      "hover": "<b>blr2887</b> \u00b7 blr2887_1<br>log2FC +1.32 (higher in M)<br>BH FDR 2.06e-02<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 8"
+     },
+     {
+      "x": -1.304,
+      "y": 2.436,
+      "hover": "<b>cspA</b> \u00b7 cspA_47<br>log2FC -1.30 (higher in WT)<br>BH FDR 3.66e-03<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 27"
+     },
+     {
+      "x": -1.297,
+      "y": 1.555,
+      "hover": "<b>LBA</b> \u00b7 LBA_19<br>log2FC -1.30 (higher in WT)<br>BH FDR 2.78e-02<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 175"
+     },
+     {
+      "x": -1.254,
+      "y": 2.191,
+      "hover": "<b>LBA</b> \u00b7 LBA_82<br>log2FC -1.25 (higher in WT)<br>BH FDR 6.44e-03<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 30"
+     },
+     {
+      "x": -1.247,
+      "y": 1.816,
+      "hover": "<b>GLYMA_09G171300</b> \u00b7 GLYMA_09G171300_1<br>log2FC -1.25 (higher in WT)<br>BH FDR 1.53e-02<br>detected WT 4/5 \u00b7 M 4/5<br>spectral count 2<br>numeric shift +116.938 Da"
+     },
+     {
+      "x": -1.234,
+      "y": 2.028,
+      "hover": "<b>LBA</b> \u00b7 LBA_133<br>log2FC -1.23 (higher in WT)<br>BH FDR 9.38e-03<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 57"
+     },
+     {
+      "x": 1.222,
+      "y": 3.022,
+      "hover": "<b>cspA_2</b> \u00b7 cspA_2_8<br>log2FC +1.22 (higher in M)<br>BH FDR 9.51e-04<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 54<br>numeric shift -117.015 Da"
+     },
+     {
+      "x": 1.217,
+      "y": 2.387,
+      "hover": "<b>BJA01nite_55890</b> \u00b7 BJA01nite_55890_1<br>log2FC +1.22 (higher in M)<br>BH FDR 4.10e-03<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 2"
+     },
+     {
+      "x": 1.202,
+      "y": 3.322,
+      "hover": "<b>y4cH</b> \u00b7 y4cH_1<br>log2FC +1.20 (higher in M)<br>BH FDR 4.76e-04<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 34"
+     },
+     {
+      "x": -1.192,
+      "y": 1.571,
+      "hover": "<b>100499804</b> \u00b7 100499804_1<br>log2FC -1.19 (higher in WT)<br>BH FDR 2.69e-02<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 13"
+     },
+     {
+      "x": 1.172,
+      "y": 1.818,
+      "hover": "<b>cspA</b> \u00b7 cspA_12<br>log2FC +1.17 (higher in M)<br>BH FDR 1.52e-02<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 13"
+     },
+     {
+      "x": 1.135,
+      "y": 2.05,
+      "hover": "<b>bsl5715</b> \u00b7 bsl5715_1<br>log2FC +1.14 (higher in M)<br>BH FDR 8.91e-03<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 59"
+     },
+     {
+      "x": 1.124,
+      "y": 2.649,
+      "hover": "<b>BSZ18_29840</b> \u00b7 BSZ18_29840_27<br>log2FC +1.12 (higher in M)<br>BH FDR 2.24e-03<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 52"
+     },
+     {
+      "x": 1.124,
+      "y": 2.649,
+      "hover": "<b>cspA</b> \u00b7 cspA_28<br>log2FC +1.12 (higher in M)<br>BH FDR 2.25e-03<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 3"
+     },
+     {
+      "x": 1.095,
+      "y": 2.114,
+      "hover": "<b>blr2887</b> \u00b7 blr2887_23<br>log2FC +1.10 (higher in M)<br>BH FDR 7.69e-03<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 2<br>numeric shift +1.006 Da"
+     },
+     {
+      "x": 1.094,
+      "y": 2.164,
+      "hover": "<b>cspA_2</b> \u00b7 cspA_2_2<br>log2FC +1.09 (higher in M)<br>BH FDR 6.86e-03<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 46<br>numeric shift -115.035 Da"
+     },
+     {
+      "x": 1.07,
+      "y": 1.52,
+      "hover": "<b>blr3756</b> \u00b7 blr3756_2<br>log2FC +1.07 (higher in M)<br>BH FDR 3.02e-02<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 35<br>numeric shift +125.063 Da"
+     },
+     {
+      "x": 1.061,
+      "y": 1.708,
+      "hover": "<b>psd</b> \u00b7 psd_1<br>log2FC +1.06 (higher in M)<br>BH FDR 1.96e-02<br>detected WT 4/5 \u00b7 M 5/5<br>spectral count 7<br>numeric shift -17.023 Da"
+     },
+     {
+      "x": -1.06,
+      "y": 1.93,
+      "hover": "<b>hupA</b> \u00b7 hupA_13<br>log2FC -1.06 (higher in WT)<br>BH FDR 1.17e-02<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 23"
+     },
+     {
+      "x": 1.044,
+      "y": 1.876,
+      "hover": "<b>rpsH</b> \u00b7 rpsH_3<br>log2FC +1.04 (higher in M)<br>BH FDR 1.33e-02<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 7"
+     },
+     {
+      "x": 1.026,
+      "y": 2.303,
+      "hover": "<b>bsl7517</b> \u00b7 bsl7517_1<br>log2FC +1.03 (higher in M)<br>BH FDR 4.97e-03<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 101"
+     },
+     {
+      "x": 1.023,
+      "y": 1.932,
+      "hover": "<b>bsr7348</b> \u00b7 bsr7348_1<br>log2FC +1.02 (higher in M)<br>BH FDR 1.17e-02<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 18<br>numeric shift -117.002 Da"
+     },
+     {
+      "x": -1.018,
+      "y": 1.631,
+      "hover": "<b>100790570</b> \u00b7 100790570_1<br>log2FC -1.02 (higher in WT)<br>BH FDR 2.34e-02<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 21"
+     },
+     {
+      "x": 1.01,
+      "y": 1.358,
+      "hover": "<b>GLYMA_08G165400</b> \u00b7 GLYMA_08G165400_2<br>log2FC +1.01 (higher in M)<br>BH FDR 4.39e-02<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 10"
+     },
+     {
+      "x": 1.005,
+      "y": 1.512,
+      "hover": "<b>GLYMA_04G193500</b> \u00b7 GLYMA_04G193500_4<br>log2FC +1.01 (higher in M)<br>BH FDR 3.08e-02<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 3"
+     },
+     {
+      "x": 1.004,
+      "y": 2.195,
+      "hover": "<b>bsl4595</b> \u00b7 bsl4595_2<br>log2FC +1.00 (higher in M)<br>BH FDR 6.38e-03<br>detected WT 4/5 \u00b7 M 4/5<br>spectral count 10"
+     }
+    ]
+   },
+   {
+    "label": "tier B (85)",
+    "points": [
+     {
+      "x": 5.558,
+      "y": 3.413,
+      "hover": "<b>LBA</b> \u00b7 LBA_135<br>log2FC +5.56 (higher in M)<br>BH FDR 3.87e-04<br>detected WT 3/5 \u00b7 M 5/5<br>spectral count 94<br>numeric shift +31.043 Da"
+     },
+     {
+      "x": 4.73,
+      "y": 5.299,
+      "hover": "<b>fixG</b> \u00b7 fixG_2<br>log2FC +4.73 (higher in M)<br>BH FDR 5.03e-06<br>detected WT 3/5 \u00b7 M 5/5<br>spectral count 3<br>numeric shift -53.063 Da"
+     },
+     {
+      "x": -4.686,
+      "y": 3.735,
+      "hover": "<b>bll7787</b> \u00b7 bll7787_4<br>log2FC -4.69 (higher in WT)<br>BH FDR 1.84e-04<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 7"
+     },
+     {
+      "x": -4.331,
+      "y": 4.162,
+      "hover": "<b>chvI</b> \u00b7 chvI_3<br>log2FC -4.33 (higher in WT)<br>BH FDR 6.88e-05<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 22"
+     },
+     {
+      "x": -4.256,
+      "y": 3.547,
+      "hover": "<b>LOX1.4</b> \u00b7 LOX1.4_1<br>log2FC -4.26 (higher in WT)<br>BH FDR 2.84e-04<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 16"
+     },
+     {
+      "x": 4.186,
+      "y": 4.384,
+      "hover": "<b>blr2887</b> \u00b7 blr2887_15<br>log2FC +4.19 (higher in M)<br>BH FDR 4.13e-05<br>detected WT 3/5 \u00b7 M 5/5<br>spectral count 3<br>numeric shift -16.901 Da"
+     },
+     {
+      "x": 4.113,
+      "y": 3.762,
+      "hover": "<b>LBA</b> \u00b7 LBA_167<br>log2FC +4.11 (higher in M)<br>BH FDR 1.73e-04<br>detected WT 3/5 \u00b7 M 4/5<br>spectral count 2<br>numeric shift +47.085 Da"
+     },
+     {
+      "x": 3.884,
+      "y": 4.186,
+      "hover": "<b>100500301</b> \u00b7 100500301_1<br>log2FC +3.88 (higher in M)<br>BH FDR 6.51e-05<br>detected WT 3/5 \u00b7 M 4/5<br>spectral count 5"
+     },
+     {
+      "x": 3.795,
+      "y": 4.384,
+      "hover": "<b>100306376</b> \u00b7 100306376_1<br>log2FC +3.79 (higher in M)<br>BH FDR 4.13e-05<br>detected WT 4/5 \u00b7 M 3/5<br>spectral count 7"
+     },
+     {
+      "x": 3.778,
+      "y": 3.072,
+      "hover": "<b>LBA</b> \u00b7 LBA_93<br>log2FC +3.78 (higher in M)<br>BH FDR 8.47e-04<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 60<br>numeric shift +16.013 Da"
+     },
+     {
+      "x": -3.663,
+      "y": 3.082,
+      "hover": "<b>bll7787</b> \u00b7 bll7787_6<br>log2FC -3.66 (higher in WT)<br>BH FDR 8.29e-04<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 4"
+     },
+     {
+      "x": -3.48,
+      "y": 3.565,
+      "hover": "<b>groL6</b> \u00b7 groL6_5<br>log2FC -3.48 (higher in WT)<br>BH FDR 2.72e-04<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 14"
+     },
+     {
+      "x": -3.438,
+      "y": 4.655,
+      "hover": "<b>bsl4127</b> \u00b7 bsl4127_19<br>log2FC -3.44 (higher in WT)<br>BH FDR 2.21e-05<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 38"
+     },
+     {
+      "x": -3.339,
+      "y": 3.521,
+      "hover": "<b>GLYMA_U032500</b> \u00b7 GLYMA_U032500_1<br>log2FC -3.34 (higher in WT)<br>BH FDR 3.01e-04<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 21"
+     },
+     {
+      "x": -3.282,
+      "y": 3.82,
+      "hover": "<b>cspA_2</b> \u00b7 cspA_2_23<br>log2FC -3.28 (higher in WT)<br>BH FDR 1.51e-04<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 27"
+     },
+     {
+      "x": -3.278,
+      "y": 4.565,
+      "hover": "<b>acdS</b> \u00b7 acdS_1<br>log2FC -3.28 (higher in WT)<br>BH FDR 2.72e-05<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 10"
+     },
+     {
+      "x": -3.26,
+      "y": 3.713,
+      "hover": "<b>LGB1</b> \u00b7 LGB1_1<br>log2FC -3.26 (higher in WT)<br>BH FDR 1.94e-04<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 19"
+     },
+     {
+      "x": -3.15,
+      "y": 3.881,
+      "hover": "<b>rpsJ</b> \u00b7 rpsJ_4<br>log2FC -3.15 (higher in WT)<br>BH FDR 1.32e-04<br>detected WT 4/5 \u00b7 M 3/5<br>spectral count 8"
+     },
+     {
+      "x": 3.148,
+      "y": 2.601,
+      "hover": "<b>LGB1</b> \u00b7 LGB1_32<br>log2FC +3.15 (higher in M)<br>BH FDR 2.51e-03<br>detected WT 3/5 \u00b7 M 3/5<br>spectral count 134<br>numeric shift +16.008 Da"
+     },
+     {
+      "x": 3.077,
+      "y": 2.449,
+      "hover": "<b>LGB1</b> \u00b7 LGB1_33<br>log2FC +3.08 (higher in M)<br>BH FDR 3.56e-03<br>detected WT 3/5 \u00b7 M 3/5<br>spectral count 18<br>numeric shift +31.066 Da"
+     },
+     {
+      "x": 3.011,
+      "y": 2.259,
+      "hover": "<b>trxA</b> \u00b7 trxA_8<br>log2FC +3.01 (higher in M)<br>BH FDR 5.51e-03<br>detected WT 3/5 \u00b7 M 3/5<br>spectral count 3<br>numeric shift -2.971 Da"
+     },
+     {
+      "x": -2.984,
+      "y": 3.022,
+      "hover": "<b>groS3</b> \u00b7 groS3_43<br>log2FC -2.98 (higher in WT)<br>BH FDR 9.51e-04<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 103"
+     },
+     {
+      "x": -2.952,
+      "y": 3.632,
+      "hover": "<b>BSZ18_29840</b> \u00b7 BSZ18_29840_25<br>log2FC -2.95 (higher in WT)<br>BH FDR 2.34e-04<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 6"
+     },
+     {
+      "x": -2.888,
+      "y": 2.696,
+      "hover": "<b>groL7</b> \u00b7 groL7_1<br>log2FC -2.89 (higher in WT)<br>BH FDR 2.01e-03<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 13"
+     },
+     {
+      "x": -2.887,
+      "y": 2.696,
+      "hover": "<b>groL</b> \u00b7 groL_13<br>log2FC -2.89 (higher in WT)<br>BH FDR 2.01e-03<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 3<br>numeric shift -57.016 Da"
+     },
+     {
+      "x": -2.803,
+      "y": 1.611,
+      "hover": "<b>frr</b> \u00b7 frr_1<br>log2FC -2.80 (higher in WT)<br>BH FDR 2.45e-02<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 5"
+     },
+     {
+      "x": -2.79,
+      "y": 3.159,
+      "hover": "<b>BJS_08418</b> \u00b7 BJS_08418_21<br>log2FC -2.79 (higher in WT)<br>BH FDR 6.94e-04<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 84"
+     },
+     {
+      "x": -2.635,
+      "y": 4.093,
+      "hover": "<b>bsl7135</b> \u00b7 bsl7135_10<br>log2FC -2.64 (higher in WT)<br>BH FDR 8.07e-05<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 29"
+     },
+     {
+      "x": 2.552,
+      "y": 3.735,
+      "hover": "<b>apx2</b> \u00b7 apx2_5<br>log2FC +2.55 (higher in M)<br>BH FDR 1.84e-04<br>detected WT 3/5 \u00b7 M 5/5<br>spectral count 5"
+     },
+     {
+      "x": -2.49,
+      "y": 2.684,
+      "hover": "<b>blr5306</b> \u00b7 blr5306_4<br>log2FC -2.49 (higher in WT)<br>BH FDR 2.07e-03<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 25"
+     },
+     {
+      "x": 2.484,
+      "y": 3.606,
+      "hover": "<b>blr1847</b> \u00b7 blr1847_5<br>log2FC +2.48 (higher in M)<br>BH FDR 2.48e-04<br>detected WT 4/5 \u00b7 M 3/5<br>spectral count 6<br>numeric shift -2.990 Da"
+     },
+     {
+      "x": 2.446,
+      "y": 2.713,
+      "hover": "<b>LBA</b> \u00b7 LBA_242<br>log2FC +2.45 (higher in M)<br>BH FDR 1.93e-03<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 3<br>numeric shift -175.046 Da"
+     },
+     {
+      "x": 2.385,
+      "y": 1.748,
+      "hover": "<b>tig</b> \u00b7 tig_7<br>log2FC +2.38 (higher in M)<br>BH FDR 1.79e-02<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 2"
+     },
+     {
+      "x": -2.296,
+      "y": 1.691,
+      "hover": "<b>BJS_08418</b> \u00b7 BJS_08418_15<br>log2FC -2.30 (higher in WT)<br>BH FDR 2.04e-02<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 7"
+     },
+     {
+      "x": 2.229,
+      "y": 2.759,
+      "hover": "<b>GLYMA_04G193500</b> \u00b7 GLYMA_04G193500_6<br>log2FC +2.23 (higher in M)<br>BH FDR 1.74e-03<br>detected WT 4/5 \u00b7 M 3/5<br>spectral count 3<br>numeric shift -57.020 Da"
+     },
+     {
+      "x": 2.228,
+      "y": 2.742,
+      "hover": "<b>LBA</b> \u00b7 LBA_310<br>log2FC +2.23 (higher in M)<br>BH FDR 1.81e-03<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 296"
+     },
+     {
+      "x": 2.224,
+      "y": 2.741,
+      "hover": "<b>groS</b> \u00b7 groS_3<br>log2FC +2.22 (higher in M)<br>BH FDR 1.82e-03<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 14<br>numeric shift +45.038 Da"
+     },
+     {
+      "x": -2.199,
+      "y": 1.33,
+      "hover": "<b>bll0598</b> \u00b7 bll0598_2<br>log2FC -2.20 (higher in WT)<br>BH FDR 4.68e-02<br>detected WT 3/5 \u00b7 M 5/5<br>spectral count 7<br>numeric shift +113.031 Da"
+     },
+     {
+      "x": -2.198,
+      "y": 1.699,
+      "hover": "<b>etfB</b> \u00b7 etfB_1<br>log2FC -2.20 (higher in WT)<br>BH FDR 2.00e-02<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 12"
+     },
+     {
+      "x": -2.186,
+      "y": 1.559,
+      "hover": "<b>100782546</b> \u00b7 100782546_1<br>log2FC -2.19 (higher in WT)<br>BH FDR 2.76e-02<br>detected WT 4/5 \u00b7 M 3/5<br>spectral count 2<br>numeric shift -486.231 Da"
+     },
+     {
+      "x": 2.144,
+      "y": 1.889,
+      "hover": "<b>groS3</b> \u00b7 groS3_26<br>log2FC +2.14 (higher in M)<br>BH FDR 1.29e-02<br>detected WT 4/5 \u00b7 M 3/5<br>spectral count 3<br>numeric shift -16.004 Da"
+     },
+     {
+      "x": 2.093,
+      "y": 2.894,
+      "hover": "<b>groS</b> \u00b7 groS_49<br>log2FC +2.09 (higher in M)<br>BH FDR 1.28e-03<br>detected WT 3/5 \u00b7 M 4/5<br>spectral count 4"
+     },
+     {
+      "x": -2.073,
+      "y": 1.556,
+      "hover": "<b>LGB1</b> \u00b7 LGB1_92<br>log2FC -2.07 (higher in WT)<br>BH FDR 2.78e-02<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 50"
+     },
+     {
+      "x": 2.047,
+      "y": 1.969,
+      "hover": "<b>LGB1</b> \u00b7 LGB1_42<br>log2FC +2.05 (higher in M)<br>BH FDR 1.07e-02<br>detected WT 3/5 \u00b7 M 5/5<br>spectral count 10<br>numeric shift +16.328 Da"
+     },
+     {
+      "x": 2.026,
+      "y": 3.512,
+      "hover": "<b>100500024</b> \u00b7 100500024_3<br>log2FC +2.03 (higher in M)<br>BH FDR 3.08e-04<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 12<br>numeric shift -5.020 Da"
+     },
+     {
+      "x": -2.026,
+      "y": 2.436,
+      "hover": "<b>rplA</b> \u00b7 rplA_1<br>log2FC -2.03 (higher in WT)<br>BH FDR 3.66e-03<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 10"
+     },
+     {
+      "x": -1.991,
+      "y": 2.757,
+      "hover": "<b>LBA</b> \u00b7 LBA_367<br>log2FC -1.99 (higher in WT)<br>BH FDR 1.75e-03<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 18<br>numeric shift -15.787 Da"
+     },
+     {
+      "x": -1.983,
+      "y": 2.453,
+      "hover": "<b>LBA</b> \u00b7 LBA_489<br>log2FC -1.98 (higher in WT)<br>BH FDR 3.52e-03<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 6<br>numeric shift +32.013 Da"
+     },
+     {
+      "x": 1.97,
+      "y": 2.286,
+      "hover": "<b>BSZ18_29840</b> \u00b7 BSZ18_29840_3<br>log2FC +1.97 (higher in M)<br>BH FDR 5.18e-03<br>detected WT 3/5 \u00b7 M 4/5<br>spectral count 5<br>numeric shift -82.957 Da"
+     },
+     {
+      "x": -1.95,
+      "y": 2.868,
+      "hover": "<b>LBA</b> \u00b7 LBA_1<br>log2FC -1.95 (higher in WT)<br>BH FDR 1.36e-03<br>detected WT 4/5 \u00b7 M 3/5<br>spectral count 29"
+     },
+     {
+      "x": 1.906,
+      "y": 2.191,
+      "hover": "<b>BSZ18_29840</b> \u00b7 BSZ18_29840_11<br>log2FC +1.91 (higher in M)<br>BH FDR 6.44e-03<br>detected WT 4/5 \u00b7 M 3/5<br>spectral count 2<br>numeric shift -72.827 Da"
+     },
+     {
+      "x": -1.895,
+      "y": 1.615,
+      "hover": "<b>rplW</b> \u00b7 rplW_7<br>log2FC -1.90 (higher in WT)<br>BH FDR 2.43e-02<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 8"
+     },
+     {
+      "x": -1.884,
+      "y": 3.514,
+      "hover": "<b>LBA</b> \u00b7 LBA_288<br>log2FC -1.88 (higher in WT)<br>BH FDR 3.06e-04<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 13"
+     },
+     {
+      "x": 1.883,
+      "y": 1.687,
+      "hover": "<b>100787994</b> \u00b7 100787994_1<br>log2FC +1.88 (higher in M)<br>BH FDR 2.06e-02<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 18"
+     },
+     {
+      "x": 1.872,
+      "y": 2.618,
+      "hover": "<b>100305723</b> \u00b7 100305723_1<br>log2FC +1.87 (higher in M)<br>BH FDR 2.41e-03<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 4"
+     },
+     {
+      "x": -1.838,
+      "y": 2.509,
+      "hover": "<b>BSZ18_06685</b> \u00b7 BSZ18_06685_1<br>log2FC -1.84 (higher in WT)<br>BH FDR 3.09e-03<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 10"
+     },
+     {
+      "x": 1.834,
+      "y": 1.833,
+      "hover": "<b>blr1847</b> \u00b7 blr1847_4<br>log2FC +1.83 (higher in M)<br>BH FDR 1.47e-02<br>detected WT 3/5 \u00b7 M 4/5<br>spectral count 4<br>numeric shift -2.902 Da"
+     },
+     {
+      "x": -1.815,
+      "y": 1.691,
+      "hover": "<b>bll4722</b> \u00b7 bll4722_7<br>log2FC -1.82 (higher in WT)<br>BH FDR 2.04e-02<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 106"
+     },
+     {
+      "x": -1.81,
+      "y": 3.219,
+      "hover": "<b>rpsA</b> \u00b7 rpsA_2<br>log2FC -1.81 (higher in WT)<br>BH FDR 6.04e-04<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 10"
+     },
+     {
+      "x": -1.803,
+      "y": 3.254,
+      "hover": "<b>LBA</b> \u00b7 LBA_293<br>log2FC -1.80 (higher in WT)<br>BH FDR 5.58e-04<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 16"
+     },
+     {
+      "x": -1.78,
+      "y": 3.277,
+      "hover": "<b>BSZ18_29840</b> \u00b7 BSZ18_29840_2<br>log2FC -1.78 (higher in WT)<br>BH FDR 5.28e-04<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 36"
+     },
+     {
+      "x": -1.779,
+      "y": 3.277,
+      "hover": "<b>cspA</b> \u00b7 cspA_17<br>log2FC -1.78 (higher in WT)<br>BH FDR 5.28e-04<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 6"
+     },
+     {
+      "x": -1.76,
+      "y": 1.454,
+      "hover": "<b>LBA</b> \u00b7 LBA_421<br>log2FC -1.76 (higher in WT)<br>BH FDR 3.51e-02<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 13<br>numeric shift +16.012 Da"
+     },
+     {
+      "x": 1.759,
+      "y": 2.25,
+      "hover": "<b>BJS_08504</b> \u00b7 BJS_08504_4<br>log2FC +1.76 (higher in M)<br>BH FDR 5.62e-03<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 8"
+     },
+     {
+      "x": -1.754,
+      "y": 2.397,
+      "hover": "<b>LGB1</b> \u00b7 LGB1_183<br>log2FC -1.75 (higher in WT)<br>BH FDR 4.01e-03<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 15"
+     },
+     {
+      "x": -1.751,
+      "y": 2.952,
+      "hover": "<b>BJA01nite_72890</b> \u00b7 BJA01nite_72890_1<br>log2FC -1.75 (higher in WT)<br>BH FDR 1.12e-03<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 57"
+     },
+     {
+      "x": -1.742,
+      "y": 1.814,
+      "hover": "<b>LBA</b> \u00b7 LBA_270<br>log2FC -1.74 (higher in WT)<br>BH FDR 1.53e-02<br>detected WT 4/5 \u00b7 M 3/5<br>spectral count 14<br>numeric shift +32.018 Da"
+     },
+     {
+      "x": -1.689,
+      "y": 2.715,
+      "hover": "<b>rpmD</b> \u00b7 rpmD_6<br>log2FC -1.69 (higher in WT)<br>BH FDR 1.93e-03<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 2"
+     },
+     {
+      "x": 1.646,
+      "y": 1.693,
+      "hover": "<b>LBA</b> \u00b7 LBA_170<br>log2FC +1.65 (higher in M)<br>BH FDR 2.03e-02<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 15"
+     },
+     {
+      "x": -1.544,
+      "y": 1.932,
+      "hover": "<b>GLYMA_16G046500</b> \u00b7 GLYMA_16G046500_1<br>log2FC -1.54 (higher in WT)<br>BH FDR 1.17e-02<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 7"
+     },
+     {
+      "x": 1.46,
+      "y": 1.544,
+      "hover": "<b>GLYMA_16G088200</b> \u00b7 GLYMA_16G088200_1<br>log2FC +1.46 (higher in M)<br>BH FDR 2.86e-02<br>detected WT 3/5 \u00b7 M 3/5<br>spectral count 6"
+     },
+     {
+      "x": -1.458,
+      "y": 3.022,
+      "hover": "<b>GLYMA_02G222400</b> \u00b7 GLYMA_02G222400_7<br>log2FC -1.46 (higher in WT)<br>BH FDR 9.51e-04<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 17"
+     },
+     {
+      "x": 1.417,
+      "y": 1.416,
+      "hover": "<b>100777927</b> \u00b7 100777927_6<br>log2FC +1.42 (higher in M)<br>BH FDR 3.84e-02<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 11"
+     },
+     {
+      "x": 1.415,
+      "y": 1.33,
+      "hover": "<b>BSZ18_10885</b> \u00b7 BSZ18_10885_1<br>log2FC +1.42 (higher in M)<br>BH FDR 4.68e-02<br>detected WT 4/5 \u00b7 M 3/5<br>spectral count 5"
+     },
+     {
+      "x": -1.38,
+      "y": 2.491,
+      "hover": "<b>GLYMA_08G200200</b> \u00b7 GLYMA_08G200200_5<br>log2FC -1.38 (higher in WT)<br>BH FDR 3.23e-03<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 18"
+     },
+     {
+      "x": -1.264,
+      "y": 2.491,
+      "hover": "<b>GLYMA_07G115900</b> \u00b7 GLYMA_07G115900_5<br>log2FC -1.26 (higher in WT)<br>BH FDR 3.23e-03<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 13"
+     },
+     {
+      "x": -1.21,
+      "y": 2.037,
+      "hover": "<b>bll5882</b> \u00b7 bll5882_1<br>log2FC -1.21 (higher in WT)<br>BH FDR 9.19e-03<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 17<br>numeric shift +42.051 Da"
+     },
+     {
+      "x": -1.209,
+      "y": 2.143,
+      "hover": "<b>GLYMA_07G115900</b> \u00b7 GLYMA_07G115900_9<br>log2FC -1.21 (higher in WT)<br>BH FDR 7.20e-03<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 29"
+     },
+     {
+      "x": -1.165,
+      "y": 2.328,
+      "hover": "<b>ndk</b> \u00b7 ndk_23<br>log2FC -1.17 (higher in WT)<br>BH FDR 4.70e-03<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 43"
+     },
+     {
+      "x": -1.134,
+      "y": 2.034,
+      "hover": "<b>bsr7796</b> \u00b7 bsr7796_5<br>log2FC -1.13 (higher in WT)<br>BH FDR 9.25e-03<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 22"
+     },
+     {
+      "x": -1.114,
+      "y": 1.593,
+      "hover": "<b>100800967</b> \u00b7 100800967_2<br>log2FC -1.11 (higher in WT)<br>BH FDR 2.55e-02<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 18"
+     },
+     {
+      "x": -1.077,
+      "y": 1.729,
+      "hover": "<b>bll7600</b> \u00b7 bll7600_22<br>log2FC -1.08 (higher in WT)<br>BH FDR 1.87e-02<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 3"
+     },
+     {
+      "x": -1.032,
+      "y": 2.001,
+      "hover": "<b>LBA</b> \u00b7 LBA_9<br>log2FC -1.03 (higher in WT)<br>BH FDR 9.98e-03<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 10"
+     },
+     {
+      "x": -1.032,
+      "y": 1.829,
+      "hover": "<b>groL3</b> \u00b7 groL3_2<br>log2FC -1.03 (higher in WT)<br>BH FDR 1.48e-02<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 11"
+     },
+     {
+      "x": 1.017,
+      "y": 1.896,
+      "hover": "<b>GLYMA_03G044400</b> \u00b7 GLYMA_03G044400_1<br>log2FC +1.02 (higher in M)<br>BH FDR 1.27e-02<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 12"
+     }
+    ]
+   },
+   {
+    "label": "tier C (102)",
+    "points": [
+     {
+      "x": 7.039,
+      "y": 4.356,
+      "hover": "<b>LBA</b> \u00b7 LBA_186<br>log2FC +7.04 (higher in M)<br>BH FDR 4.40e-05<br>detected WT 2/5 \u00b7 M 4/5<br>spectral count 74<br>numeric shift +16.019 Da"
+     },
+     {
+      "x": 6.668,
+      "y": 5.056,
+      "hover": "<b>fixG</b> \u00b7 fixG_1<br>log2FC +6.67 (higher in M)<br>BH FDR 8.79e-06<br>detected WT 2/5 \u00b7 M 5/5<br>spectral count 3<br>numeric shift +62.982 Da"
+     },
+     {
+      "x": 6.611,
+      "y": 5.5,
+      "hover": "<b>fixG</b> \u00b7 fixG_3<br>log2FC +6.61 (higher in M)<br>BH FDR 3.17e-06<br>detected WT 2/5 \u00b7 M 5/5<br>spectral count 2<br>numeric shift -69.067 Da"
+     },
+     {
+      "x": -5.364,
+      "y": 3.678,
+      "hover": "<b>BKD09_28005</b> \u00b7 BKD09_28005_2<br>log2FC -5.36 (higher in WT)<br>BH FDR 2.10e-04<br>detected WT 3/5 \u00b7 M 2/5<br>spectral count 2<br>numeric shift -119.015 Da"
+     },
+     {
+      "x": -5.197,
+      "y": 2.6,
+      "hover": "<b>GLYMA_U032500</b> \u00b7 GLYMA_U032500_4<br>log2FC -5.20 (higher in WT)<br>BH FDR 2.51e-03<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 5"
+     },
+     {
+      "x": 5.011,
+      "y": 3.521,
+      "hover": "<b>blr4417</b> \u00b7 blr4417_6<br>log2FC +5.01 (higher in M)<br>BH FDR 3.01e-04<br>detected WT 2/5 \u00b7 M 3/5<br>spectral count 4<br>numeric shift -203.135 Da"
+     },
+     {
+      "x": 4.974,
+      "y": 4.474,
+      "hover": "<b>LBA</b> \u00b7 LBA_209<br>log2FC +4.97 (higher in M)<br>BH FDR 3.36e-05<br>detected WT 2/5 \u00b7 M 4/5<br>spectral count 2<br>numeric shift +29.192 Da"
+     },
+     {
+      "x": 4.775,
+      "y": 2.532,
+      "hover": "<b>LBA</b> \u00b7 LBA_249<br>log2FC +4.77 (higher in M)<br>BH FDR 2.94e-03<br>detected WT 2/5 \u00b7 M 3/5<br>spectral count 6<br>numeric shift +26.036 Da"
+     },
+     {
+      "x": 4.57,
+      "y": 3.823,
+      "hover": "<b>blr4404</b> \u00b7 blr4404_3<br>log2FC +4.57 (higher in M)<br>BH FDR 1.50e-04<br>detected WT 2/5 \u00b7 M 5/5<br>spectral count 15<br>numeric shift +85.069 Da"
+     },
+     {
+      "x": 4.42,
+      "y": 2.061,
+      "hover": "<b>LGB1</b> \u00b7 LGB1_95<br>log2FC +4.42 (higher in M)<br>BH FDR 8.69e-03<br>detected WT 2/5 \u00b7 M 4/5<br>spectral count 81<br>numeric shift +16.030 Da"
+     },
+     {
+      "x": 4.346,
+      "y": 1.773,
+      "hover": "<b>LBA</b> \u00b7 LBA_447<br>log2FC +4.35 (higher in M)<br>BH FDR 1.69e-02<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 24<br>numeric shift +16.030 Da"
+     },
+     {
+      "x": -4.207,
+      "y": 2.031,
+      "hover": "<b>groL7</b> \u00b7 groL7_7<br>log2FC -4.21 (higher in WT)<br>BH FDR 9.31e-03<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 9"
+     },
+     {
+      "x": -4.13,
+      "y": 4.232,
+      "hover": "<b>BJA01nite_72890</b> \u00b7 BJA01nite_72890_5<br>log2FC -4.13 (higher in WT)<br>BH FDR 5.86e-05<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 23"
+     },
+     {
+      "x": 4.088,
+      "y": 3.473,
+      "hover": "<b>LBA</b> \u00b7 LBA_109<br>log2FC +4.09 (higher in M)<br>BH FDR 3.37e-04<br>detected WT 2/5 \u00b7 M 4/5<br>spectral count 4<br>numeric shift +31.028 Da"
+     },
+     {
+      "x": -4.073,
+      "y": 3.022,
+      "hover": "<b>pgk</b> \u00b7 pgk_3<br>log2FC -4.07 (higher in WT)<br>BH FDR 9.51e-04<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 13"
+     },
+     {
+      "x": 3.998,
+      "y": 3.228,
+      "hover": "<b>100797842</b> \u00b7 100797842_2<br>log2FC +4.00 (higher in M)<br>BH FDR 5.91e-04<br>detected WT 2/5 \u00b7 M 5/5<br>spectral count 29"
+     },
+     {
+      "x": -3.989,
+      "y": 4.106,
+      "hover": "<b>cspA_3</b> \u00b7 cspA_3_3<br>log2FC -3.99 (higher in WT)<br>BH FDR 7.83e-05<br>detected WT 4/5 \u00b7 M 2/5<br>spectral count 2<br>numeric shift -291.096 Da"
+     },
+     {
+      "x": -3.943,
+      "y": 3.82,
+      "hover": "<b>LBA</b> \u00b7 LBA_258<br>log2FC -3.94 (higher in WT)<br>BH FDR 1.51e-04<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 8<br>numeric shift +424.325 Da"
+     },
+     {
+      "x": 3.854,
+      "y": 2.398,
+      "hover": "<b>100527608</b> \u00b7 100527608_1<br>log2FC +3.85 (higher in M)<br>BH FDR 4.00e-03<br>detected WT 2/5 \u00b7 M 3/5<br>spectral count 3"
+     },
+     {
+      "x": -3.823,
+      "y": 4.565,
+      "hover": "<b>LBA</b> \u00b7 LBA_400<br>log2FC -3.82 (higher in WT)<br>BH FDR 2.72e-05<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 1<br>numeric shift -4.133 Da"
+     },
+     {
+      "x": -3.822,
+      "y": 4.565,
+      "hover": "<b>phaA</b> \u00b7 phaA_7<br>log2FC -3.82 (higher in WT)<br>BH FDR 2.72e-05<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 2<br>numeric shift -2.005 Da"
+     },
+     {
+      "x": 3.811,
+      "y": 2.379,
+      "hover": "<b>100790707</b> \u00b7 100790707_1<br>log2FC +3.81 (higher in M)<br>BH FDR 4.17e-03<br>detected WT 4/5 \u00b7 M 2/5<br>spectral count 5"
+     },
+     {
+      "x": -3.729,
+      "y": 3.99,
+      "hover": "<b>sucD</b> \u00b7 sucD_1<br>log2FC -3.73 (higher in WT)<br>BH FDR 1.02e-04<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 8"
+     },
+     {
+      "x": 3.617,
+      "y": 3.083,
+      "hover": "<b>bll7395</b> \u00b7 bll7395_18<br>log2FC +3.62 (higher in M)<br>BH FDR 8.26e-04<br>detected WT 2/5 \u00b7 M 5/5<br>spectral count 9<br>numeric shift -45.002 Da"
+     },
+     {
+      "x": -3.577,
+      "y": 3.26,
+      "hover": "<b>groL3</b> \u00b7 groL3_88<br>log2FC -3.58 (higher in WT)<br>BH FDR 5.49e-04<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 16"
+     },
+     {
+      "x": -3.488,
+      "y": 4.384,
+      "hover": "<b>bsl4127</b> \u00b7 bsl4127_6<br>log2FC -3.49 (higher in WT)<br>BH FDR 4.13e-05<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 8"
+     },
+     {
+      "x": -3.461,
+      "y": 2.462,
+      "hover": "<b>bsr6520</b> \u00b7 bsr6520_1<br>log2FC -3.46 (higher in WT)<br>BH FDR 3.45e-03<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 3"
+     },
+     {
+      "x": 3.456,
+      "y": 1.956,
+      "hover": "<b>LBA</b> \u00b7 LBA_245<br>log2FC +3.46 (higher in M)<br>BH FDR 1.11e-02<br>detected WT 2/5 \u00b7 M 2/5<br>spectral count 12<br>numeric shift +58.042 Da"
+     },
+     {
+      "x": -3.422,
+      "y": 3.407,
+      "hover": "<b>pnp</b> \u00b7 pnp_1<br>log2FC -3.42 (higher in WT)<br>BH FDR 3.92e-04<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 10"
+     },
+     {
+      "x": -3.357,
+      "y": 3.772,
+      "hover": "<b>100792195</b> \u00b7 100792195_1<br>log2FC -3.36 (higher in WT)<br>BH FDR 1.69e-04<br>detected WT 4/5 \u00b7 M 2/5<br>spectral count 2<br>numeric shift -319.169 Da"
+     },
+     {
+      "x": -3.274,
+      "y": 2.774,
+      "hover": "<b>groL</b> \u00b7 groL_8<br>log2FC -3.27 (higher in WT)<br>BH FDR 1.68e-03<br>detected WT 2/5 \u00b7 M 2/5<br>spectral count 4<br>numeric shift +16.004 Da"
+     },
+     {
+      "x": -3.145,
+      "y": 3.82,
+      "hover": "<b>bll7787</b> \u00b7 bll7787_3<br>log2FC -3.14 (higher in WT)<br>BH FDR 1.51e-04<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 3"
+     },
+     {
+      "x": 3.123,
+      "y": 1.93,
+      "hover": "<b>GLYMA_15G133700</b> \u00b7 GLYMA_15G133700_2<br>log2FC +3.12 (higher in M)<br>BH FDR 1.17e-02<br>detected WT 2/5 \u00b7 M 3/5<br>spectral count 16"
+     },
+     {
+      "x": 3.119,
+      "y": 2.646,
+      "hover": "<b>purS</b> \u00b7 purS_2<br>log2FC +3.12 (higher in M)<br>BH FDR 2.26e-03<br>detected WT 2/5 \u00b7 M 5/5<br>spectral count 48"
+     },
+     {
+      "x": 3.095,
+      "y": 3.521,
+      "hover": "<b>100814895</b> \u00b7 100814895_2<br>log2FC +3.09 (higher in M)<br>BH FDR 3.01e-04<br>detected WT 2/5 \u00b7 M 5/5<br>spectral count 12"
+     },
+     {
+      "x": -3.044,
+      "y": 2.625,
+      "hover": "<b>GLYMA_08G200200</b> \u00b7 GLYMA_08G200200_12<br>log2FC -3.04 (higher in WT)<br>BH FDR 2.37e-03<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 3"
+     },
+     {
+      "x": 2.953,
+      "y": 2.379,
+      "hover": "<b>LBA</b> \u00b7 LBA_64<br>log2FC +2.95 (higher in M)<br>BH FDR 4.17e-03<br>detected WT 2/5 \u00b7 M 2/5<br>spectral count 2"
+     },
+     {
+      "x": 2.953,
+      "y": 2.379,
+      "hover": "<b>LGB1</b> \u00b7 LGB1_219<br>log2FC +2.95 (higher in M)<br>BH FDR 4.17e-03<br>detected WT 2/5 \u00b7 M 2/5<br>spectral count 2"
+     },
+     {
+      "x": -2.927,
+      "y": 2.99,
+      "hover": "<b>groL6</b> \u00b7 groL6_19<br>log2FC -2.93 (higher in WT)<br>BH FDR 1.02e-03<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 2<br>numeric shift -0.979 Da"
+     },
+     {
+      "x": 2.9,
+      "y": 2.985,
+      "hover": "<b>100777195</b> \u00b7 100777195_6<br>log2FC +2.90 (higher in M)<br>BH FDR 1.03e-03<br>detected WT 3/5 \u00b7 M 2/5<br>spectral count 2<br>numeric shift -259.134 Da"
+     },
+     {
+      "x": -2.836,
+      "y": 2.882,
+      "hover": "<b>groL3</b> \u00b7 groL3_49<br>log2FC -2.84 (higher in WT)<br>BH FDR 1.31e-03<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 41"
+     },
+     {
+      "x": -2.833,
+      "y": 3.8,
+      "hover": "<b>LBA</b> \u00b7 LBA_299<br>log2FC -2.83 (higher in WT)<br>BH FDR 1.59e-04<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 28"
+     },
+     {
+      "x": -2.777,
+      "y": 3.886,
+      "hover": "<b>blr1249</b> \u00b7 blr1249_4<br>log2FC -2.78 (higher in WT)<br>BH FDR 1.30e-04<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 18"
+     },
+     {
+      "x": -2.777,
+      "y": 3.886,
+      "hover": "<b>BSZ18_25575</b> \u00b7 BSZ18_25575_1<br>log2FC -2.78 (higher in WT)<br>BH FDR 1.30e-04<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 1<br>numeric shift +27.056 Da"
+     },
+     {
+      "x": -2.738,
+      "y": 1.913,
+      "hover": "<b>bsl7135</b> \u00b7 bsl7135_12<br>log2FC -2.74 (higher in WT)<br>BH FDR 1.22e-02<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 18"
+     },
+     {
+      "x": -2.714,
+      "y": 1.997,
+      "hover": "<b>BKD09_47620</b> \u00b7 BKD09_47620_1<br>log2FC -2.71 (higher in WT)<br>BH FDR 1.01e-02<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 3<br>numeric shift -118.046 Da"
+     },
+     {
+      "x": -2.642,
+      "y": 3.078,
+      "hover": "<b>groL3</b> \u00b7 groL3_10<br>log2FC -2.64 (higher in WT)<br>BH FDR 8.35e-04<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 76"
+     },
+     {
+      "x": 2.639,
+      "y": 2.785,
+      "hover": "<b>groS</b> \u00b7 groS_31<br>log2FC +2.64 (higher in M)<br>BH FDR 1.64e-03<br>detected WT 2/5 \u00b7 M 3/5<br>spectral count 6<br>numeric shift +76.359 Da"
+     },
+     {
+      "x": -2.621,
+      "y": 3.072,
+      "hover": "<b>bll7395</b> \u00b7 bll7395_22<br>log2FC -2.62 (higher in WT)<br>BH FDR 8.47e-04<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 15"
+     },
+     {
+      "x": -2.61,
+      "y": 2.741,
+      "hover": "<b>phaA</b> \u00b7 phaA_2<br>log2FC -2.61 (higher in WT)<br>BH FDR 1.82e-03<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 4<br>numeric shift -235.081 Da"
+     },
+     {
+      "x": 2.557,
+      "y": 2.081,
+      "hover": "<b>LGB1</b> \u00b7 LGB1_97<br>log2FC +2.56 (higher in M)<br>BH FDR 8.30e-03<br>detected WT 2/5 \u00b7 M 4/5<br>spectral count 19"
+     },
+     {
+      "x": 2.53,
+      "y": 2.462,
+      "hover": "<b>rpmI</b> \u00b7 rpmI_1<br>log2FC +2.53 (higher in M)<br>BH FDR 3.45e-03<br>detected WT 2/5 \u00b7 M 3/5<br>spectral count 4"
+     },
+     {
+      "x": 2.493,
+      "y": 2.493,
+      "hover": "<b>547875</b> \u00b7 547875_4<br>log2FC +2.49 (higher in M)<br>BH FDR 3.21e-03<br>detected WT 2/5 \u00b7 M 4/5<br>spectral count 32"
+     },
+     {
+      "x": 2.466,
+      "y": 1.643,
+      "hover": "<b>ndk</b> \u00b7 ndk_4<br>log2FC +2.47 (higher in M)<br>BH FDR 2.28e-02<br>detected WT 2/5 \u00b7 M 4/5<br>spectral count 4"
+     },
+     {
+      "x": 2.412,
+      "y": 1.416,
+      "hover": "<b>LBA</b> \u00b7 LBA_579<br>log2FC +2.41 (higher in M)<br>BH FDR 3.84e-02<br>detected WT 2/5 \u00b7 M 5/5<br>spectral count 1<br>numeric shift -417.164 Da"
+     },
+     {
+      "x": 2.405,
+      "y": 2.365,
+      "hover": "<b>LGB1</b> \u00b7 LGB1_13<br>log2FC +2.41 (higher in M)<br>BH FDR 4.32e-03<br>detected WT 2/5 \u00b7 M 5/5<br>spectral count 32<br>numeric shift +32.057 Da"
+     },
+     {
+      "x": -2.391,
+      "y": 3.343,
+      "hover": "<b>dgoA</b> \u00b7 dgoA_1<br>log2FC -2.39 (higher in WT)<br>BH FDR 4.54e-04<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 5"
+     },
+     {
+      "x": 2.39,
+      "y": 2.493,
+      "hover": "<b>groS</b> \u00b7 groS_37<br>log2FC +2.39 (higher in M)<br>BH FDR 3.21e-03<br>detected WT 2/5 \u00b7 M 3/5<br>spectral count 5<br>numeric shift +58.012 Da"
+     },
+     {
+      "x": 2.318,
+      "y": 2.852,
+      "hover": "<b>LBA</b> \u00b7 LBA_314<br>log2FC +2.32 (higher in M)<br>BH FDR 1.40e-03<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 1<br>numeric shift +15.144 Da"
+     },
+     {
+      "x": -2.316,
+      "y": 2.913,
+      "hover": "<b>MA20_18120</b> \u00b7 MA20_18120_2<br>log2FC -2.32 (higher in WT)<br>BH FDR 1.22e-03<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 5"
+     },
+     {
+      "x": -2.285,
+      "y": 1.968,
+      "hover": "<b>BJS_07054</b> \u00b7 BJS_07054_7<br>log2FC -2.29 (higher in WT)<br>BH FDR 1.08e-02<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 6"
+     },
+     {
+      "x": 2.218,
+      "y": 1.972,
+      "hover": "<b>LGB1</b> \u00b7 LGB1_38<br>log2FC +2.22 (higher in M)<br>BH FDR 1.07e-02<br>detected WT 2/5 \u00b7 M 4/5<br>spectral count 16<br>numeric shift +31.061 Da"
+     },
+     {
+      "x": 2.176,
+      "y": 1.814,
+      "hover": "<b>GLYMA_02G140900</b> \u00b7 GLYMA_02G140900_1<br>log2FC +2.18 (higher in M)<br>BH FDR 1.53e-02<br>detected WT 2/5 \u00b7 M 5/5<br>spectral count 4"
+     },
+     {
+      "x": -2.163,
+      "y": 3.022,
+      "hover": "<b>groL3</b> \u00b7 groL3_59<br>log2FC -2.16 (higher in WT)<br>BH FDR 9.51e-04<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 12<br>numeric shift +71.037 Da"
+     },
+     {
+      "x": 2.154,
+      "y": 2.741,
+      "hover": "<b>blr1408</b> \u00b7 blr1408_2<br>log2FC +2.15 (higher in M)<br>BH FDR 1.82e-03<br>detected WT 2/5 \u00b7 M 4/5<br>spectral count 8<br>numeric shift +125.052 Da"
+     },
+     {
+      "x": -2.147,
+      "y": 2.193,
+      "hover": "<b>tig</b> \u00b7 tig_6<br>log2FC -2.15 (higher in WT)<br>BH FDR 6.41e-03<br>detected WT 4/5 \u00b7 M 2/5<br>spectral count 15"
+     },
+     {
+      "x": 2.139,
+      "y": 2.163,
+      "hover": "<b>LBA</b> \u00b7 LBA_375<br>log2FC +2.14 (higher in M)<br>BH FDR 6.88e-03<br>detected WT 4/5 \u00b7 M 2/5<br>spectral count 6"
+     },
+     {
+      "x": 2.116,
+      "y": 2.742,
+      "hover": "<b>blr1408</b> \u00b7 blr1408_1<br>log2FC +2.12 (higher in M)<br>BH FDR 1.81e-03<br>detected WT 2/5 \u00b7 M 4/5<br>spectral count 2<br>numeric shift -74.042 Da"
+     },
+     {
+      "x": -2.067,
+      "y": 2.368,
+      "hover": "<b>groL3</b> \u00b7 groL3_9<br>log2FC -2.07 (higher in WT)<br>BH FDR 4.29e-03<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 33"
+     },
+     {
+      "x": -1.997,
+      "y": 1.541,
+      "hover": "<b>LBA</b> \u00b7 LBA_269<br>log2FC -2.00 (higher in WT)<br>BH FDR 2.88e-02<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 18<br>numeric shift +16.018 Da"
+     },
+     {
+      "x": -1.967,
+      "y": 1.325,
+      "hover": "<b>bll5315</b> \u00b7 bll5315_1<br>log2FC -1.97 (higher in WT)<br>BH FDR 4.73e-02<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 22"
+     },
+     {
+      "x": 1.964,
+      "y": 2.774,
+      "hover": "<b>hupA</b> \u00b7 hupA_5<br>log2FC +1.96 (higher in M)<br>BH FDR 1.68e-03<br>detected WT 2/5 \u00b7 M 5/5<br>spectral count 2<br>numeric shift +30.071 Da"
+     },
+     {
+      "x": -1.955,
+      "y": 2.453,
+      "hover": "<b>LBA</b> \u00b7 LBA_28<br>log2FC -1.96 (higher in WT)<br>BH FDR 3.52e-03<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 19"
+     },
+     {
+      "x": -1.937,
+      "y": 2.981,
+      "hover": "<b>groL3</b> \u00b7 groL3_7<br>log2FC -1.94 (higher in WT)<br>BH FDR 1.04e-03<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 33"
+     },
+     {
+      "x": -1.838,
+      "y": 1.622,
+      "hover": "<b>groL6</b> \u00b7 groL6_8<br>log2FC -1.84 (higher in WT)<br>BH FDR 2.39e-02<br>detected WT 4/5 \u00b7 M 2/5<br>spectral count 4"
+     },
+     {
+      "x": -1.812,
+      "y": 2.387,
+      "hover": "<b>groL3</b> \u00b7 groL3_14<br>log2FC -1.81 (higher in WT)<br>BH FDR 4.10e-03<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 41"
+     },
+     {
+      "x": -1.812,
+      "y": 1.884,
+      "hover": "<b>groL7</b> \u00b7 groL7_5<br>log2FC -1.81 (higher in WT)<br>BH FDR 1.31e-02<br>detected WT 4/5 \u00b7 M 2/5<br>spectral count 7"
+     },
+     {
+      "x": 1.801,
+      "y": 1.33,
+      "hover": "<b>100820564</b> \u00b7 100820564_3<br>log2FC +1.80 (higher in M)<br>BH FDR 4.68e-02<br>detected WT 2/5 \u00b7 M 2/5<br>spectral count 4<br>numeric shift -2.981 Da"
+     },
+     {
+      "x": -1.786,
+      "y": 2.46,
+      "hover": "<b>bll4692</b> \u00b7 bll4692_2<br>log2FC -1.79 (higher in WT)<br>BH FDR 3.47e-03<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 10<br>numeric shift -16.936 Da"
+     },
+     {
+      "x": -1.721,
+      "y": 2.038,
+      "hover": "<b>LBA</b> \u00b7 LBA_451<br>log2FC -1.72 (higher in WT)<br>BH FDR 9.15e-03<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 26"
+     },
+     {
+      "x": 1.702,
+      "y": 1.997,
+      "hover": "<b>BJS_05241</b> \u00b7 BJS_05241_1<br>log2FC +1.70 (higher in M)<br>BH FDR 1.01e-02<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 7"
+     },
+     {
+      "x": -1.683,
+      "y": 2.379,
+      "hover": "<b>bll4148</b> \u00b7 bll4148_2<br>log2FC -1.68 (higher in WT)<br>BH FDR 4.17e-03<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 9"
+     },
+     {
+      "x": -1.682,
+      "y": 2.606,
+      "hover": "<b>LGB1</b> \u00b7 LGB1_275<br>log2FC -1.68 (higher in WT)<br>BH FDR 2.47e-03<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 3"
+     },
+     {
+      "x": -1.672,
+      "y": 2.741,
+      "hover": "<b>BJS_05519</b> \u00b7 BJS_05519_1<br>log2FC -1.67 (higher in WT)<br>BH FDR 1.82e-03<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 7"
+     },
+     {
+      "x": -1.654,
+      "y": 2.311,
+      "hover": "<b>GLYMA_14G189400</b> \u00b7 GLYMA_14G189400_3<br>log2FC -1.65 (higher in WT)<br>BH FDR 4.88e-03<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 30"
+     },
+     {
+      "x": 1.646,
+      "y": 1.399,
+      "hover": "<b>groS</b> \u00b7 groS_2<br>log2FC +1.65 (higher in M)<br>BH FDR 3.99e-02<br>detected WT 2/5 \u00b7 M 2/5<br>spectral count 4<br>numeric shift +46.060 Da"
+     },
+     {
+      "x": -1.605,
+      "y": 2.746,
+      "hover": "<b>etfB</b> \u00b7 etfB_2<br>log2FC -1.61 (higher in WT)<br>BH FDR 1.80e-03<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 4"
+     },
+     {
+      "x": -1.603,
+      "y": 1.89,
+      "hover": "<b>bll7395</b> \u00b7 bll7395_23<br>log2FC -1.60 (higher in WT)<br>BH FDR 1.29e-02<br>detected WT 4/5 \u00b7 M 2/5<br>spectral count 9"
+     },
+     {
+      "x": 1.588,
+      "y": 1.867,
+      "hover": "<b>LGB1</b> \u00b7 LGB1_41<br>log2FC +1.59 (higher in M)<br>BH FDR 1.36e-02<br>detected WT 2/5 \u00b7 M 3/5<br>spectral count 5<br>numeric shift -17.940 Da"
+     },
+     {
+      "x": 1.586,
+      "y": 2.185,
+      "hover": "<b>bsr7348</b> \u00b7 bsr7348_3<br>log2FC +1.59 (higher in M)<br>BH FDR 6.53e-03<br>detected WT 2/5 \u00b7 M 4/5<br>spectral count 5<br>numeric shift -102.984 Da"
+     },
+     {
+      "x": -1.584,
+      "y": 2.388,
+      "hover": "<b>ndk</b> \u00b7 ndk_35<br>log2FC -1.58 (higher in WT)<br>BH FDR 4.09e-03<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 16"
+     },
+     {
+      "x": -1.578,
+      "y": 2.036,
+      "hover": "<b>bll6129</b> \u00b7 bll6129_2<br>log2FC -1.58 (higher in WT)<br>BH FDR 9.21e-03<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 40"
+     },
+     {
+      "x": 1.549,
+      "y": 1.426,
+      "hover": "<b>bll5655</b> \u00b7 bll5655_5<br>log2FC +1.55 (higher in M)<br>BH FDR 3.75e-02<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 14"
+     },
+     {
+      "x": 1.536,
+      "y": 2.061,
+      "hover": "<b>GLYMA_06G093600</b> \u00b7 GLYMA_06G093600_7<br>log2FC +1.54 (higher in M)<br>BH FDR 8.68e-03<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 3"
+     },
+     {
+      "x": -1.5,
+      "y": 1.459,
+      "hover": "<b>ppa</b> \u00b7 ppa_3<br>log2FC -1.50 (higher in WT)<br>BH FDR 3.47e-02<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 19"
+     },
+     {
+      "x": -1.471,
+      "y": 1.909,
+      "hover": "<b>bsl4960</b> \u00b7 bsl4960_3<br>log2FC -1.47 (higher in WT)<br>BH FDR 1.23e-02<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 14"
+     },
+     {
+      "x": -1.341,
+      "y": 2.131,
+      "hover": "<b>greA</b> \u00b7 greA_6<br>log2FC -1.34 (higher in WT)<br>BH FDR 7.39e-03<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 24"
+     },
+     {
+      "x": -1.29,
+      "y": 1.445,
+      "hover": "<b>547643</b> \u00b7 547643_4<br>log2FC -1.29 (higher in WT)<br>BH FDR 3.59e-02<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 8"
+     },
+     {
+      "x": -1.185,
+      "y": 1.821,
+      "hover": "<b>LBA</b> \u00b7 LBA_584<br>log2FC -1.18 (higher in WT)<br>BH FDR 1.51e-02<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 2"
+     },
+     {
+      "x": -1.148,
+      "y": 1.416,
+      "hover": "<b>blr1534</b> \u00b7 blr1534_1<br>log2FC -1.15 (higher in WT)<br>BH FDR 3.84e-02<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 12"
+     },
+     {
+      "x": 1.076,
+      "y": 1.869,
+      "hover": "<b>100779904</b> \u00b7 100779904_1<br>log2FC +1.08 (higher in M)<br>BH FDR 1.35e-02<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 12"
+     },
+     {
+      "x": 1.073,
+      "y": 1.867,
+      "hover": "<b>100804251</b> \u00b7 100804251_1<br>log2FC +1.07 (higher in M)<br>BH FDR 1.36e-02<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 37"
+     }
+    ]
+   },
+   {
+    "label": "not significant (218)",
+    "points": [
+     {
+      "x": 5.371,
+      "y": 1.203,
+      "hover": "<b>LBA</b> \u00b7 LBA_54<br>log2FC +5.37 (higher in M)<br>BH FDR 6.27e-02<br>detected WT 2/5 \u00b7 M 3/5<br>spectral count 153"
+     },
+     {
+      "x": 3.617,
+      "y": 1.084,
+      "hover": "<b>LBA</b> \u00b7 LBA_59<br>log2FC +3.62 (higher in M)<br>BH FDR 8.24e-02<br>detected WT 3/5 \u00b7 M 5/5<br>spectral count 57<br>numeric shift -188.087 Da"
+     },
+     {
+      "x": 2.422,
+      "y": 1.278,
+      "hover": "<b>groS1</b> \u00b7 groS1_15<br>log2FC +2.42 (higher in M)<br>BH FDR 5.27e-02<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 105"
+     },
+     {
+      "x": -2.402,
+      "y": 1.19,
+      "hover": "<b>rpmD</b> \u00b7 rpmD_2<br>log2FC -2.40 (higher in WT)<br>BH FDR 6.45e-02<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 14"
+     },
+     {
+      "x": 1.928,
+      "y": 1.287,
+      "hover": "<b>LBA</b> \u00b7 LBA_20<br>log2FC +1.93 (higher in M)<br>BH FDR 5.17e-02<br>detected WT 3/5 \u00b7 M 3/5<br>spectral count 24"
+     },
+     {
+      "x": -1.902,
+      "y": 1.226,
+      "hover": "<b>groL3</b> \u00b7 groL3_28<br>log2FC -1.90 (higher in WT)<br>BH FDR 5.94e-02<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 7<br>numeric shift -154.066 Da"
+     },
+     {
+      "x": 1.799,
+      "y": 1.257,
+      "hover": "<b>LBA</b> \u00b7 LBA_61<br>log2FC +1.80 (higher in M)<br>BH FDR 5.53e-02<br>detected WT 4/5 \u00b7 M 4/5<br>spectral count 6"
+     },
+     {
+      "x": 1.785,
+      "y": 1.171,
+      "hover": "<b>LBA</b> \u00b7 LBA_8<br>log2FC +1.78 (higher in M)<br>BH FDR 6.75e-02<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 23<br>numeric shift +16.018 Da"
+     },
+     {
+      "x": 1.773,
+      "y": 0.829,
+      "hover": "<b>LBA</b> \u00b7 LBA_180<br>log2FC +1.77 (higher in M)<br>BH FDR 1.48e-01<br>detected WT 3/5 \u00b7 M 4/5<br>spectral count 26"
+     },
+     {
+      "x": -1.721,
+      "y": 1.217,
+      "hover": "<b>BJS_02445</b> \u00b7 BJS_02445_1<br>log2FC -1.72 (higher in WT)<br>BH FDR 6.06e-02<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 6"
+     },
+     {
+      "x": -1.644,
+      "y": 0.998,
+      "hover": "<b>groL3</b> \u00b7 groL3_40<br>log2FC -1.64 (higher in WT)<br>BH FDR 1.00e-01<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 10"
+     },
+     {
+      "x": -1.637,
+      "y": 1.012,
+      "hover": "<b>blr4035</b> \u00b7 blr4035_2<br>log2FC -1.64 (higher in WT)<br>BH FDR 9.72e-02<br>detected WT 3/5 \u00b7 M 2/5<br>spectral count 2"
+     },
+     {
+      "x": -1.633,
+      "y": 1.184,
+      "hover": "<b>bll7600</b> \u00b7 bll7600_18<br>log2FC -1.63 (higher in WT)<br>BH FDR 6.55e-02<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 4"
+     },
+     {
+      "x": 1.62,
+      "y": 1.23,
+      "hover": "<b>groS</b> \u00b7 groS_23<br>log2FC +1.62 (higher in M)<br>BH FDR 5.89e-02<br>detected WT 3/5 \u00b7 M 5/5<br>spectral count 23<br>numeric shift +25.995 Da"
+     },
+     {
+      "x": 1.59,
+      "y": 0.645,
+      "hover": "<b>100795994</b> \u00b7 100795994_1<br>log2FC +1.59 (higher in M)<br>BH FDR 2.27e-01<br>detected WT 3/5 \u00b7 M 4/5<br>spectral count 6"
+     },
+     {
+      "x": 1.576,
+      "y": 0.645,
+      "hover": "<b>EKN</b> \u00b7 EKN_2<br>log2FC +1.58 (higher in M)<br>BH FDR 2.27e-01<br>detected WT 2/5 \u00b7 M 2/5<br>spectral count 6"
+     },
+     {
+      "x": 1.534,
+      "y": 0.957,
+      "hover": "<b>BJS_08418</b> \u00b7 BJS_08418_6<br>log2FC +1.53 (higher in M)<br>BH FDR 1.10e-01<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 7<br>numeric shift -244.187 Da"
+     },
+     {
+      "x": 1.516,
+      "y": 0.64,
+      "hover": "<b>LBA</b> \u00b7 LBA_24<br>log2FC +1.52 (higher in M)<br>BH FDR 2.29e-01<br>detected WT 4/5 \u00b7 M 4/5<br>spectral count 45"
+     },
+     {
+      "x": 1.454,
+      "y": 0.599,
+      "hover": "<b>100796059</b> \u00b7 100796059_2<br>log2FC +1.45 (higher in M)<br>BH FDR 2.52e-01<br>detected WT 2/5 \u00b7 M 2/5<br>spectral count 2"
+     },
+     {
+      "x": 1.452,
+      "y": 0.891,
+      "hover": "<b>BJS_02750</b> \u00b7 BJS_02750_3<br>log2FC +1.45 (higher in M)<br>BH FDR 1.28e-01<br>detected WT 3/5 \u00b7 M 4/5<br>spectral count 9<br>numeric shift +95.999 Da"
+     },
+     {
+      "x": -1.45,
+      "y": 1.118,
+      "hover": "<b>100305574</b> \u00b7 100305574_5<br>log2FC -1.45 (higher in WT)<br>BH FDR 7.62e-02<br>detected WT 2/5 \u00b7 M 2/5<br>spectral count 3"
+     },
+     {
+      "x": 1.444,
+      "y": 1.106,
+      "hover": "<b>groS</b> \u00b7 groS_92<br>log2FC +1.44 (higher in M)<br>BH FDR 7.84e-02<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 19<br>numeric shift +15.997 Da"
+     },
+     {
+      "x": 1.44,
+      "y": 1.085,
+      "hover": "<b>100776864</b> \u00b7 100776864_2<br>log2FC +1.44 (higher in M)<br>BH FDR 8.23e-02<br>detected WT 4/5 \u00b7 M 2/5<br>spectral count 2"
+     },
+     {
+      "x": -1.419,
+      "y": 1.163,
+      "hover": "<b>LBA</b> \u00b7 LBA_220<br>log2FC -1.42 (higher in WT)<br>BH FDR 6.87e-02<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 18<br>numeric shift +16.019 Da"
+     },
+     {
+      "x": -1.396,
+      "y": 0.984,
+      "hover": "<b>LGB1</b> \u00b7 LGB1_25<br>log2FC -1.40 (higher in WT)<br>BH FDR 1.04e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 2"
+     },
+     {
+      "x": 1.386,
+      "y": 0.645,
+      "hover": "<b>groS</b> \u00b7 groS_5<br>log2FC +1.39 (higher in M)<br>BH FDR 2.27e-01<br>detected WT 2/5 \u00b7 M 5/5<br>spectral count 22<br>numeric shift +62.036 Da"
+     },
+     {
+      "x": 1.382,
+      "y": 1.086,
+      "hover": "<b>LBA</b> \u00b7 LBA_156<br>log2FC +1.38 (higher in M)<br>BH FDR 8.20e-02<br>detected WT 2/5 \u00b7 M 2/5<br>spectral count 1<br>numeric shift -57.860 Da"
+     },
+     {
+      "x": 1.359,
+      "y": 1.157,
+      "hover": "<b>GLYMA_03G242900</b> \u00b7 GLYMA_03G242900_1<br>log2FC +1.36 (higher in M)<br>BH FDR 6.97e-02<br>detected WT 3/5 \u00b7 M 4/5<br>spectral count 3<br>numeric shift -1.966 Da"
+     },
+     {
+      "x": -1.3,
+      "y": 1.131,
+      "hover": "<b>BJS_05488</b> \u00b7 BJS_05488_1<br>log2FC -1.30 (higher in WT)<br>BH FDR 7.40e-02<br>detected WT 4/5 \u00b7 M 3/5<br>spectral count 4"
+     },
+     {
+      "x": -1.28,
+      "y": 1.128,
+      "hover": "<b>blr1279</b> \u00b7 blr1279_1<br>log2FC -1.28 (higher in WT)<br>BH FDR 7.45e-02<br>detected WT 4/5 \u00b7 M 2/5<br>spectral count 4"
+     },
+     {
+      "x": -1.255,
+      "y": 1.14,
+      "hover": "<b>tig</b> \u00b7 tig_5<br>log2FC -1.25 (higher in WT)<br>BH FDR 7.24e-02<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 20"
+     },
+     {
+      "x": -1.248,
+      "y": 0.931,
+      "hover": "<b>BKD09_29085</b> \u00b7 BKD09_29085_1<br>log2FC -1.25 (higher in WT)<br>BH FDR 1.17e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 8<br>numeric shift -74.010 Da"
+     },
+     {
+      "x": -1.238,
+      "y": 0.417,
+      "hover": "<b>bll7600</b> \u00b7 bll7600_9<br>log2FC -1.24 (higher in WT)<br>BH FDR 3.83e-01<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 5"
+     },
+     {
+      "x": 1.222,
+      "y": 1.246,
+      "hover": "<b>100305479</b> \u00b7 100305479_1<br>log2FC +1.22 (higher in M)<br>BH FDR 5.67e-02<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 5"
+     },
+     {
+      "x": -1.192,
+      "y": 1.005,
+      "hover": "<b>LBA</b> \u00b7 LBA_48<br>log2FC -1.19 (higher in WT)<br>BH FDR 9.88e-02<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 21<br>numeric shift -99.058 Da"
+     },
+     {
+      "x": 1.187,
+      "y": 1.181,
+      "hover": "<b>100820564</b> \u00b7 100820564_2<br>log2FC +1.19 (higher in M)<br>BH FDR 6.59e-02<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 6<br>numeric shift -4.013 Da"
+     },
+     {
+      "x": 1.116,
+      "y": 0.599,
+      "hover": "<b>BJS_08418</b> \u00b7 BJS_08418_22<br>log2FC +1.12 (higher in M)<br>BH FDR 2.52e-01<br>detected WT 4/5 \u00b7 M 3/5<br>spectral count 28<br>numeric shift -454.159 Da"
+     },
+     {
+      "x": -1.047,
+      "y": 0.729,
+      "hover": "<b>ndk</b> \u00b7 ndk_3<br>log2FC -1.05 (higher in WT)<br>BH FDR 1.87e-01<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 2"
+     },
+     {
+      "x": -1.033,
+      "y": 1.163,
+      "hover": "<b>blr0354</b> \u00b7 blr0354_3<br>log2FC -1.03 (higher in WT)<br>BH FDR 6.87e-02<br>detected WT 4/5 \u00b7 M 2/5<br>spectral count 2"
+     },
+     {
+      "x": -1.025,
+      "y": 1.015,
+      "hover": "<b>100790570</b> \u00b7 100790570_5<br>log2FC -1.03 (higher in WT)<br>BH FDR 9.66e-02<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 6"
+     },
+     {
+      "x": -1.009,
+      "y": 0.517,
+      "hover": "<b>bll2877</b> \u00b7 bll2877_6<br>log2FC -1.01 (higher in WT)<br>BH FDR 3.04e-01<br>detected WT 4/5 \u00b7 M 2/5<br>spectral count 2<br>numeric shift -17.020 Da"
+     },
+     {
+      "x": 0.995,
+      "y": 2.379,
+      "hover": "<b>bsr7796</b> \u00b7 bsr7796_3<br>log2FC +1.00 (higher in M)<br>BH FDR 4.17e-03<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 51<br>numeric shift -473.190 Da"
+     },
+     {
+      "x": -0.987,
+      "y": 1.293,
+      "hover": "<b>100779904</b> \u00b7 100779904_2<br>log2FC -0.99 (higher in WT)<br>BH FDR 5.09e-02<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 2"
+     },
+     {
+      "x": -0.986,
+      "y": 0.487,
+      "hover": "<b>apx2</b> \u00b7 apx2_10<br>log2FC -0.99 (higher in WT)<br>BH FDR 3.26e-01<br>detected WT 4/5 \u00b7 M 5/5<br>spectral count 1<br>numeric shift +53.995 Da"
+     },
+     {
+      "x": -0.986,
+      "y": 1.293,
+      "hover": "<b>LBA</b> \u00b7 LBA_216<br>log2FC -0.99 (higher in WT)<br>BH FDR 5.10e-02<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 11"
+     },
+     {
+      "x": 0.978,
+      "y": 2.034,
+      "hover": "<b>BJS_01182</b> \u00b7 BJS_01182_1<br>log2FC +0.98 (higher in M)<br>BH FDR 9.25e-03<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 58<br>numeric shift +12.019 Da"
+     },
+     {
+      "x": -0.977,
+      "y": 1.028,
+      "hover": "<b>BJS_08418</b> \u00b7 BJS_08418_13<br>log2FC -0.98 (higher in WT)<br>BH FDR 9.38e-02<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 24"
+     },
+     {
+      "x": -0.971,
+      "y": 0.955,
+      "hover": "<b>rpmE</b> \u00b7 rpmE_9<br>log2FC -0.97 (higher in WT)<br>BH FDR 1.11e-01<br>detected WT 4/5 \u00b7 M 4/5<br>spectral count 39"
+     },
+     {
+      "x": -0.962,
+      "y": 1.401,
+      "hover": "<b>groL6</b> \u00b7 groL6_35<br>log2FC -0.96 (higher in WT)<br>BH FDR 3.97e-02<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 23"
+     },
+     {
+      "x": -0.955,
+      "y": 1.069,
+      "hover": "<b>BJS_07054</b> \u00b7 BJS_07054_6<br>log2FC -0.96 (higher in WT)<br>BH FDR 8.52e-02<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 23"
+     },
+     {
+      "x": -0.953,
+      "y": 0.697,
+      "hover": "<b>LBA</b> \u00b7 LBA_422<br>log2FC -0.95 (higher in WT)<br>BH FDR 2.01e-01<br>detected WT 4/5 \u00b7 M 3/5<br>spectral count 16<br>numeric shift +16.012 Da"
+     },
+     {
+      "x": -0.95,
+      "y": 0.938,
+      "hover": "<b>rpmD</b> \u00b7 rpmD_1<br>log2FC -0.95 (higher in WT)<br>BH FDR 1.15e-01<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 23"
+     },
+     {
+      "x": 0.948,
+      "y": 1.064,
+      "hover": "<b>100815545</b> \u00b7 100815545_1<br>log2FC +0.95 (higher in M)<br>BH FDR 8.63e-02<br>detected WT 3/5 \u00b7 M 4/5<br>spectral count 3<br>numeric shift -262.091 Da"
+     },
+     {
+      "x": -0.946,
+      "y": 1.042,
+      "hover": "<b>LBA</b> \u00b7 LBA_31<br>log2FC -0.95 (higher in WT)<br>BH FDR 9.09e-02<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 16"
+     },
+     {
+      "x": -0.942,
+      "y": 0.561,
+      "hover": "<b>rpsS</b> \u00b7 rpsS_2<br>log2FC -0.94 (higher in WT)<br>BH FDR 2.74e-01<br>detected WT 4/5 \u00b7 M 3/5<br>spectral count 3<br>numeric shift +84.097 Da"
+     },
+     {
+      "x": -0.942,
+      "y": 1.226,
+      "hover": "<b>GLYMA_07G115900</b> \u00b7 GLYMA_07G115900_3<br>log2FC -0.94 (higher in WT)<br>BH FDR 5.94e-02<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 42"
+     },
+     {
+      "x": -0.939,
+      "y": 1.438,
+      "hover": "<b>GLYMA_09G240600</b> \u00b7 GLYMA_09G240600_1<br>log2FC -0.94 (higher in WT)<br>BH FDR 3.64e-02<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 23"
+     },
+     {
+      "x": -0.932,
+      "y": 1.129,
+      "hover": "<b>trxA</b> \u00b7 trxA_17<br>log2FC -0.93 (higher in WT)<br>BH FDR 7.43e-02<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 3"
+     },
+     {
+      "x": 0.919,
+      "y": 2.109,
+      "hover": "<b>bsl4595</b> \u00b7 bsl4595_1<br>log2FC +0.92 (higher in M)<br>BH FDR 7.78e-03<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 79"
+     },
+     {
+      "x": 0.916,
+      "y": 1.521,
+      "hover": "<b>GLYMA_06G093600</b> \u00b7 GLYMA_06G093600_1<br>log2FC +0.92 (higher in M)<br>BH FDR 3.01e-02<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 8"
+     },
+     {
+      "x": -0.906,
+      "y": 1.339,
+      "hover": "<b>100790570</b> \u00b7 100790570_15<br>log2FC -0.91 (higher in WT)<br>BH FDR 4.58e-02<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 6"
+     },
+     {
+      "x": 0.891,
+      "y": 1.056,
+      "hover": "<b>fixU</b> \u00b7 fixU_3<br>log2FC +0.89 (higher in M)<br>BH FDR 8.79e-02<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 44<br>numeric shift +16.003 Da"
+     },
+     {
+      "x": -0.891,
+      "y": 0.972,
+      "hover": "<b>GLYMA_05G152000</b> \u00b7 GLYMA_05G152000_1<br>log2FC -0.89 (higher in WT)<br>BH FDR 1.07e-01<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 22"
+     },
+     {
+      "x": 0.884,
+      "y": 0.74,
+      "hover": "<b>GLYMA_06G093600</b> \u00b7 GLYMA_06G093600_4<br>log2FC +0.88 (higher in M)<br>BH FDR 1.82e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 12"
+     },
+     {
+      "x": -0.88,
+      "y": 0.91,
+      "hover": "<b>bll5155</b> \u00b7 bll5155_6<br>log2FC -0.88 (higher in WT)<br>BH FDR 1.23e-01<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 13"
+     },
+     {
+      "x": 0.877,
+      "y": 0.653,
+      "hover": "<b>bll5655</b> \u00b7 bll5655_4<br>log2FC +0.88 (higher in M)<br>BH FDR 2.22e-01<br>detected WT 4/5 \u00b7 M 2/5<br>spectral count 5"
+     },
+     {
+      "x": -0.873,
+      "y": 0.911,
+      "hover": "<b>100305574</b> \u00b7 100305574_7<br>log2FC -0.87 (higher in WT)<br>BH FDR 1.23e-01<br>detected WT 4/5 \u00b7 M 2/5<br>spectral count 3"
+     },
+     {
+      "x": 0.871,
+      "y": 1.622,
+      "hover": "<b>BSZ18_29840</b> \u00b7 BSZ18_29840_5<br>log2FC +0.87 (higher in M)<br>BH FDR 2.39e-02<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 6<br>numeric shift +51.977 Da"
+     },
+     {
+      "x": 0.87,
+      "y": 1.618,
+      "hover": "<b>BJS_08040</b> \u00b7 BJS_08040_1<br>log2FC +0.87 (higher in M)<br>BH FDR 2.41e-02<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 2<br>numeric shift +67.074 Da"
+     },
+     {
+      "x": 0.868,
+      "y": 0.932,
+      "hover": "<b>BSZ18_29840</b> \u00b7 BSZ18_29840_6<br>log2FC +0.87 (higher in M)<br>BH FDR 1.17e-01<br>detected WT 2/5 \u00b7 M 3/5<br>spectral count 2<br>numeric shift -18.001 Da"
+     },
+     {
+      "x": 0.864,
+      "y": 0.631,
+      "hover": "<b>tatA</b> \u00b7 tatA_1<br>log2FC +0.86 (higher in M)<br>BH FDR 2.34e-01<br>detected WT 4/5 \u00b7 M 4/5<br>spectral count 2<br>numeric shift +27.998 Da"
+     },
+     {
+      "x": 0.854,
+      "y": 2.121,
+      "hover": "<b>groS3</b> \u00b7 groS3_24<br>log2FC +0.85 (higher in M)<br>BH FDR 7.58e-03<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 17<br>numeric shift -21.004 Da"
+     },
+     {
+      "x": -0.85,
+      "y": 1.128,
+      "hover": "<b>ctpA</b> \u00b7 ctpA_6<br>log2FC -0.85 (higher in WT)<br>BH FDR 7.44e-02<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 15"
+     },
+     {
+      "x": 0.839,
+      "y": 1.159,
+      "hover": "<b>LBA</b> \u00b7 LBA_69<br>log2FC +0.84 (higher in M)<br>BH FDR 6.93e-02<br>detected WT 4/5 \u00b7 M 2/5<br>spectral count 14<br>numeric shift +16.007 Da"
+     },
+     {
+      "x": -0.834,
+      "y": 2.058,
+      "hover": "<b>bsl4127</b> \u00b7 bsl4127_7<br>log2FC -0.83 (higher in WT)<br>BH FDR 8.74e-03<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 2<br>numeric shift -271.096 Da"
+     },
+     {
+      "x": -0.829,
+      "y": 1.096,
+      "hover": "<b>GLYMA_03G109500</b> \u00b7 GLYMA_03G109500_2<br>log2FC -0.83 (higher in WT)<br>BH FDR 8.01e-02<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 31"
+     },
+     {
+      "x": -0.826,
+      "y": 1.779,
+      "hover": "<b>bll4412</b> \u00b7 bll4412_3<br>log2FC -0.83 (higher in WT)<br>BH FDR 1.66e-02<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 4"
+     },
+     {
+      "x": 0.826,
+      "y": 0.525,
+      "hover": "<b>LBA</b> \u00b7 LBA_50<br>log2FC +0.83 (higher in M)<br>BH FDR 2.99e-01<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 36"
+     },
+     {
+      "x": 0.824,
+      "y": 0.97,
+      "hover": "<b>blr1251</b> \u00b7 blr1251_1<br>log2FC +0.82 (higher in M)<br>BH FDR 1.07e-01<br>detected WT 3/5 \u00b7 M 3/5<br>spectral count 4"
+     },
+     {
+      "x": 0.823,
+      "y": 0.762,
+      "hover": "<b>fixU</b> \u00b7 fixU_17<br>log2FC +0.82 (higher in M)<br>BH FDR 1.73e-01<br>detected WT 4/5 \u00b7 M 4/5<br>spectral count 14<br>numeric shift +52.967 Da"
+     },
+     {
+      "x": -0.813,
+      "y": 1.183,
+      "hover": "<b>bll3998</b> \u00b7 bll3998_1<br>log2FC -0.81 (higher in WT)<br>BH FDR 6.56e-02<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 6"
+     },
+     {
+      "x": -0.81,
+      "y": 0.972,
+      "hover": "<b>100800967</b> \u00b7 100800967_6<br>log2FC -0.81 (higher in WT)<br>BH FDR 1.07e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 66"
+     },
+     {
+      "x": -0.807,
+      "y": 0.338,
+      "hover": "<b>100775287</b> \u00b7 100775287_5<br>log2FC -0.81 (higher in WT)<br>BH FDR 4.59e-01<br>detected WT 3/5 \u00b7 M 2/5<br>spectral count 4"
+     },
+     {
+      "x": 0.806,
+      "y": 1.177,
+      "hover": "<b>gapA</b> \u00b7 gapA_1<br>log2FC +0.81 (higher in M)<br>BH FDR 6.66e-02<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 24"
+     },
+     {
+      "x": 0.802,
+      "y": 0.677,
+      "hover": "<b>100775287</b> \u00b7 100775287_2<br>log2FC +0.80 (higher in M)<br>BH FDR 2.11e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 20"
+     },
+     {
+      "x": 0.79,
+      "y": 1.556,
+      "hover": "<b>LBA</b> \u00b7 LBA_613<br>log2FC +0.79 (higher in M)<br>BH FDR 2.78e-02<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 3"
+     },
+     {
+      "x": 0.79,
+      "y": 0.538,
+      "hover": "<b>BJS_02440</b> \u00b7 BJS_02440_2<br>log2FC +0.79 (higher in M)<br>BH FDR 2.90e-01<br>detected WT 3/5 \u00b7 M 5/5<br>spectral count 11<br>numeric shift -30.007 Da"
+     },
+     {
+      "x": -0.786,
+      "y": 0.832,
+      "hover": "<b>bll5596</b> \u00b7 bll5596_1<br>log2FC -0.79 (higher in WT)<br>BH FDR 1.47e-01<br>detected WT 4/5 \u00b7 M 2/5<br>spectral count 7"
+     },
+     {
+      "x": 0.779,
+      "y": 0.593,
+      "hover": "<b>bll7395</b> \u00b7 bll7395_11<br>log2FC +0.78 (higher in M)<br>BH FDR 2.55e-01<br>detected WT 4/5 \u00b7 M 3/5<br>spectral count 6<br>numeric shift +15.084 Da"
+     },
+     {
+      "x": -0.778,
+      "y": 1.211,
+      "hover": "<b>trxA</b> \u00b7 trxA_1<br>log2FC -0.78 (higher in WT)<br>BH FDR 6.15e-02<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 5"
+     },
+     {
+      "x": -0.776,
+      "y": 0.599,
+      "hover": "<b>100790268</b> \u00b7 100790268_4<br>log2FC -0.78 (higher in WT)<br>BH FDR 2.52e-01<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 15"
+     },
+     {
+      "x": -0.758,
+      "y": 0.829,
+      "hover": "<b>BJS_08504</b> \u00b7 BJS_08504_5<br>log2FC -0.76 (higher in WT)<br>BH FDR 1.48e-01<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 5"
+     },
+     {
+      "x": -0.743,
+      "y": 0.942,
+      "hover": "<b>GLYMA_09G240600</b> \u00b7 GLYMA_09G240600_3<br>log2FC -0.74 (higher in WT)<br>BH FDR 1.14e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 5"
+     },
+     {
+      "x": -0.742,
+      "y": 0.81,
+      "hover": "<b>ndk</b> \u00b7 ndk_6<br>log2FC -0.74 (higher in WT)<br>BH FDR 1.55e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 17"
+     },
+     {
+      "x": 0.739,
+      "y": 0.645,
+      "hover": "<b>groS3</b> \u00b7 groS3_17<br>log2FC +0.74 (higher in M)<br>BH FDR 2.27e-01<br>detected WT 4/5 \u00b7 M 2/5<br>spectral count 3<br>numeric shift +27.019 Da"
+     },
+     {
+      "x": 0.737,
+      "y": 0.748,
+      "hover": "<b>blr7961</b> \u00b7 blr7961_8<br>log2FC +0.74 (higher in M)<br>BH FDR 1.79e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 41"
+     },
+     {
+      "x": -0.734,
+      "y": 0.65,
+      "hover": "<b>GLYMA_09G004300</b> \u00b7 GLYMA_09G004300_2<br>log2FC -0.73 (higher in WT)<br>BH FDR 2.24e-01<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 10"
+     },
+     {
+      "x": 0.731,
+      "y": 1.069,
+      "hover": "<b>100818855</b> \u00b7 100818855_1<br>log2FC +0.73 (higher in M)<br>BH FDR 8.52e-02<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 4"
+     },
+     {
+      "x": -0.729,
+      "y": 0.804,
+      "hover": "<b>GLYMA_08G222900</b> \u00b7 GLYMA_08G222900_1<br>log2FC -0.73 (higher in WT)<br>BH FDR 1.57e-01<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 2<br>numeric shift +458.258 Da"
+     },
+     {
+      "x": 0.729,
+      "y": 1.239,
+      "hover": "<b>blr3825</b> \u00b7 blr3825_1<br>log2FC +0.73 (higher in M)<br>BH FDR 5.77e-02<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 5"
+     },
+     {
+      "x": -0.72,
+      "y": 1.127,
+      "hover": "<b>groS</b> \u00b7 groS_76<br>log2FC -0.72 (higher in WT)<br>BH FDR 7.46e-02<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 21"
+     },
+     {
+      "x": 0.704,
+      "y": 0.794,
+      "hover": "<b>blr2887</b> \u00b7 blr2887_2<br>log2FC +0.70 (higher in M)<br>BH FDR 1.61e-01<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 25"
+     },
+     {
+      "x": -0.703,
+      "y": 0.677,
+      "hover": "<b>BJS_08418</b> \u00b7 BJS_08418_16<br>log2FC -0.70 (higher in WT)<br>BH FDR 2.11e-01<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 8"
+     },
+     {
+      "x": -0.697,
+      "y": 0.727,
+      "hover": "<b>100798600</b> \u00b7 100798600_4<br>log2FC -0.70 (higher in WT)<br>BH FDR 1.87e-01<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 12"
+     },
+     {
+      "x": 0.692,
+      "y": 0.593,
+      "hover": "<b>MA20_17805</b> \u00b7 MA20_17805_1<br>log2FC +0.69 (higher in M)<br>BH FDR 2.55e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 6<br>numeric shift -336.288 Da"
+     },
+     {
+      "x": -0.687,
+      "y": 0.767,
+      "hover": "<b>rpsO</b> \u00b7 rpsO_1<br>log2FC -0.69 (higher in WT)<br>BH FDR 1.71e-01<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 64"
+     },
+     {
+      "x": -0.683,
+      "y": 1.005,
+      "hover": "<b>100790268</b> \u00b7 100790268_3<br>log2FC -0.68 (higher in WT)<br>BH FDR 9.88e-02<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 24"
+     },
+     {
+      "x": 0.678,
+      "y": 0.753,
+      "hover": "<b>LBA</b> \u00b7 LBA_174<br>log2FC +0.68 (higher in M)<br>BH FDR 1.77e-01<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 6"
+     },
+     {
+      "x": -0.66,
+      "y": 0.47,
+      "hover": "<b>GLYMA_07G115900</b> \u00b7 GLYMA_07G115900_2<br>log2FC -0.66 (higher in WT)<br>BH FDR 3.39e-01<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 23"
+     },
+     {
+      "x": -0.66,
+      "y": 1.266,
+      "hover": "<b>BJS_06154</b> \u00b7 BJS_06154_2<br>log2FC -0.66 (higher in WT)<br>BH FDR 5.42e-02<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 13"
+     },
+     {
+      "x": 0.66,
+      "y": 0.74,
+      "hover": "<b>groS2</b> \u00b7 groS2_6<br>log2FC +0.66 (higher in M)<br>BH FDR 1.82e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 99"
+     },
+     {
+      "x": -0.659,
+      "y": 0.597,
+      "hover": "<b>GLYMA_03G109500</b> \u00b7 GLYMA_03G109500_1<br>log2FC -0.66 (higher in WT)<br>BH FDR 2.53e-01<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 19"
+     },
+     {
+      "x": 0.654,
+      "y": 0.262,
+      "hover": "<b>bll4880</b> \u00b7 bll4880_3<br>log2FC +0.65 (higher in M)<br>BH FDR 5.47e-01<br>detected WT 3/5 \u00b7 M 2/5<br>spectral count 7<br>numeric shift +14.020 Da"
+     },
+     {
+      "x": 0.652,
+      "y": 1.277,
+      "hover": "<b>fixU</b> \u00b7 fixU_2<br>log2FC +0.65 (higher in M)<br>BH FDR 5.28e-02<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 100"
+     },
+     {
+      "x": 0.65,
+      "y": 0.314,
+      "hover": "<b>GLYMA_16G014100</b> \u00b7 GLYMA_16G014100_1<br>log2FC +0.65 (higher in M)<br>BH FDR 4.85e-01<br>detected WT 3/5 \u00b7 M 3/5<br>spectral count 2<br>numeric shift +253.111 Da"
+     },
+     {
+      "x": -0.65,
+      "y": 0.599,
+      "hover": "<b>blr7332</b> \u00b7 blr7332_1<br>log2FC -0.65 (higher in WT)<br>BH FDR 2.52e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 7"
+     },
+     {
+      "x": -0.638,
+      "y": 0.884,
+      "hover": "<b>100527260</b> \u00b7 100527260_1<br>log2FC -0.64 (higher in WT)<br>BH FDR 1.31e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 8"
+     },
+     {
+      "x": 0.628,
+      "y": 0.861,
+      "hover": "<b>BJS_08418</b> \u00b7 BJS_08418_14<br>log2FC +0.63 (higher in M)<br>BH FDR 1.38e-01<br>detected WT 4/5 \u00b7 M 5/5<br>spectral count 1<br>numeric shift +7.352 Da"
+     },
+     {
+      "x": 0.607,
+      "y": 0.944,
+      "hover": "<b>100802449</b> \u00b7 100802449_1<br>log2FC +0.61 (higher in M)<br>BH FDR 1.14e-01<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 7"
+     },
+     {
+      "x": 0.585,
+      "y": 0.434,
+      "hover": "<b>rho</b> \u00b7 rho_2<br>log2FC +0.58 (higher in M)<br>BH FDR 3.68e-01<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 13"
+     },
+     {
+      "x": -0.571,
+      "y": 0.43,
+      "hover": "<b>bll2339</b> \u00b7 bll2339_1<br>log2FC -0.57 (higher in WT)<br>BH FDR 3.71e-01<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 2"
+     },
+     {
+      "x": -0.566,
+      "y": 0.85,
+      "hover": "<b>rpsH</b> \u00b7 rpsH_2<br>log2FC -0.57 (higher in WT)<br>BH FDR 1.41e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 17"
+     },
+     {
+      "x": -0.566,
+      "y": 0.941,
+      "hover": "<b>cspA</b> \u00b7 cspA_9<br>log2FC -0.57 (higher in WT)<br>BH FDR 1.14e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 23"
+     },
+     {
+      "x": -0.56,
+      "y": 0.64,
+      "hover": "<b>100799718</b> \u00b7 100799718_2<br>log2FC -0.56 (higher in WT)<br>BH FDR 2.29e-01<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 14"
+     },
+     {
+      "x": -0.544,
+      "y": 0.64,
+      "hover": "<b>trxA</b> \u00b7 trxA_10<br>log2FC -0.54 (higher in WT)<br>BH FDR 2.29e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 3"
+     },
+     {
+      "x": 0.538,
+      "y": 0.89,
+      "hover": "<b>100790570</b> \u00b7 100790570_17<br>log2FC +0.54 (higher in M)<br>BH FDR 1.29e-01<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 15"
+     },
+     {
+      "x": 0.535,
+      "y": 0.679,
+      "hover": "<b>cspA_2</b> \u00b7 cspA_2_20<br>log2FC +0.53 (higher in M)<br>BH FDR 2.09e-01<br>detected WT 4/5 \u00b7 M 3/5<br>spectral count 2<br>numeric shift -18.012 Da"
+     },
+     {
+      "x": 0.532,
+      "y": 0.461,
+      "hover": "<b>GLYMA_U032500</b> \u00b7 GLYMA_U032500_9<br>log2FC +0.53 (higher in M)<br>BH FDR 3.46e-01<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 2"
+     },
+     {
+      "x": 0.527,
+      "y": 0.262,
+      "hover": "<b>bsl7442</b> \u00b7 bsl7442_1<br>log2FC +0.53 (higher in M)<br>BH FDR 5.47e-01<br>detected WT 4/5 \u00b7 M 4/5<br>spectral count 18"
+     },
+     {
+      "x": 0.506,
+      "y": 0.167,
+      "hover": "<b>SUBI-1</b> \u00b7 SUBI-1_8<br>log2FC +0.51 (higher in M)<br>BH FDR 6.81e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 51"
+     },
+     {
+      "x": 0.504,
+      "y": 1.075,
+      "hover": "<b>100526873</b> \u00b7 100526873_1<br>log2FC +0.50 (higher in M)<br>BH FDR 8.41e-02<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 26"
+     },
+     {
+      "x": -0.497,
+      "y": 0.698,
+      "hover": "<b>rpsS</b> \u00b7 rpsS_1<br>log2FC -0.50 (higher in WT)<br>BH FDR 2.01e-01<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 22<br>numeric shift +70.084 Da"
+     },
+     {
+      "x": -0.494,
+      "y": 0.463,
+      "hover": "<b>ctpA</b> \u00b7 ctpA_1<br>log2FC -0.49 (higher in WT)<br>BH FDR 3.44e-01<br>detected WT 4/5 \u00b7 M 2/5<br>spectral count 12"
+     },
+     {
+      "x": -0.493,
+      "y": 0.328,
+      "hover": "<b>serS</b> \u00b7 serS_1<br>log2FC -0.49 (higher in WT)<br>BH FDR 4.70e-01<br>detected WT 4/5 \u00b7 M 2/5<br>spectral count 6"
+     },
+     {
+      "x": -0.488,
+      "y": 0.55,
+      "hover": "<b>100790570</b> \u00b7 100790570_3<br>log2FC -0.49 (higher in WT)<br>BH FDR 2.82e-01<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 11"
+     },
+     {
+      "x": 0.481,
+      "y": 0.822,
+      "hover": "<b>cspA_2</b> \u00b7 cspA_2_4<br>log2FC +0.48 (higher in M)<br>BH FDR 1.51e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 117"
+     },
+     {
+      "x": -0.479,
+      "y": 0.81,
+      "hover": "<b>bsl4127</b> \u00b7 bsl4127_3<br>log2FC -0.48 (higher in WT)<br>BH FDR 1.55e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 76"
+     },
+     {
+      "x": -0.468,
+      "y": 0.794,
+      "hover": "<b>LBA</b> \u00b7 LBA_2<br>log2FC -0.47 (higher in WT)<br>BH FDR 1.61e-01<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 12"
+     },
+     {
+      "x": -0.464,
+      "y": 0.786,
+      "hover": "<b>cspA</b> \u00b7 cspA_30<br>log2FC -0.46 (higher in WT)<br>BH FDR 1.64e-01<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 16"
+     },
+     {
+      "x": -0.458,
+      "y": 0.676,
+      "hover": "<b>100790570</b> \u00b7 100790570_2<br>log2FC -0.46 (higher in WT)<br>BH FDR 2.11e-01<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 13"
+     },
+     {
+      "x": -0.453,
+      "y": 0.597,
+      "hover": "<b>bll4880</b> \u00b7 bll4880_2<br>log2FC -0.45 (higher in WT)<br>BH FDR 2.53e-01<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 103<br>numeric shift +14.026 Da"
+     },
+     {
+      "x": 0.451,
+      "y": 0.264,
+      "hover": "<b>100777927</b> \u00b7 100777927_10<br>log2FC +0.45 (higher in M)<br>BH FDR 5.44e-01<br>detected WT 3/5 \u00b7 M 5/5<br>spectral count 2"
+     },
+     {
+      "x": -0.451,
+      "y": 0.557,
+      "hover": "<b>BJS_05431</b> \u00b7 BJS_05431_2<br>log2FC -0.45 (higher in WT)<br>BH FDR 2.77e-01<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 4"
+     },
+     {
+      "x": -0.45,
+      "y": 0.249,
+      "hover": "<b>groS3</b> \u00b7 groS3_6<br>log2FC -0.45 (higher in WT)<br>BH FDR 5.64e-01<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 54"
+     },
+     {
+      "x": -0.444,
+      "y": 0.649,
+      "hover": "<b>BJS_05431</b> \u00b7 BJS_05431_3<br>log2FC -0.44 (higher in WT)<br>BH FDR 2.24e-01<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 12"
+     },
+     {
+      "x": 0.444,
+      "y": 0.223,
+      "hover": "<b>ndk</b> \u00b7 ndk_16<br>log2FC +0.44 (higher in M)<br>BH FDR 5.98e-01<br>detected WT 4/5 \u00b7 M 2/5<br>spectral count 11"
+     },
+     {
+      "x": -0.443,
+      "y": 0.416,
+      "hover": "<b>GLYMA_04G028500</b> \u00b7 GLYMA_04G028500_1<br>log2FC -0.44 (higher in WT)<br>BH FDR 3.84e-01<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 2"
+     },
+     {
+      "x": -0.44,
+      "y": 0.287,
+      "hover": "<b>100305574</b> \u00b7 100305574_4<br>log2FC -0.44 (higher in WT)<br>BH FDR 5.17e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 3"
+     },
+     {
+      "x": 0.432,
+      "y": 0.316,
+      "hover": "<b>100499823</b> \u00b7 100499823_1<br>log2FC +0.43 (higher in M)<br>BH FDR 4.83e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 18"
+     },
+     {
+      "x": -0.428,
+      "y": 0.517,
+      "hover": "<b>LBA</b> \u00b7 LBA_178<br>log2FC -0.43 (higher in WT)<br>BH FDR 3.04e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 6"
+     },
+     {
+      "x": -0.41,
+      "y": 0.391,
+      "hover": "<b>blr1251</b> \u00b7 blr1251_2<br>log2FC -0.41 (higher in WT)<br>BH FDR 4.06e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 23"
+     },
+     {
+      "x": -0.404,
+      "y": 0.41,
+      "hover": "<b>ndk</b> \u00b7 ndk_29<br>log2FC -0.40 (higher in WT)<br>BH FDR 3.89e-01<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 4<br>numeric shift +52.927 Da"
+     },
+     {
+      "x": -0.396,
+      "y": 0.293,
+      "hover": "<b>100800967</b> \u00b7 100800967_10<br>log2FC -0.40 (higher in WT)<br>BH FDR 5.10e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 23"
+     },
+     {
+      "x": -0.388,
+      "y": 0.405,
+      "hover": "<b>100790268</b> \u00b7 100790268_10<br>log2FC -0.39 (higher in WT)<br>BH FDR 3.94e-01<br>detected WT 3/5 \u00b7 M 2/5<br>spectral count 2"
+     },
+     {
+      "x": -0.378,
+      "y": 0.594,
+      "hover": "<b>ctaB</b> \u00b7 ctaB_1<br>log2FC -0.38 (higher in WT)<br>BH FDR 2.55e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 2"
+     },
+     {
+      "x": -0.377,
+      "y": 0.592,
+      "hover": "<b>rplW</b> \u00b7 rplW_1<br>log2FC -0.38 (higher in WT)<br>BH FDR 2.56e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 12"
+     },
+     {
+      "x": -0.363,
+      "y": 0.422,
+      "hover": "<b>100500489</b> \u00b7 100500489_1<br>log2FC -0.36 (higher in WT)<br>BH FDR 3.78e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 4"
+     },
+     {
+      "x": 0.362,
+      "y": 0.278,
+      "hover": "<b>rpsH</b> \u00b7 rpsH_1<br>log2FC +0.36 (higher in M)<br>BH FDR 5.27e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 15"
+     },
+     {
+      "x": -0.36,
+      "y": 0.358,
+      "hover": "<b>GLYMA_07G115900</b> \u00b7 GLYMA_07G115900_6<br>log2FC -0.36 (higher in WT)<br>BH FDR 4.39e-01<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 3<br>numeric shift +16.011 Da"
+     },
+     {
+      "x": -0.358,
+      "y": 0.463,
+      "hover": "<b>GLYMA_09G192800</b> \u00b7 GLYMA_09G192800_3<br>log2FC -0.36 (higher in WT)<br>BH FDR 3.44e-01<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 17"
+     },
+     {
+      "x": 0.355,
+      "y": 0.176,
+      "hover": "<b>GLYMA_06G093600</b> \u00b7 GLYMA_06G093600_3<br>log2FC +0.36 (higher in M)<br>BH FDR 6.66e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 12"
+     },
+     {
+      "x": -0.353,
+      "y": 0.12,
+      "hover": "<b>rpsH</b> \u00b7 rpsH_6<br>log2FC -0.35 (higher in WT)<br>BH FDR 7.59e-01<br>detected WT 4/5 \u00b7 M 4/5<br>spectral count 17"
+     },
+     {
+      "x": -0.343,
+      "y": 0.247,
+      "hover": "<b>100499812</b> \u00b7 100499812_2<br>log2FC -0.34 (higher in WT)<br>BH FDR 5.67e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 14"
+     },
+     {
+      "x": 0.336,
+      "y": 0.201,
+      "hover": "<b>bll7600</b> \u00b7 bll7600_13<br>log2FC +0.34 (higher in M)<br>BH FDR 6.30e-01<br>detected WT 3/5 \u00b7 M 4/5<br>spectral count 3"
+     },
+     {
+      "x": 0.321,
+      "y": 0.364,
+      "hover": "<b>apx2</b> \u00b7 apx2_4<br>log2FC +0.32 (higher in M)<br>BH FDR 4.32e-01<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 4<br>numeric shift -148.975 Da"
+     },
+     {
+      "x": 0.321,
+      "y": 0.249,
+      "hover": "<b>bll7395</b> \u00b7 bll7395_15<br>log2FC +0.32 (higher in M)<br>BH FDR 5.63e-01<br>detected WT 2/5 \u00b7 M 2/5<br>spectral count 62"
+     },
+     {
+      "x": -0.316,
+      "y": 0.314,
+      "hover": "<b>apx2</b> \u00b7 apx2_2<br>log2FC -0.32 (higher in WT)<br>BH FDR 4.85e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 26<br>numeric shift -73.940 Da"
+     },
+     {
+      "x": -0.31,
+      "y": 0.427,
+      "hover": "<b>rpmD</b> \u00b7 rpmD_5<br>log2FC -0.31 (higher in WT)<br>BH FDR 3.74e-01<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 13"
+     },
+     {
+      "x": 0.304,
+      "y": 0.183,
+      "hover": "<b>GLYMA_07G115900</b> \u00b7 GLYMA_07G115900_8<br>log2FC +0.30 (higher in M)<br>BH FDR 6.56e-01<br>detected WT 3/5 \u00b7 M 3/5<br>spectral count 4"
+     },
+     {
+      "x": -0.292,
+      "y": 0.409,
+      "hover": "<b>GLYMA_01G127200</b> \u00b7 GLYMA_01G127200_1<br>log2FC -0.29 (higher in WT)<br>BH FDR 3.90e-01<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 2"
+     },
+     {
+      "x": -0.287,
+      "y": 0.307,
+      "hover": "<b>rplI</b> \u00b7 rplI_10<br>log2FC -0.29 (higher in WT)<br>BH FDR 4.93e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 17"
+     },
+     {
+      "x": 0.287,
+      "y": 0.286,
+      "hover": "<b>bll1299</b> \u00b7 bll1299_1<br>log2FC +0.29 (higher in M)<br>BH FDR 5.17e-01<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 16"
+     },
+     {
+      "x": -0.283,
+      "y": 0.382,
+      "hover": "<b>100527287</b> \u00b7 100527287_4<br>log2FC -0.28 (higher in WT)<br>BH FDR 4.15e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 18"
+     },
+     {
+      "x": -0.278,
+      "y": 0.247,
+      "hover": "<b>BJS_08418</b> \u00b7 BJS_08418_1<br>log2FC -0.28 (higher in WT)<br>BH FDR 5.67e-01<br>detected WT 3/5 \u00b7 M 2/5<br>spectral count 5<br>numeric shift -202.071 Da"
+     },
+     {
+      "x": -0.278,
+      "y": 0.108,
+      "hover": "<b>ndk</b> \u00b7 ndk_26<br>log2FC -0.28 (higher in WT)<br>BH FDR 7.81e-01<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 11"
+     },
+     {
+      "x": 0.273,
+      "y": 0.358,
+      "hover": "<b>cspA_2</b> \u00b7 cspA_2_13<br>log2FC +0.27 (higher in M)<br>BH FDR 4.38e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 11<br>numeric shift +52.944 Da"
+     },
+     {
+      "x": 0.269,
+      "y": 0.204,
+      "hover": "<b>blr7528</b> \u00b7 blr7528_1<br>log2FC +0.27 (higher in M)<br>BH FDR 6.25e-01<br>detected WT 4/5 \u00b7 M 2/5<br>spectral count 7"
+     },
+     {
+      "x": 0.267,
+      "y": 0.463,
+      "hover": "<b>bll7395</b> \u00b7 bll7395_31<br>log2FC +0.27 (higher in M)<br>BH FDR 3.44e-01<br>detected WT 4/5 \u00b7 M 5/5<br>spectral count 261"
+     },
+     {
+      "x": -0.255,
+      "y": 0.228,
+      "hover": "<b>100305574</b> \u00b7 100305574_6<br>log2FC -0.26 (higher in WT)<br>BH FDR 5.91e-01<br>detected WT 4/5 \u00b7 M 2/5<br>spectral count 12"
+     },
+     {
+      "x": -0.244,
+      "y": 0.261,
+      "hover": "<b>100500620</b> \u00b7 100500620_1<br>log2FC -0.24 (higher in WT)<br>BH FDR 5.48e-01<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 2"
+     },
+     {
+      "x": 0.22,
+      "y": 0.309,
+      "hover": "<b>100782407</b> \u00b7 100782407_4<br>log2FC +0.22 (higher in M)<br>BH FDR 4.91e-01<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 3"
+     },
+     {
+      "x": 0.214,
+      "y": 0.2,
+      "hover": "<b>BSZ18_03670</b> \u00b7 BSZ18_03670_1<br>log2FC +0.21 (higher in M)<br>BH FDR 6.31e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 8<br>numeric shift -2.002 Da"
+     },
+     {
+      "x": -0.212,
+      "y": 0.233,
+      "hover": "<b>100807342</b> \u00b7 100807342_1<br>log2FC -0.21 (higher in WT)<br>BH FDR 5.85e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 13"
+     },
+     {
+      "x": 0.211,
+      "y": 0.177,
+      "hover": "<b>100790570</b> \u00b7 100790570_19<br>log2FC +0.21 (higher in M)<br>BH FDR 6.65e-01<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 3"
+     },
+     {
+      "x": 0.182,
+      "y": 0.05,
+      "hover": "<b>apx2</b> \u00b7 apx2_14<br>log2FC +0.18 (higher in M)<br>BH FDR 8.91e-01<br>detected WT 4/5 \u00b7 M 3/5<br>spectral count 2<br>numeric shift -71.961 Da"
+     },
+     {
+      "x": -0.181,
+      "y": 0.204,
+      "hover": "<b>blr4404</b> \u00b7 blr4404_8<br>log2FC -0.18 (higher in WT)<br>BH FDR 6.25e-01<br>detected WT 4/5 \u00b7 M 3/5<br>spectral count 7<br>numeric shift +85.064 Da"
+     },
+     {
+      "x": 0.173,
+      "y": 0.202,
+      "hover": "<b>100305514</b> \u00b7 100305514_1<br>log2FC +0.17 (higher in M)<br>BH FDR 6.29e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 14"
+     },
+     {
+      "x": 0.168,
+      "y": 0.127,
+      "hover": "<b>rplI</b> \u00b7 rplI_5<br>log2FC +0.17 (higher in M)<br>BH FDR 7.47e-01<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 18"
+     },
+     {
+      "x": -0.167,
+      "y": 0.222,
+      "hover": "<b>LBA</b> \u00b7 LBA_14<br>log2FC -0.17 (higher in WT)<br>BH FDR 6.00e-01<br>detected WT 4/5 \u00b7 M 3/5<br>spectral count 5"
+     },
+     {
+      "x": 0.152,
+      "y": 0.144,
+      "hover": "<b>bll7600</b> \u00b7 bll7600_5<br>log2FC +0.15 (higher in M)<br>BH FDR 7.17e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 19"
+     },
+     {
+      "x": -0.151,
+      "y": 0.204,
+      "hover": "<b>blr3130</b> \u00b7 blr3130_6<br>log2FC -0.15 (higher in WT)<br>BH FDR 6.26e-01<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 6"
+     },
+     {
+      "x": 0.141,
+      "y": 0.172,
+      "hover": "<b>trxA</b> \u00b7 trxA_11<br>log2FC +0.14 (higher in M)<br>BH FDR 6.74e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 5"
+     },
+     {
+      "x": -0.139,
+      "y": 0.158,
+      "hover": "<b>GLYMA_08G046600</b> \u00b7 GLYMA_08G046600_1<br>log2FC -0.14 (higher in WT)<br>BH FDR 6.95e-01<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 11"
+     },
+     {
+      "x": -0.138,
+      "y": 0.082,
+      "hover": "<b>infA</b> \u00b7 infA_1<br>log2FC -0.14 (higher in WT)<br>BH FDR 8.27e-01<br>detected WT 4/5 \u00b7 M 5/5<br>spectral count 12<br>numeric shift +28.046 Da"
+     },
+     {
+      "x": 0.135,
+      "y": 0.082,
+      "hover": "<b>atpC</b> \u00b7 atpC_2<br>log2FC +0.14 (higher in M)<br>BH FDR 8.27e-01<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 17"
+     },
+     {
+      "x": -0.131,
+      "y": 0.118,
+      "hover": "<b>blr4637</b> \u00b7 blr4637_8<br>log2FC -0.13 (higher in WT)<br>BH FDR 7.62e-01<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 2"
+     },
+     {
+      "x": -0.127,
+      "y": 0.089,
+      "hover": "<b>GLYMA_08G200200</b> \u00b7 GLYMA_08G200200_3<br>log2FC -0.13 (higher in WT)<br>BH FDR 8.14e-01<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 18"
+     },
+     {
+      "x": 0.126,
+      "y": 0.112,
+      "hover": "<b>bll2460</b> \u00b7 bll2460_1<br>log2FC +0.13 (higher in M)<br>BH FDR 7.72e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 3<br>numeric shift -222.106 Da"
+     },
+     {
+      "x": 0.108,
+      "y": 0.083,
+      "hover": "<b>bll2877</b> \u00b7 bll2877_4<br>log2FC +0.11 (higher in M)<br>BH FDR 8.26e-01<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 31<br>numeric shift -17.024 Da"
+     },
+     {
+      "x": -0.102,
+      "y": 0.091,
+      "hover": "<b>bll7600</b> \u00b7 bll7600_10<br>log2FC -0.10 (higher in WT)<br>BH FDR 8.10e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 25"
+     },
+     {
+      "x": -0.1,
+      "y": 0.108,
+      "hover": "<b>cusR</b> \u00b7 cusR_1<br>log2FC -0.10 (higher in WT)<br>BH FDR 7.81e-01<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 16"
+     },
+     {
+      "x": 0.089,
+      "y": 0.112,
+      "hover": "<b>bsl4595</b> \u00b7 bsl4595_6<br>log2FC +0.09 (higher in M)<br>BH FDR 7.72e-01<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 17"
+     },
+     {
+      "x": -0.079,
+      "y": 0.082,
+      "hover": "<b>ndk</b> \u00b7 ndk_12<br>log2FC -0.08 (higher in WT)<br>BH FDR 8.28e-01<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 13"
+     },
+     {
+      "x": -0.064,
+      "y": 0.04,
+      "hover": "<b>BKD09_02965</b> \u00b7 BKD09_02965_2<br>log2FC -0.06 (higher in WT)<br>BH FDR 9.13e-01<br>detected WT 4/5 \u00b7 M 2/5<br>spectral count 4"
+     },
+     {
+      "x": -0.062,
+      "y": 0.038,
+      "hover": "<b>LBA</b> \u00b7 LBA_407<br>log2FC -0.06 (higher in WT)<br>BH FDR 9.16e-01<br>detected WT 3/5 \u00b7 M 2/5<br>spectral count 3<br>numeric shift +32.001 Da"
+     },
+     {
+      "x": 0.06,
+      "y": 0.065,
+      "hover": "<b>100499812</b> \u00b7 100499812_3<br>log2FC +0.06 (higher in M)<br>BH FDR 8.61e-01<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 11"
+     },
+     {
+      "x": 0.058,
+      "y": 0.026,
+      "hover": "<b>LBA</b> \u00b7 LBA_11<br>log2FC +0.06 (higher in M)<br>BH FDR 9.42e-01<br>detected WT 4/5 \u00b7 M 3/5<br>spectral count 8"
+     },
+     {
+      "x": -0.055,
+      "y": 0.034,
+      "hover": "<b>cspA</b> \u00b7 cspA_48<br>log2FC -0.06 (higher in WT)<br>BH FDR 9.26e-01<br>detected WT 2/5 \u00b7 M 2/5<br>spectral count 3"
+     },
+     {
+      "x": -0.049,
+      "y": 0.055,
+      "hover": "<b>BJS_08504</b> \u00b7 BJS_08504_3<br>log2FC -0.05 (higher in WT)<br>BH FDR 8.81e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 16"
+     },
+     {
+      "x": 0.047,
+      "y": 0.041,
+      "hover": "<b>GLYMA_06G215100</b> \u00b7 GLYMA_06G215100_2<br>log2FC +0.05 (higher in M)<br>BH FDR 9.10e-01<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 6"
+     },
+     {
+      "x": -0.037,
+      "y": 0.034,
+      "hover": "<b>bsl4127</b> \u00b7 bsl4127_14<br>log2FC -0.04 (higher in WT)<br>BH FDR 9.26e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 9<br>numeric shift -73.033 Da"
+     },
+     {
+      "x": -0.036,
+      "y": 0.021,
+      "hover": "<b>LGB1</b> \u00b7 LGB1_243<br>log2FC -0.04 (higher in WT)<br>BH FDR 9.53e-01<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 2"
+     },
+     {
+      "x": -0.03,
+      "y": 0.021,
+      "hover": "<b>BJS_02445</b> \u00b7 BJS_02445_3<br>log2FC -0.03 (higher in WT)<br>BH FDR 9.53e-01<br>detected WT 5/5 \u00b7 M 2/5<br>spectral count 6<br>numeric shift -438.255 Da"
+     },
+     {
+      "x": -0.026,
+      "y": 0.027,
+      "hover": "<b>rplW</b> \u00b7 rplW_2<br>log2FC -0.03 (higher in WT)<br>BH FDR 9.41e-01<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 10"
+     },
+     {
+      "x": -0.013,
+      "y": 0.01,
+      "hover": "<b>bsl4127</b> \u00b7 bsl4127_11<br>log2FC -0.01 (higher in WT)<br>BH FDR 9.77e-01<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 15<br>numeric shift +16.000 Da"
+     },
+     {
+      "x": -0.012,
+      "y": 0.01,
+      "hover": "<b>100790570</b> \u00b7 100790570_18<br>log2FC -0.01 (higher in WT)<br>BH FDR 9.77e-01<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 20<br>numeric shift +100.072 Da"
+     },
+     {
+      "x": 0.008,
+      "y": 0.005,
+      "hover": "<b>bll7787</b> \u00b7 bll7787_17<br>log2FC +0.01 (higher in M)<br>BH FDR 9.89e-01<br>detected WT 2/5 \u00b7 M 4/5<br>spectral count 4<br>numeric shift +113.050 Da"
+     },
+     {
+      "x": 0.001,
+      "y": 0.001,
+      "hover": "<b>100305574</b> \u00b7 100305574_8<br>log2FC +0.00 (higher in M)<br>BH FDR 9.98e-01<br>detected WT 5/5 \u00b7 M 3/5<br>spectral count 13"
+     }
+    ]
+   },
+   {
+    "label": "+317.39 family (4)",
+    "points": [
+     {
+      "x": 8.924,
+      "y": 3.711,
+      "hover": "<b>EKN</b> \u00b7 EKN_3<br>log2FC +8.92 (higher in M)<br>BH FDR 1.95e-04<br>detected WT 3/5 \u00b7 M 5/5<br>spectral count 14<br>numeric shift +317.391 Da"
+     },
+     {
+      "x": 6.574,
+      "y": 5.985,
+      "hover": "<b>100527608</b> \u00b7 100527608_18<br>log2FC +6.57 (higher in M)<br>BH FDR 1.04e-06<br>detected WT 5/5 \u00b7 M 5/5<br>spectral count 18<br>numeric shift +317.388 Da"
+     },
+     {
+      "x": 6.369,
+      "y": 4.484,
+      "hover": "<b>100527608</b> \u00b7 100527608_10<br>log2FC +6.37 (higher in M)<br>BH FDR 3.28e-05<br>detected WT 3/5 \u00b7 M 3/5<br>spectral count 3<br>numeric shift +317.392 Da"
+     },
+     {
+      "x": 1.469,
+      "y": 0.885,
+      "hover": "<b>EKN</b> \u00b7 EKN_5<br>log2FC +1.47 (higher in M)<br>BH FDR 1.30e-01<br>detected WT 5/5 \u00b7 M 4/5<br>spectral count 10<br>numeric shift +317.389 Da"
+     }
+    ]
+   }
+  ],
+  "vlines": [
+   {
+    "v": -1,
+    "label": "log2FC -1"
+   },
+   {
+    "v": 1,
+    "label": "log2FC +1"
+   }
+  ],
+  "hlines": [
+   {
+    "v": 1.301,
+    "label": "BH FDR 0.05"
+   }
+  ],
+  "xlabel": "log2 fold change  (M - WT)",
+  "ylabel": "-log10 BH-adjusted FDR",
+  "legend": true,
+  "height": 560,
+  "pointR": 2.9
+ },
+ "meta": {
+  "title": "WT vs M: 590 testable proteoform features, coloured by detection tier",
+  "source": "comparison_WT_vs_M_full.json + tiers.csv (toppicr-py)",
+  "note": "Only features with >=2 detections in BOTH groups are testable; presence-only features are outside this plot."
+ }
+}

@@ -1,0 +1,31 @@
+{
+  "figure": "shift_families.html",
+  "script": "chart-forge/scripts/build.py",
+  "version": "0.1.0",
+  "params": {
+    "source": "features.csv proteoform strings, clustered at 0.05 Da"
+  },
+  "inputs": [
+    {
+      "path": "figs/shift_families.json",
+      "sha256": "67f32468ad2a8f1db45f02111b6e495f170908d031f978be05bc4f3249b75289"
+    },
+    {
+      "path": "C:\\Users\\USER\\Desktop\\TDEase-zero\\tdease-ai-capability\\system/skills/_shared/panels/bars.js",
+      "sha256": "1d0b7158e4992211f9c5af1765836cd0b3fca5805af51905b4104d4688ab19a2"
+    },
+    {
+      "path": "C:\\Users\\USER\\Desktop\\TDEase-zero\\tdease-ai-capability\\system/skills/chart-forge/templates/crameri-batlow.js",
+      "sha256": "1accb4b6435b510d110f6371e7cffa48a89f12ee0a7253226ff153c8cf4bb5dc"
+    },
+    {
+      "path": "C:\\Users\\USER\\Desktop\\TDEase-zero\\tdease-ai-capability\\system/skills/chart-forge/templates/crameri-vik.js",
+      "sha256": "992ecf4ee66497c2c723593d1fc3cfd99019e3cafe0ed4e8d1c05d19045d8ce0"
+    }
+  ],
+  "caption": {
+    "title": "Recurring unresolved shift families across unrelated proteins",
+    "subtitle": null,
+    "n": null
+  }
+}

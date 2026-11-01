@@ -1,0 +1,127 @@
+{
+ "data": {
+  "rows": [
+   {
+    "label": "+16.00 \u00b7 8 prot",
+    "value": 11,
+    "series": "up in M",
+    "hover": "<b>+16.00</b> \u00b7 up in M: 11"
+   },
+   {
+    "label": "+16.00 \u00b7 8 prot",
+    "value": 10,
+    "series": "up in WT",
+    "hover": "<b>+16.00</b> \u00b7 up in WT: 10"
+   },
+   {
+    "label": "-2.00 \u00b7 6 prot",
+    "value": 5,
+    "series": "up in M",
+    "hover": "<b>-2.00</b> \u00b7 up in M: 5"
+   },
+   {
+    "label": "-2.00 \u00b7 6 prot",
+    "value": 1,
+    "series": "up in WT",
+    "hover": "<b>-2.00</b> \u00b7 up in WT: 1"
+   },
+   {
+    "label": "+31.02 \u00b7 2 prot",
+    "value": 5,
+    "series": "up in M",
+    "hover": "<b>+31.02</b> \u00b7 up in M: 5"
+   },
+   {
+    "label": "+31.02 \u00b7 2 prot",
+    "value": 0,
+    "series": "up in WT",
+    "hover": "<b>+31.02</b> \u00b7 up in WT: 0"
+   },
+   {
+    "label": "-3.01 \u00b7 4 prot",
+    "value": 4,
+    "series": "up in M",
+    "hover": "<b>-3.01</b> \u00b7 up in M: 4"
+   },
+   {
+    "label": "-3.01 \u00b7 4 prot",
+    "value": 0,
+    "series": "up in WT",
+    "hover": "<b>-3.01</b> \u00b7 up in WT: 0"
+   },
+   {
+    "label": "+14.02 \u00b7 3 prot",
+    "value": 2,
+    "series": "up in M",
+    "hover": "<b>+14.02</b> \u00b7 up in M: 2"
+   },
+   {
+    "label": "+14.02 \u00b7 3 prot",
+    "value": 2,
+    "series": "up in WT",
+    "hover": "<b>+14.02</b> \u00b7 up in WT: 2"
+   },
+   {
+    "label": "+317.39 \u00b7 2 prot",
+    "value": 4,
+    "series": "up in M",
+    "hover": "<b>+317.39</b> \u00b7 up in M: 4"
+   },
+   {
+    "label": "+317.39 \u00b7 2 prot",
+    "value": 0,
+    "series": "up in WT",
+    "hover": "<b>+317.39</b> \u00b7 up in WT: 0"
+   },
+   {
+    "label": "+32.00 \u00b7 1 prot",
+    "value": 0,
+    "series": "up in M",
+    "hover": "<b>+32.00</b> \u00b7 up in M: 0"
+   },
+   {
+    "label": "+32.00 \u00b7 1 prot",
+    "value": 4,
+    "series": "up in WT",
+    "hover": "<b>+32.00</b> \u00b7 up in WT: 4"
+   },
+   {
+    "label": "-115.04 \u00b7 3 prot",
+    "value": 3,
+    "series": "up in M",
+    "hover": "<b>-115.04</b> \u00b7 up in M: 3"
+   },
+   {
+    "label": "-115.04 \u00b7 3 prot",
+    "value": 0,
+    "series": "up in WT",
+    "hover": "<b>-115.04</b> \u00b7 up in WT: 0"
+   },
+   {
+    "label": "-74.05 \u00b7 3 prot",
+    "value": 2,
+    "series": "up in M",
+    "hover": "<b>-74.05</b> \u00b7 up in M: 2"
+   },
+   {
+    "label": "-74.05 \u00b7 3 prot",
+    "value": 1,
+    "series": "up in WT",
+    "hover": "<b>-74.05</b> \u00b7 up in WT: 1"
+   }
+  ],
+  "series": [
+   "up in M",
+   "up in WT"
+  ],
+  "xlabel": "unresolved numeric shift family (mass, proteins carrying it)",
+  "ylabel": "features carrying that shift",
+  "valueLabels": true,
+  "height": 420
+ },
+ "meta": {
+  "title": "Recurring unresolved shift families across unrelated proteins",
+  "source": "features.csv proteoform strings, clustered at 0.05 Da",
+  "note": "Counts are all tested features; significance is not implied."
+ }
+}

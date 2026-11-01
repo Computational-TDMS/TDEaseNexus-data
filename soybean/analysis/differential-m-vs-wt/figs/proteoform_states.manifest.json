@@ -1,0 +1,31 @@
+{
+  "figure": "proteoform_states.html",
+  "script": "chart-forge/scripts/build.py",
+  "version": "0.1.0",
+  "params": {
+    "source": "tiers.csv + features.csv (toppicr-py)"
+  },
+  "inputs": [
+    {
+      "path": "figs/proteoform_states.json",
+      "sha256": "a0baf2e4a4e3bb499f74e33fcc7a5307fcb478caaef21a32d5cac1096e2fd62f"
+    },
+    {
+      "path": "C:\\Users\\USER\\Desktop\\TDEase-zero\\tdease-ai-capability\\system/skills/_shared/panels/bars.js",
+      "sha256": "1d0b7158e4992211f9c5af1765836cd0b3fca5805af51905b4104d4688ab19a2"
+    },
+    {
+      "path": "C:\\Users\\USER\\Desktop\\TDEase-zero\\tdease-ai-capability\\system/skills/chart-forge/templates/crameri-batlow.js",
+      "sha256": "1accb4b6435b510d110f6371e7cffa48a89f12ee0a7253226ff153c8cf4bb5dc"
+    },
+    {
+      "path": "C:\\Users\\USER\\Desktop\\TDEase-zero\\tdease-ai-capability\\system/skills/chart-forge/templates/crameri-vik.js",
+      "sha256": "992ecf4ee66497c2c723593d1fc3cfd99019e3cafe0ed4e8d1c05d19045d8ce0"
+    }
+  ],
+  "caption": {
+    "title": "Within one gene, shifted and unshifted proteoforms move in opposite directions",
+    "subtitle": null,
+    "n": null
+  }
+}
