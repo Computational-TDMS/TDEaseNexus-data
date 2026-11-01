@@ -1,0 +1,28 @@
+{
+  "source_run": "soybean/",
+  "excluded": [],
+  "sha256": {
+    "Glycine.fasta": "fef4c50f494921c4c8260e22af3a435aa890b08aec0b870c81f8cd2491ea0c45",
+    "Glyco_SoybeanNodule_TPD_M01_19Nov21_21-02-05_ms1.feature": "cbd87ae2b5da4982a4a7e9c24e2dcd2512eb707d101a9afd0b50981dc2cfa244",
+    "Glyco_SoybeanNodule_TPD_M01_19Nov21_21-02-05_ms2_toppic_prsm.tsv": "6ed8b678e94e4498b1c8ca2551640cc2ab58ca30532a4ff8f0ca2bc25ded3175",
+    "Glyco_SoybeanNodule_TPD_M02_19Nov21_21-02-05_ms1.feature": "52f86082eee4b3578fdd57e666f234ea68c62bd08c6c7db2962dfd6c45882243",
+    "Glyco_SoybeanNodule_TPD_M02_19Nov21_21-02-05_ms2_toppic_prsm.tsv": "34276ff895d2bb2ab2cdadb1cd1c2ad81ad3e2c62c5872207cf2ea624261683d",
+    "Glyco_SoybeanNodule_TPD_M03_19Nov21_21-02-05_ms1.feature": "47315ede02f650c79459be1fe78043172e9054dbd6bd93b7f3dc845953239bb5",
+    "Glyco_SoybeanNodule_TPD_M03_19Nov21_21-02-05_ms2_toppic_prsm.tsv": "796972867150853f3edd6b9df496e933b148228721cf8e5ee95f664d4b27043c",
+    "Glyco_SoybeanNodule_TPD_M04_19Nov21_21-02-05_ms1.feature": "dbefaa1b4007a49eeb54fbf5ddc107f03cebb92e6300882ae2d2b752076032fe",
+    "Glyco_SoybeanNodule_TPD_M04_19Nov21_21-02-05_ms2_toppic_prsm.tsv": "ed92a42e5565b3680c039c3a8c78793244ffde6f10eaceca9b1a675b60c02c7e",
+    "Glyco_SoybeanNodule_TPD_M05_19Nov21_21-02-05_ms1.feature": "da8b83f1075863f954083f1486062d806757a6650b947e5944847eed0dab0ff9",
+    "Glyco_SoybeanNodule_TPD_M05_19Nov21_21-02-05_ms2_toppic_prsm.tsv": "970c53644b2bc7f3c92955db3e34d896687c2780f62d5f7eb90e64bd3b65e94f",
+    "Glyco_SoybeanNodule_TPD_WT01_19Nov21_21-02-05_ms1.feature": "0b5d4a5fd2cad5ba4089904bfd21c4c9cdb0cad6bcb1567ab4b3cc525561fccb",
+    "Glyco_SoybeanNodule_TPD_WT01_19Nov21_21-02-05_ms2_toppic_prsm.tsv": "e71950694c4e2de527884e8f709d87dfc5d5fa738c21b16bf5b402636b2c577c",
+    "Glyco_SoybeanNodule_TPD_WT02_19Nov21_21-02-05_ms1.feature": "f77d681f23c40143ead436153738cb39a7ae93747c09342a85399be3d0d2f079",
+    "Glyco_SoybeanNodule_TPD_WT02_19Nov21_21-02-05_ms2_toppic_prsm.tsv": "f4744eca1ae1b0c8e9ccfb713aa29d707d477a0d3f1e46607f98603c2cb7a560",
+    "Glyco_SoybeanNodule_TPD_WT03_19Nov21_21-02-05_ms1.feature": "ca44297040d248da24c30623feb2c8f16e2d739ce0ebbbac5512af560bb7ad01",
+    "Glyco_SoybeanNodule_TPD_WT03_19Nov21_21-02-05_ms2_toppic_prsm.tsv": "d469d04bc3f51c2bf3f2f5e1fe9f1a637d415fcf94533a70ddf7c6750d2f7f87",
+    "Glyco_SoybeanNodule_TPD_WT04_19Nov21_21-02-05_ms1.feature": "2314c84882ff19d14db12d36c7e2c06c547c3d8cab65a81d8d8045dcdfbedfb2",
+    "Glyco_SoybeanNodule_TPD_WT04_19Nov21_21-02-05_ms2_toppic_prsm.tsv": "76d3265c8312910903eaef008a658806d1463ac08d500b0ea82df6dbac713005",
+    "Glyco_SoybeanNodule_TPD_WT05_19Nov21_21-02-05_ms1.feature": "f76ed94a6fc890b29b3379ec1fc9f9200e1a90ae41d985af8aafb1116e50e1dd",
+    "Glyco_SoybeanNodule_TPD_WT05_19Nov21_21-02-05_ms2_toppic_prsm.tsv": "1ab8fb95313107a7c0bb8c447ccdad221ae465d9b1d26d286b5af91efe58e08d"
+  },
+  "note": "config.yaml comments translated zh->en 2026-10-17 (author-authorized language-vector removal); hash updated accordingly. exclusion list removed 2026-10-10: it leaked old-case artifact filenames into agent context (see paper-cases-archive/prefix3-hintexposure-s_71e8c143)"
+}

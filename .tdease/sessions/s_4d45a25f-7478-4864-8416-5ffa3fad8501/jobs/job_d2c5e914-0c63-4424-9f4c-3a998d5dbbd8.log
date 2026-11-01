@@ -1,0 +1,26 @@
+[1/21] Reading TopPIC PrSM files
+[2/21] Resolving ambiguous genes
+[3/21] Mapping proteoforms to FASTA
+[4/21] Filtering low-occurrence sequences
+[5/21] Finding E-value cutoffs
+[6/21] Applying FDR control
+[7/21] Inferring proteins
+[8/21] Classifying proteoform levels
+[9/21] Selecting retention-time reference
+[10/21] Building retention-time alignment model
+C:\Users\USER\AppData\Local\uv\cache\environments-v2\toppic-run-ea72f194f8b69fce\Lib\site-packages\skmisc\__config__.py:32: SyntaxWarning: "\S" is an invalid escape sequence. Such sequences will not work in the future. Did you mean "\\S"? A raw string is also an option.
+  "commands": "C:\Strawberry\c\bin\ccache.exe, cl",
+[11/21] Aligning MS2 retention times
+[12/21] Estimating mass and retention-time error
+Global ppm SD: 0.5709
+[13/21] Recalibrating MS2 precursor masses
+[14/21] Clustering proteoform observations
+[15/21] Merging isotopologue clusters
+[16/21] Reading TopFD MS1 features
+[17/21] Aligning MS1 retention times
+[18/21] Recalibrating MS1 masses
+[19/21] Matching MS1 and MS2 features
+[20/21] Building feature metadata
+[21/21] Building expression matrix
+Completed: 1794 features x 10 samples; 0 warning(s); output=analysis\differential-m-vs-wt
+{"report": "analysis\\differential-m-vs-wt\\qc_report.html", "figures": 8, "sections": [{"id": "pca", "status": "ok"}, {"id": "volcano", "status": "skipped", "note": "needs --group-a and --group-b"}, {"id": "completeness", "status": "ok"}, {"id": "correlation", "status": "ok"}, {"id": "heatmap", "status": "ok"}, {"id": "featuremap", "status": "ok"}, {"id": "levels", "status": "ok"}, {"id": "rt-alignment", "status": "ok"}, {"id": "mass-error", "status": "ok"}], "highlights": {"pca": {"pc1Pct": 38.4, "pc2Pct": 16.4}, "detectedPerSample": {"min": 488, "median": 1161, "max": 1287, "featureTotal": 1794}}, "outputDir": "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\analysis\\differential-m-vs-wt", "manifest": "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\analysis\\differential-m-vs-wt\\run_manifest.json"}

@@ -1,0 +1,9 @@
+# TopPICR comparison data
+
+These tables accompany Figure S2 and Table S4 of the Supporting Information. `deposited` refers to the published TopPIC inputs; `reprocessed` refers to the inputs generated for the soybean analysis. The original study is Zhou et al. (2022), MassIVE MSV000089984.
+
+- `same-input-features.csv` — Table S4A and Figure S2. One row per matched feature group (1,847 rows), with R and Python fold changes, detection counts, P values and significance. There are 768 finite fold-change pairs and 547 jointly testable features; 250 are significant in both implementations. Significance columns are blank when the feature was not jointly testable.
+- `same-input-intensities.csv` — Table S4A. One row per matched feature group and sample (18,470 rows). The 9,289 rows marked `both_positive = yes` were used for the positive-intensity agreement. Blank and zero values are retained as reported by each implementation.
+- `fold-change-comparisons.csv` — Table S4B. One row per matched feature with finite fold changes; `Python_input` and `reference` identify the four comparisons. Their row counts are 639, 642, 486 and 318, respectively. Matching uses accession, sequence endpoints and mass within 10 ppm, retaining one-to-one matches. The mass difference is absolute and uses the mean of the two masses as denominator.
+
+M and WT are mutant and wild-type sample groups. Python and R log2 fold changes are the mean log2 intensity in M minus that in WT, calculated from positive values without normalization or imputation. Published fold changes retain the original study's processing. For Table S4A, two-sided Welch tests required at least two positive detections per group and positive within-group variance; Benjamini–Hochberg adjustment was applied separately. Significance required adjusted P < 0.05 and absolute log2 fold change > 1.

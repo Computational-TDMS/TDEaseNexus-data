@@ -1,0 +1,30 @@
+  "positional ion comparison unavailable: different backbones or neutral-loss variants; independent model measurements remain available",
+  "positional ion comparison unavailable: each model was measured on its own backbone; no cross-model site mapping was assumed"
+ ],
+ "audit": {
+  "evidence": {
+   "path": "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\analysis\\ekn-shift-chemistry\\card_scan11831-evidence.json",
+   "size": 746678
+  },
+  "figure": null,
+  "written": [
+   "C:\\Users\\USER\\Desktop\\TDEase-zero\\data\\soybean-paper-ws\\runs\\soybean-all\\analysis\\ekn-shift-chemistry\\card_scan11831.json"
+  ],
+  "figuresSkipped": "overview needs a shared sequence; independent model measurements are retained"
+ },
+ "next": [
+  {
+   "status": "no ion whose prediction differs obtained an accepted match separation on the measured scans — this observation does not separate these models",
+   "stillUsable": [
+    {
+     "capability": "other MS2 scans of the same species",
+     "inputs": "spectral.py measure --mzml <file> --scan <scan[,scan...]> --models <models.json>"
+    },
+    {
+     "capability": "precursor-envelope comparison, when the models differ in composition",
+     "inputs": "spectral.py measure --ms1 --feature <label> <mass> <charge> <rtMin> <rtMax> --models <models.json>"
+    }
+   ]
+  }
+ ]
+}
