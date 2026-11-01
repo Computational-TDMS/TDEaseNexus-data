@@ -1,0 +1,1 @@
+Modification_Symbol	Monoisotopic_Mass	Target_Residues	Modification_Type	Mass_Correction_Tag	UniMod_Mod_Name

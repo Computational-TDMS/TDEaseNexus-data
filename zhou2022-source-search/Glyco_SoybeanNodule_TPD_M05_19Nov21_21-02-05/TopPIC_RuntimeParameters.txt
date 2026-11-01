@@ -1,0 +1,23 @@
+Protein database file:                      	E:\DMS_Temp_Org\ID_008106_A703C2E3.fasta
+Spectrum file:                              	Glyco_SoybeanNodule_TPD_M05_19Nov21_21-02-05_ms2.msalign
+Number of combined spectra:                 	1
+Fragmentation method:                       	FILE
+Search type:                                	TARGET+DECOY
+Fixed modifications:                        	None
+Use TopFD feature file:                     	True
+Maximum number of unexpected modifications: 	1
+Error tolerance for matching masses:        	15 ppm
+Error tolerance for identifying PrSM clusters: 	3.2 Da
+Spectrum-level cutoff type:                 	FDR
+Spectrum-level cutoff value:                	0.01
+Proteoform-level cutoff type:               	FDR
+Proteoform-level cutoff value:              	0.01
+Allowed N-terminal forms:                   	NONE,NME,NME_ACETYLATION,M_ACETYLATION
+Maximum mass shift of modifications:        	500 Da
+Minimum mass shift of modifications:        	-500 Da
+Thread number:                              	14
+E-value computation:                        	Generating function
+Executable file directory:                  	C:\DMS_Programs\TopPIC
+Start time:                                 	Fri Dec 17 14:46:44 2021
+End time:                                   	Fri Dec 17 18:47:59 2021
+Version:                                    	1.4.13
